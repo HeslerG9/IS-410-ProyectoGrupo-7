@@ -1,0 +1,41 @@
+#alv {
+    
+        position: relative;
+        left: auto;
+      top: 100px;
+    }
+   
+    @media screen and (max-width: 992px) {
+      #alv {
+        position: relative;
+        
+margin-bottom: auto;
+margin-top: auto;      }
+  }
+ 
+
+    h2 {
+      display:inline-block;
+      position:relative;
+      left: 800px;
+      color: rgb(216, 84, 31);
+    }
+
+   body{
+     background-repeat: no-repeat;
+     background-size: cover;  
+   }
+
+   @media screen and (max-width: 992px) {
+    body {
+        background-color: blue;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+}
+
+.btn {
+  width: 120px !important;
+
+}
+
