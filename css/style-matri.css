@@ -149,6 +149,10 @@ a:focus{
 	opacity: 0.9;
 }
 
+#size{
+	font-size: 17px;
+	font-family: 'Lato', sans-serif;
+}
 
 
 ul,ol{
