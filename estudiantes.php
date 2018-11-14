@@ -287,6 +287,15 @@
 
         </div>
     </div>
+
+</div>
+
+    <footer style="Padding-Bottom:5px;Padding-Top:5px" class="sectionFooter">
+		<?php 
+		include ("footer2.html")
+		?>
+        </footer>
+        
         <script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>

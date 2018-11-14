@@ -130,7 +130,7 @@
                 <!-- single course -->
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2">
                     <div class="course">
-                        <a href="#" class="course-img">
+                        <a href="#exampleModalCenter" class="course-img">
                             <img src="./img/matricula.jpg" alt="" style="width:110%">
                             <i class="course-link-icon fa fa-link"></i>
                         </a>
@@ -272,6 +272,99 @@
 
         </div>
     </div>
+
+
+
+    <div class="container">
+
+        <!-- Button trigger modal -->
+<button id="matricula-modal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+    Matricula
+</button>
+
+<!-- Modal -->
+<div class="modal" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                  ×
+                </button>
+                <h4 class="modal-title" id="classModalLabel">
+                      Class Info
+                    </h4>
+              </div>
+              <div class="modal-body">
+                <table id="classTable" class="table table-bordered">
+                  <thead>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>CLN</td>
+                      <td>Last Updated Date</td>
+                      <td>Class Name</td>
+                      <td># Tests</td>
+                      <td>Test Coverage (Instruction)</td>
+                      <td>Test Coverage (Complexity)</td>
+                      <td>Complex Covered</td>
+                      <td>Complex Total</td>
+                      <td>Category</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">
+                  Close
+                </button>
+              </div>
+        </div>
+    </div>
+</div>
+
+
+          <!--  
+    <div id="classModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="classInfo" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                ×
+              </button>
+              <h4 class="modal-title" id="classModalLabel">
+                    Class Info
+                  </h4>
+            </div>
+            <div class="modal-body">
+              <table id="classTable" class="table table-bordered">
+                <thead>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>CLN</td>
+                    <td>Last Updated Date</td>
+                    <td>Class Name</td>
+                    <td># Tests</td>
+                    <td>Test Coverage (Instruction)</td>
+                    <td>Test Coverage (Complexity)</td>
+                    <td>Complex Covered</td>
+                    <td>Complex Total</td>
+                    <td>Category</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+-->
         <script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>

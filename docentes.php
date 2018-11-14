@@ -26,61 +26,15 @@
 		<link type="text/css" rel="stylesheet" href="css/style-matri.css"/>
 
     </head>
-
-
+    
     <body>
         
             <header id="header" class="transparent-nav">
-			<div class="container">
-
-				<div class="navbar-wrapper">
-					<div class="container">
-						<nav class="navbar navbar-fixed-top">
-							<div class="container">
-								<div class="navbar-header">
-									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									</button>
-									<div class="navbar-brand"> <a class="logo" href="index.html"> <img src="img/logo-unah.png" alt="Unah" >
-									</a>
-									
-									
-								</div>
-
-								</div>
-
-																		
-								<br>
-								<div id="navbar" class="navbar-collapse collapse">
-									<ul class="nav navbar-nav">
-										<li class="active"><a href="#" class="">Pagina Principal</a></li>
-										<li class=" dropdown">
-											<a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login Unah<span class="caret"></span></a>
-											<ul class="dropdown-menu">
-										        
-												<li><a href="login-estudiantes.html">Login Estudiantes</a></li>
-												<li><a href="login-docentes.html">Login Docentes</a></li>
-												<li><a href="login-instructores.html">Login Instructores</a></li>
-												<li><a href="Login-JD.html">Login Jefes Departamento</a></li>
-											</ul>
-										</li>
-										
-										
-										<li><a href="#">Sobre Unah</a></li>
-										
-										<li class=" dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Información Unah  <span class="caret"></span></a>
-											<ul class="dropdown-menu">
-												<li><a href="#">Oferta Academica</a></li>
-												<li><a href="#">Planes de Estudio</a></li>
-												<li><a target="_blank" href="centros-regionales.html">Centros-Regionales</a></li>
-											</ul>
-										</li>
-                                        
-                                        
-									</ul>
+		
+			<?php 
+		include ("navbar.html")
+		?>
+		
 
 			
 		</header>        
@@ -127,7 +81,17 @@
           </div>
 
         </div>
-    </div>
+	</div>
+	
+    <footer style="Padding-Bottom:5px;Padding-Top:12px" class="sectionFooter">
+		<?php 
+		include ("footer2.html")
+		?>
+        </footer>
+	
+		<!-- preloader -->
+		<div id='preloader'><div class='preloader'></div></div>
+		<!-- /preloader -->
 
         <script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>

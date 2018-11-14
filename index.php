@@ -40,75 +40,14 @@
 
 		<!-- Header -->
 		<header id="header" class="transparent-nav">
-			<div class="container">
-
-				<div class="navbar-wrapper">
-					<div class="container">
-						<nav class="navbar navbar-fixed-top">
-							<div class="container">
-								<div class="navbar-header">
-									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									</button>
-									<div class="navbar-brand"> <a class="logo" href="index.html"> <img src="img/logo-unah.png" alt="Unah" >
-									</a>
-									
-									
-								</div>
-
-								</div>
-
-																		
-								<br>
-								<div id="navbar" class="navbar-collapse collapse">
-									<ul class="nav navbar-nav">
-										<li class="active"><a href="#" class="">Pagina Principal</a></li>
-										<li class=" dropdown">
-											<a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login Unah<span class="caret"></span></a>
-											<ul class="dropdown-menu">
-										        
-												<li><a href="login-estudiantes.html">Login Estudiantes</a></li>
-												<li><a href="login-docentes.html">Login Docentes</a></li>
-												<li><a href="login-instructores.html">Login Instructores</a></li>
-												<li><a href="Login-JD.html">Login Jefes Departamento</a></li>
-											</ul>
-										</li>
-										
-										
-										<li><a href="#">Sobre Unah</a></li>
-										
-										<li class=" dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Información Unah  <span class="caret"></span></a>
-											<ul class="dropdown-menu">
-												<li><a href="#">Oferta Academica</a></li>
-												<li><a href="#">Planes de Estudio</a></li>
-												<li><a target="_blank" href="centros-regionales.html">Centros-Regionales</a></li>
-											</ul>
-										</li>
-										
-									</ul>
-									
-								</div>
-							</div>
-						</nav>
-					</div>
-				</div>
-				<!-- /Navigation -->
-
-			
+			<?php
+			include("navbar.html")
+			?>
 		</header>
 		<!-- /Header -->
-		
-		
 
 
-		
-		
-		
-
-
+     
 		<!--  Home  --> 
 		
 
@@ -636,41 +575,49 @@
 				<!-- row -->
 				<div class="row">
 					<div class="section-header text-center">
-						<h2>Why Edusite</h2>
-						<p class="lead">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant.</p>
+						<h2>Cupos Unah</h2>
+						<p class="lead">Nunca es tarde para estudiar , entra a la carrera de tu preferencia .</p>
 					</div>
 
 					<!-- feature -->
-					<div class="col-md-4">
+					<div class="col-md-3">
 						<div class="feature">
 							<i class="feature-icon fa fa-flask"></i>
 							<div class="feature-content">
-								<h4>Online Courses</h4>
-								<p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
+								<h4>Cupos Medicina</h4>
+							 <p>Aplica para obtener un cupo en Medicina .</p>
 							</div>
 						</div>
 					</div>
 					<!-- /feature -->
-
+                    <div class="col-md-3">
+						<div class="feature">
+							<i class="feature-icon fa fa-flask"></i>
+							<div class="feature-content">
+								<h4>Cupos Microbiologia</h4>
+								<p>Aplica para obtener un cupo en Microbiologia .</p>
+							</div>
+						</div>
+					</div>
 					<!-- feature -->
-					<div class="col-md-4">
+					<div class="col-md-3">
 						<div class="feature">
 							<i class="feature-icon fa fa-users"></i>
 							<div class="feature-content">
-								<h4>Expert Teachers</h4>
-								<p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
+								<h4>Cupos Nutrición</h4>
+								<p>Aplica para obtener un cupo en Nutrición .</p>
 							</div>
 						</div>
 					</div>
 					<!-- /feature -->
 
 					<!-- feature -->
-					<div class="col-md-4">
+					<div class="col-md-3">
 						<div class="feature">
 							<i class="feature-icon fa fa-comments"></i>
 							<div class="feature-content">
-								<h4>Community</h4>
-								<p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
+								<h4>Cupos Arquitectura</h4>
+								<p>Aplica para obtener un cupo en Arquitectura .</p>
 							</div>
 						</div>
 					</div>
@@ -709,76 +656,13 @@
 		<!-- /Why us -->
 
 		
+			
 
-		<!-- Footer -->
-		<footer id="footer" class="section">
-
-				<!-- container -->
-				<div class="container">
-	
-					<!-- row -->
-					<div class="row">
-	
-						<!-- footer logo -->
-						<div class="col-md-6 hidden-sm">
-							<div class="footer-logo">
-								<a class="logo" href="index.html">
-									<img src="img/logo-unah-blanco.png" alt="logo">
-								</a>
-							</div>
-						</div>
-						<!-- footer logo -->
-	
-						<!-- footer nav -->
-						<div class="col-md-6">
-							<p id="contacto" > Bulevar Suyapa, Tegucigalpa, M.D.C, Honduras, <br> Centroamérica
-						
-									<br>  <a style="color: #ffcc00;" href="mailto:info@unah.edu.hn">info@unah.edu.hn</a>
-								
-				
-								
-									<br>
-									<a style="color: #ffcc00;" href="#">2216-6100, 2216-5100, 2216-3000, 2216-7000</a>
-								
-				</p>
-							
-						</div>
-						<!-- /footer nav -->
-	
-					</div>
-					<!-- /row -->
-	
-					<!-- row -->
-					<div id="bottom-footer" class="row">
-	
-						<!-- social -->
-						<div class="col-md-4 col-md-push-8">
-							<ul class="footer-social">
-								<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
-								<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
-								<li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
-							</ul>
-						</div>
-						<!-- /social -->
-	
-						<!-- copyright -->
-						<div class="col-md-8 col-md-pull-4">
-							<div class="footer-copyright" style="color:#fff">
-								<span>&copy; Universidad Nacional Autonoma de Honduras  | Hesler Gamez </a></span>
-							</div>
-						</div>
-						<!-- /copyright -->
-	
-					</div>
-					<!-- row -->
-	
-				</div>
-				<!-- /container -->
-	
-			</footer>
-			<!-- /Footer -->
+	    <footer id="footer" class="section">
+		<?php 
+		include ("footer.html")
+		?>
+		</footer>
 
 		<!-- preloader -->
 		<div id='preloader'><div class='preloader'></div></div>

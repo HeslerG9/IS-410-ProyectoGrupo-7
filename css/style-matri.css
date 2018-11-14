@@ -18,6 +18,22 @@ h1,h2,h3,h4,h5,h6 {
 	
 }
 
+
+
+.list-group {
+	
+		font-size: 15px;
+		line-height: 20px;
+		font-family: "Arial Black", Gadget, sans-serif;
+	}
+
+
+
+
+	.modal-body {
+	  overflow-x: auto;
+	}
+
 .primera {
     text-align: left;
     color: orange;
@@ -231,6 +247,11 @@ blockquote:before{
 	padding-bottom:80px;
 }
 
+.sectionFooter {
+	position:relative;
+	padding-top:0px;
+	padding-bottom:0px;
+}
 .section-hr {
 	margin-top:80px;
 	margin-bottom:80px;

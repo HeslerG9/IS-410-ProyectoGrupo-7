@@ -11,4 +11,6 @@
 		$('#header').toggleClass('nav-collapse')
 	});
 	
+	$('#classModal').modal('show')
+
 })(jQuery);
