@@ -169,7 +169,7 @@
 
 						<!-- feature -->
 						<div class="feature">
-							<i class="feature-icon fa fa-flask"></i>
+							<i class="feature-icon fa fa-book"></i>
 							<div class="feature-content">
 								<h4>OFERTA ACADEMICA</h4>
 								<p>Mas de 50 Carreras en funcionamiento  y <br>
@@ -181,7 +181,7 @@
 
 						<!-- feature -->
 						<div class="feature">
-							<i class="feature-icon fa fa-users"></i>
+							<i class="feature-icon fa fa-desktop"></i>
 							<div class="feature-content">
 								<h4>CLASES EN LINEA</h4>
 								<p>127 Clases en linea y 3 Carreras completas </p>
@@ -191,7 +191,7 @@
 
 						<!-- feature -->
 						<div class="feature">
-							<i class="feature-icon fa fa-comments"></i>
+							<i class="feature-icon 	fa fa-mortar-board"></i>
 							<div class="feature-content">
 								<h4>POSGRADOS</h4>
 								<p>Ofertas en Posgrados en un 50% <br>
@@ -582,7 +582,7 @@
 					<!-- feature -->
 					<div class="col-md-3">
 						<div class="feature">
-							<i class="feature-icon fa fa-flask"></i>
+							<i class="feature-icon fa fa-user-md"></i>
 							<div class="feature-content">
 								<h4>Cupos Medicina</h4>
 							 <p>Aplica para obtener un cupo en Medicina .</p>
@@ -602,7 +602,7 @@
 					<!-- feature -->
 					<div class="col-md-3">
 						<div class="feature">
-							<i class="feature-icon fa fa-users"></i>
+							<i class="feature-icon 	fa fa-heartbeat"></i>
 							<div class="feature-content">
 								<h4>Cupos Nutrición</h4>
 								<p>Aplica para obtener un cupo en Nutrición .</p>
@@ -614,7 +614,7 @@
 					<!-- feature -->
 					<div class="col-md-3">
 						<div class="feature">
-							<i class="feature-icon fa fa-comments"></i>
+							<i class="feature-icon 	fa fa-university"></i>
 							<div class="feature-content">
 								<h4>Cupos Arquitectura</h4>
 								<p>Aplica para obtener un cupo en Arquitectura .</p>

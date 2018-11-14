@@ -45,7 +45,7 @@
 <div id="courses" class="section" style="padding-top:50px">
 
     <!-- container -->
-    <div class="container" style="padding-bottom:300 px !important">
+    <div class="container" style="border:red">
 
         <!-- row -->
         <div class="row">
@@ -60,15 +60,18 @@
                 <p class="lead"></p> 
 
 
-                
             </div>
         
       <div>
           <br>
         <img src="./img/maestro.jpg" class= "col-md-4 col-lg-4 col-xl-4 hidden-xs
         hidden-sm"  style="width:25%;border-radius:10%;border-color:blue" alt="...">
+       
     </div>
+
+   
     </div>
+
 
         <div class="list-group">
             <button type="button" class="list-group-item list-group-item-action active">
