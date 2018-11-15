@@ -26,9 +26,10 @@
 		<link type="text/css" rel="stylesheet" href="css/style-matri.css"/>
 
     </head>
-    
+     
     <body>
         
+    
             <header id="header" class="transparent-nav">
 		
 			<?php 
@@ -77,10 +78,12 @@
             <button type="button" class="list-group-item list-group-item-action active">
               Asignaturas Asignadas
             </button>
-            <button type="button" class="list-group-item list-group-item-action">Programación Orientada a Objetos</button>
-            <button type="button" class="list-group-item list-group-item-action">Programación 2</button>
-            <button type="button" class="list-group-item list-group-item-action">Sistemas Expertos</button>
-            <button type="button" class="list-group-item list-group-item-action">Bases de Datos 1 </button>
+            
+            <button class="list-group-item list-group-item-action" type="button" onclick="location.href='servicios_docentes.php'">Programación Orientada a Objetos</button>
+            <button class="list-group-item list-group-item-action" type="button" onclick="AsignaturaDocente()">Programacion 2 </button>
+            <button class="list-group-item list-group-item-action" type="button" onclick="AsignaturaDocente()">Sistemas Expertos</button>
+            <button class="list-group-item list-group-item-action" type="button" onclick="AsignaturaDocente()">Bases de Datos</button>
+            
           </div>
 
         </div>
@@ -92,13 +95,11 @@
 		?>
         </footer>
 	
-		<!-- preloader -->
-		<div id='preloader'><div class='preloader'></div></div>
-		<!-- /preloader -->
+		
 
         <script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/docentes.js"></script>
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     </body>
     </html>

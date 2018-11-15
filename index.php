@@ -104,53 +104,6 @@
 
 	
 
-<!--  
-		<div class="container">
-				
-				
-				<div class="row">
-					<div class="col-xs-12 hidden-sm hidden-md hidden-lg ">
-						<h1 class="white-text2">Universidad 
-							Nacional <br> Autónoma de Honduras</h1>
-						<a class="main-button2 icon-button2" href="#">Calendario Academico 2018!</a>
-					</div>
-					
-					
-						
-				</div>
-			</div>
-			
-
-			<div class="home-wrapper">
-				<div class="container">
-					<br><br><br><br><br><br><br><br>
-					
-					<div class="row">
-						<div class="col-md-6 col-sm-6 hidden-xs ">
-							<h1 class="white-text">Universidad <br>
-								Nacional <br> Autónoma <br > de Honduras</h1>
-
-							<a class="main-button icon-button" href="#">Calendario Academico 2018!</a>
-						</div>
-						<br><br><br><br><br><br><br><br><br><br><br><br>
-						
-							
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		-->
-
-		<!-- /Home -->
-		
-		
-		
-	
-
-    
-
-
 		<!-- About -->
 		<div id="about" class="section">
 
@@ -664,9 +617,6 @@
 		?>
 		</footer>
 
-		<!-- preloader -->
-		<div id='preloader'><div class='preloader'></div></div>
-		<!-- /preloader -->
 
 
 		<!-- jQuery Plugins -->
