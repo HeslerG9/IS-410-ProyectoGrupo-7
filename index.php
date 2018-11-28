@@ -201,7 +201,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/cr/unahvs.jpg" alt="" >
-									<i class="course-link-icon fa fa-link"></i>
+									
 								</a>
 								<a class="course-title" href="#">UNAH-VS</a>
 								<div class="course-details">
@@ -218,7 +218,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/cr/curc.jpg" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+									
 								</a>
 								<a class="course-title" href="#">UNAH-CURC </a>
 								<div class="course-details">
@@ -234,7 +234,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/cr/curla.jpg" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+									
 								</a>
 								<a class="course-title" href="#">UNAH-CURLA</a>
 								<div class="course-details">
@@ -248,7 +248,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/cr/curlp.jpg" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+								
 								</a>
 								<a class="course-title" href="#">UNAH-CURLP</a>
 								<div class="course-details">
@@ -270,7 +270,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/cr/curno.jpg" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+									
 								</a>
 								<a class="course-title" href="#">UNAH-CURNO</a>
 								<div class="course-details">
@@ -286,7 +286,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/cr/curoc.jpg" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+									
 								</a>
 								<a class="course-title" href="#">UNAH-CUROC</a>
 								<div class="course-details">
@@ -302,7 +302,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/cr/danli.jpg" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+								
 								</a>
 								<a class="course-title" href="#">UNAH-TEC Danli</a>
 								<div class="course-details">
@@ -319,7 +319,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/cr/aguan2.jpg" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+									
 								</a>
 								<a class="course-title" href="#">UNAH-TEC AGUÁN</a>
 								<div class="course-details">
@@ -373,7 +373,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/facultades/FCM.jpg" alt="" >
-									<i class="course-link-icon fa fa-link"></i>
+							
 								</a>
 								<a class="course-title" href="#">Facultad de Ciencias Médicas</a>
 								<div class="course-details">
@@ -390,7 +390,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/facultades/economicas.png" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+								
 								</a>
 								<a class="course-title" href="#">Facultad de Economia </a>
 								<div class="course-details">
@@ -406,7 +406,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/facultades/ingenieria.png" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+									
 								</a>
 								<a class="course-title" href="#">Facultad de Ingenieria</a>
 								<div class="course-details">
@@ -420,7 +420,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/facultades/ciencias.png" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+									
 								</a>
 								<a class="course-title" href="#">Facultad de Ciencias</a>
 								<div class="course-details">
@@ -442,7 +442,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/facultades/humanidades.png" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+							
 								</a>
 								<a class="course-title" href="#">Facultad de Humanidades</a>
 								<div class="course-details">
@@ -458,7 +458,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/facultades/juridicas.png" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+						
 								</a>
 								<a class="course-title" href="#">Facultad de Derecho</a>
 								<div class="course-details">
@@ -474,7 +474,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/facultades/quimica.png" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+				
 								</a>
 								<a class="course-title" href="#">Facultad de Química</a>
 								<div class="course-details">
@@ -491,7 +491,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/facultades/sociales.png" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+								
 								</a>
 								<a class="course-title" href="#">Facultad de Ciencias Sociales</a>
 								<div class="course-details">

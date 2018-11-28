@@ -69,7 +69,7 @@
 										</li>
 										
 										
-										<li><a href="#">Sobre Unah</a></li>
+										<li><a href="#">Registrarse</a></li>
 										
 										<li class=" dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Información Unah  <span class="caret"></span></a>
 											<ul class="dropdown-menu">
