@@ -36,15 +36,50 @@
 
     </head>
 	<body>
+       
+	<header id="header">
+    <div class="container">
 
+      <div id="logo" class="pull-left">
+        <h1><a href="#hero"><img src="img/unah10.png" width="35" height="35" alt="" title="" /></img>  UNAH</a></h1>
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="#hero">Regna</a></h1>-->
+      </div>
 
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#hero">Inicio</a></li>
+          <li><a href="#about">Avisos</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#portfolio">Calendarios</a></li>
+          <!--<li><a data-toggle="modal" data-target="#exampleModal">Registrate</a></li>-->
+         
+          <li class="menu-has-children"><a href="#">Iniciar Sesión</a>
+            <ul>
+              <li><a href="loginestudiantes.html">Estudiante</a></li>
+              <li class="menu-has-children"><a href="#">Empleado</a>
+                <ul>
+                  <li><a href="logindocentes.html">Docente</a></li>
+                  <li><a href="loginempleados.html">Jefe de departamento</a></li>
+                  <li><a href="loginempleados.html">Coordinador de carrera</a></li>
+                  <li><a href="loginempleados.html">Personal Administrativo</a></li>
+                </ul>
+              </li>
+              <li><a href="loginadmin.html">Administrador</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
 		<!-- Header -->
 		<header id="header" class="transparent-nav">
-			<?php
+			// <?php
 			include("navbar.html")
 			?>
 		</header>
-		<!-- /Header -->
+	<!-- Header -->
 
 
      
@@ -104,53 +139,6 @@
 
 	
 
-<!--  
-		<div class="container">
-				
-				
-				<div class="row">
-					<div class="col-xs-12 hidden-sm hidden-md hidden-lg ">
-						<h1 class="white-text2">Universidad 
-							Nacional <br> Autónoma de Honduras</h1>
-						<a class="main-button2 icon-button2" href="#">Calendario Academico 2018!</a>
-					</div>
-					
-					
-						
-				</div>
-			</div>
-			
-
-			<div class="home-wrapper">
-				<div class="container">
-					<br><br><br><br><br><br><br><br>
-					
-					<div class="row">
-						<div class="col-md-6 col-sm-6 hidden-xs ">
-							<h1 class="white-text">Universidad <br>
-								Nacional <br> Autónoma <br > de Honduras</h1>
-
-							<a class="main-button icon-button" href="#">Calendario Academico 2018!</a>
-						</div>
-						<br><br><br><br><br><br><br><br><br><br><br><br>
-						
-							
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		-->
-
-		<!-- /Home -->
-		
-		
-		
-	
-
-    
-
-
 		<!-- About -->
 		<div id="about" class="section">
 
@@ -169,7 +157,7 @@
 
 						<!-- feature -->
 						<div class="feature">
-							<i class="feature-icon fa fa-flask"></i>
+							<i class="feature-icon fa fa-book"></i>
 							<div class="feature-content">
 								<h4>OFERTA ACADEMICA</h4>
 								<p>Mas de 50 Carreras en funcionamiento  y <br>
@@ -181,7 +169,7 @@
 
 						<!-- feature -->
 						<div class="feature">
-							<i class="feature-icon fa fa-users"></i>
+							<i class="feature-icon fa fa-desktop"></i>
 							<div class="feature-content">
 								<h4>CLASES EN LINEA</h4>
 								<p>127 Clases en linea y 3 Carreras completas </p>
@@ -191,7 +179,7 @@
 
 						<!-- feature -->
 						<div class="feature">
-							<i class="feature-icon fa fa-comments"></i>
+							<i class="feature-icon 	fa fa-mortar-board"></i>
 							<div class="feature-content">
 								<h4>POSGRADOS</h4>
 								<p>Ofertas en Posgrados en un 50% <br>
@@ -248,7 +236,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/cr/unahvs.jpg" alt="" >
-									<i class="course-link-icon fa fa-link"></i>
+									
 								</a>
 								<a class="course-title" href="#">UNAH-VS</a>
 								<div class="course-details">
@@ -265,7 +253,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/cr/curc.jpg" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+									
 								</a>
 								<a class="course-title" href="#">UNAH-CURC </a>
 								<div class="course-details">
@@ -281,7 +269,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/cr/curla.jpg" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+									
 								</a>
 								<a class="course-title" href="#">UNAH-CURLA</a>
 								<div class="course-details">
@@ -295,7 +283,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/cr/curlp.jpg" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+								
 								</a>
 								<a class="course-title" href="#">UNAH-CURLP</a>
 								<div class="course-details">
@@ -317,7 +305,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/cr/curno.jpg" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+									
 								</a>
 								<a class="course-title" href="#">UNAH-CURNO</a>
 								<div class="course-details">
@@ -333,7 +321,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/cr/curoc.jpg" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+									
 								</a>
 								<a class="course-title" href="#">UNAH-CUROC</a>
 								<div class="course-details">
@@ -349,7 +337,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/cr/danli.jpg" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+								
 								</a>
 								<a class="course-title" href="#">UNAH-TEC Danli</a>
 								<div class="course-details">
@@ -366,7 +354,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/cr/aguan2.jpg" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+									
 								</a>
 								<a class="course-title" href="#">UNAH-TEC AGUÁN</a>
 								<div class="course-details">
@@ -420,7 +408,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/facultades/FCM.jpg" alt="" >
-									<i class="course-link-icon fa fa-link"></i>
+							
 								</a>
 								<a class="course-title" href="#">Facultad de Ciencias Médicas</a>
 								<div class="course-details">
@@ -437,7 +425,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/facultades/economicas.png" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+								
 								</a>
 								<a class="course-title" href="#">Facultad de Economia </a>
 								<div class="course-details">
@@ -453,7 +441,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/facultades/ingenieria.png" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+									
 								</a>
 								<a class="course-title" href="#">Facultad de Ingenieria</a>
 								<div class="course-details">
@@ -467,7 +455,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/facultades/ciencias.png" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+									
 								</a>
 								<a class="course-title" href="#">Facultad de Ciencias</a>
 								<div class="course-details">
@@ -489,7 +477,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/facultades/humanidades.png" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+							
 								</a>
 								<a class="course-title" href="#">Facultad de Humanidades</a>
 								<div class="course-details">
@@ -505,7 +493,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/facultades/juridicas.png" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+						
 								</a>
 								<a class="course-title" href="#">Facultad de Derecho</a>
 								<div class="course-details">
@@ -521,7 +509,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/facultades/quimica.png" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+				
 								</a>
 								<a class="course-title" href="#">Facultad de Química</a>
 								<div class="course-details">
@@ -538,7 +526,7 @@
 							<div class="course">
 								<a href="#" class="course-img">
 									<img src="./img/facultades/sociales.png" alt="">
-									<i class="course-link-icon fa fa-link"></i>
+								
 								</a>
 								<a class="course-title" href="#">Facultad de Ciencias Sociales</a>
 								<div class="course-details">
@@ -582,7 +570,7 @@
 					<!-- feature -->
 					<div class="col-md-3">
 						<div class="feature">
-							<i class="feature-icon fa fa-flask"></i>
+							<i class="feature-icon fa fa-user-md"></i>
 							<div class="feature-content">
 								<h4>Cupos Medicina</h4>
 							 <p>Aplica para obtener un cupo en Medicina .</p>
@@ -602,7 +590,7 @@
 					<!-- feature -->
 					<div class="col-md-3">
 						<div class="feature">
-							<i class="feature-icon fa fa-users"></i>
+							<i class="feature-icon 	fa fa-heartbeat"></i>
 							<div class="feature-content">
 								<h4>Cupos Nutrición</h4>
 								<p>Aplica para obtener un cupo en Nutrición .</p>
@@ -614,7 +602,7 @@
 					<!-- feature -->
 					<div class="col-md-3">
 						<div class="feature">
-							<i class="feature-icon fa fa-comments"></i>
+							<i class="feature-icon 	fa fa-university"></i>
 							<div class="feature-content">
 								<h4>Cupos Arquitectura</h4>
 								<p>Aplica para obtener un cupo en Arquitectura .</p>
@@ -664,9 +652,6 @@
 		?>
 		</footer>
 
-		<!-- preloader -->
-		<div id='preloader'><div class='preloader'></div></div>
-		<!-- /preloader -->
 
 
 		<!-- jQuery Plugins -->
