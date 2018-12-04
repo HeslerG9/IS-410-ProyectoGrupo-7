@@ -29,7 +29,10 @@
 
 
     <body>
-        
+        	
+
+
+
             <header id="header" class="transparent-nav">
 			<div class="container">
 
@@ -282,6 +285,8 @@ include("modal-matricula.html")
         <script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
-        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript"  src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+   
+    
     </body>
     </html>

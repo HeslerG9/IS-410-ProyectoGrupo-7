@@ -36,15 +36,50 @@
 
     </head>
 	<body>
+       
+	<header id="header">
+    <div class="container">
 
+      <div id="logo" class="pull-left">
+        <h1><a href="#hero"><img src="img/unah10.png" width="35" height="35" alt="" title="" /></img>  UNAH</a></h1>
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="#hero">Regna</a></h1>-->
+      </div>
 
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#hero">Inicio</a></li>
+          <li><a href="#about">Avisos</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#portfolio">Calendarios</a></li>
+          <!--<li><a data-toggle="modal" data-target="#exampleModal">Registrate</a></li>-->
+         
+          <li class="menu-has-children"><a href="#">Iniciar Sesión</a>
+            <ul>
+              <li><a href="loginestudiantes.html">Estudiante</a></li>
+              <li class="menu-has-children"><a href="#">Empleado</a>
+                <ul>
+                  <li><a href="logindocentes.html">Docente</a></li>
+                  <li><a href="loginempleados.html">Jefe de departamento</a></li>
+                  <li><a href="loginempleados.html">Coordinador de carrera</a></li>
+                  <li><a href="loginempleados.html">Personal Administrativo</a></li>
+                </ul>
+              </li>
+              <li><a href="loginadmin.html">Administrador</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
 		<!-- Header -->
 		<header id="header" class="transparent-nav">
-			<?php
+			// <?php
 			include("navbar.html")
 			?>
 		</header>
-		<!-- /Header -->
+	<!-- Header -->
 
 
      
