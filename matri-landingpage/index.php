@@ -80,12 +80,13 @@
 
   <main id="main">
  
-
+/* tri start */
+/* tri finished */
  <!--==========================
       INICIO Prueba
     ============================-->
     <br>
-    <section id="bien">
+    <section id="about">
       <div class="container">
         <div class="row about-container">
 
@@ -95,22 +96,21 @@
               LUCEM ASPICIO
             </p>
 
-            <div class="icon-box wow fadeInUp">
-            <i class="feature-icon fa fa-book"></i>
+             <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-book"></i></div>
               <h4 class="title"><a href="">OFERTA ACADEMICA</a></h4>
               <p class="description">Mas de 50 Carreras en funcionamiento  y <br>
 								39 Nuevas carreras y 89 En Procesos de formulación</p>
             </div>
-            
 
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-            <i class=" fa fa-desktop"></i>
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-desktop"></i></div>
               <h4 class="title"><a href="">CLASES EN LINEA</a></h4>
               <p class="description">127 Clases en linea y 3 Carreras completas </p>
             </div>
 
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-            <i class="feature-icon 	fa fa-mortar-board"></i>
+             <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-mortar-board"></i></div>
               <h4 class="title"><a href="">POSGRADOS</a></h4>
               <p class="description">Ofertas en Posgrados en un 50% <br>
 									y 8 Nuevos Doctorados </p>
@@ -147,6 +147,13 @@
             <p>
               En esta sección se muestran una serie de avisos de gran interes para el estudiante 
             </p>
+
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-book"></i></div>
+              <h4 class="title"><a href="">Pagos</a></h4>
+              <p class="description">30 DE JULIO AL 19 DE SEPTIEMBRE INICIA PAGO EN BANCOS DE MATRICULA II PAC 2018</p>
+            </div>
+
 
             <div class="icon-box wow fadeInUp">
               <div class="icon"><i class="fa fa-shopping-bag"></i></div>
