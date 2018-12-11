@@ -80,8 +80,7 @@
 
   <main id="main">
  
-/* tri start */
-/* tri finished */
+
  <!--==========================
       INICIO Prueba
     ============================-->
@@ -147,13 +146,6 @@
             <p>
               En esta sección se muestran una serie de avisos de gran interes para el estudiante 
             </p>
-
-            <div class="icon-box wow fadeInUp">
-              <div class="icon"><i class="fa fa-book"></i></div>
-              <h4 class="title"><a href="">Pagos</a></h4>
-              <p class="description">30 DE JULIO AL 19 DE SEPTIEMBRE INICIA PAGO EN BANCOS DE MATRICULA II PAC 2018</p>
-            </div>
-
 
             <div class="icon-box wow fadeInUp">
               <div class="icon"><i class="fa fa-shopping-bag"></i></div>
