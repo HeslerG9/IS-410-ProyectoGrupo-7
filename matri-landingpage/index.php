@@ -84,6 +84,7 @@
  <!--==========================
       INICIO Prueba
     ============================-->
+    <br>
     <section id="bien">
       <div class="container">
         <div class="row about-container">
@@ -103,7 +104,7 @@
             
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-            <i class="feature-icon fa fa-desktop"></i>
+            <i class=" fa fa-desktop"></i>
               <h4 class="title"><a href="">CLASES EN LINEA</a></h4>
               <p class="description">127 Clases en linea y 3 Carreras completas </p>
             </div>
@@ -119,7 +120,7 @@
 
           <div class="col-md-6">
 						<div class="about-img">
-							<img src="./img/mapa.png" alt="" width=100%>
+							<img src="./img/mapa.png" alt="" width=100% id="mapa">
 							<br>
 							<h4 style="text-align:center;text-decoration-line: underline">Mapa Ciudad Universitaria</h4>
 						</div>
@@ -150,19 +151,19 @@
             <div class="icon-box wow fadeInUp">
               <div class="icon"><i class="fa fa-shopping-bag"></i></div>
               <h4 class="title"><a href="">Pagos</a></h4>
-              <p class="description">18 DE ABRIL INICIA PAGO EN BANCOS DE MATRICULA II PAC 2018</p>
+              <p class="description">30 DE JULIO AL 19 DE SEPTIEMBRE INICIA PAGO EN BANCOS DE MATRICULA II PAC 2018</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-photo"></i></div>
               <h4 class="title"><a href="">Censo de matrícula</a></h4>
-              <p class="description">DEL 18 AL 25 DE ABRIL CENSO DE MATRICULA CORRESPONDIENTE AL II PAC 2018</p>
+              <p class="description">DEL 30 DE AGOSTO AL 5 DE SEPTIEMBRE CENSO DE MATRICULA CORRESPONDIENTE AL II PAC 2018</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
               <div class="icon"><i class="fa fa-bar-chart"></i></div>
               <h4 class="title"><a href="">Laboratorios</a></h4>
-              <p class="description">PAGO DE LABORATORIO CORRESPONDIENTE AL I PAC 2018 HABILITADO LOS DIAS: MIERCOLES 21 Y JUEVES 22 DE FEBRERO Banco LAFISE, DAVIVIENDA, BANPAIS, FICOHSA Y ATLANTIDA a nivel nacional. Las agencias de Banco LAFISE en CIUDAD UNIVERSITARIA y BOULEVARD SUYAPA, NO estan habilitados para realizar pago de laboratorio </p>
+              <p class="description">PAGO DE LABORATORIO CORRESPONDIENTE AL I PAC 2018 HABILITADO DESDE EL 20 HASTA 26 DE SEPTIEMBRE. Banco LAFISE, DAVIVIENDA, BANPAIS, FICOHSA Y ATLANTIDA a nivel nacional. Las agencias de Banco LAFISE en CIUDAD UNIVERSITARIA y BOULEVARD SUYAPA, NO estan habilitados para realizar pago de laboratorio </p>
             </div>
 
           </div>
@@ -177,7 +178,7 @@
                   <div class="carousel-inner">
                       <div class="carousel-item active" style="background-image: url(img/unah-1.jpg);background-repeat: no-repeat;background-size: cover;  background-position: center center; height: 80vh;">
                       </div>
-                      <div class="carousel-item"  style="background-image: url(img/unah-2.jpg);background-repeat: no-repeat;background-size: cover;  background-position: center center; height: 80vh;">
+                      <div class="carousel-item"  style="background-image: url(img/registro-fondo.jpg);background-repeat: no-repeat;background-size: cover;  background-position: center center; height: 80vh;">
                       </div>
                       <div class="carousel-item"  style="background-image: url(img/unah-3.jpg);background-repeat: no-repeat;background-size: cover;  background-position: center center; height: 80vh;">
                       </div>

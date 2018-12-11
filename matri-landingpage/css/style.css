@@ -1340,27 +1340,7 @@ button.mybtn:focus {
 }
 
   /* -- About Img -- */
-  .about-img {
-    margin-top:40px;
-  }
-  
-  .about-img > img {
-    width:100%;
-	width:80px;
-	height:80px;
-	line-height:80px;
-	text-align:center;
-	border-radius: 50%;
-	font-size:30px;
-	border:1px solid #EBEBEB;
-	color:rgb(34, 26, 243);
-}
-
-.feature-content {
-	padding-left:100px;
-	
-   
-}
+ 
 
 #bien .bien-container .feature .feature-icon {
 	position:absolute;
