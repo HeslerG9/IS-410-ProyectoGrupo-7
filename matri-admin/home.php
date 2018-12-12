@@ -145,7 +145,7 @@
 
 
 	<!--====== Scripts -->
-	<script src="js/registroCarrera.js"></script>
+	<script src="js/registrosAdmin.js"></script>
 	<script src="../matri-landingpage/js/jquery-3.1.1.min.js"></script>
 	<script src="../matri-landingpage/js/sweetalert2.min.js"></script>
 	<script src="../matri-landingpage/js/bootstrap.min.js"></script>

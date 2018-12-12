@@ -143,20 +143,19 @@
 			  <h4 class="modal-title" id="myModalLabel">Registro de una nueva asignatura</h4>
 			</div>
 			<div class="modal-body">
-					<input type="text" class="material-control tooltips-general" placeholder="ID de sección" required="required" maxlength="10" data-toggle="tooltip" data-placement="top" title="codigo de sección">
-					<input type="text" class="material-control tooltips-general" placeholder="Código alterno" required="required" minlength="4" maxlength="4" data-toggle="tooltip" data-placement="top" title="codigo alterno">
-                    <input type="text" class="material-control tooltips-general" placeholder="Hora inicio" required="required" minlength="4" maxlength="4" data-toggle="tooltip" data-placement="top" title="Hora inicio">
-                    <input type="text" class="material-control tooltips-general" placeholder="Hora final" required="required" minlength="4" maxlength="4" data-toggle="tooltip" data-placement="top" title="Hora final">
-                    <input type="text" class="material-control tooltips-general" placeholder="Días" required="required" maxlength="50" data-toggle="tooltip" data-placement="top" title="Días">
-                    <input type="text" class="material-control tooltips-general" placeholder="Cantidad de cupos" required="required" minlength="1" maxlength="4" data-toggle="tooltip" data-placement="top" title="Cantidad cupos">
-                    <input type="text" class="material-control tooltips-general" placeholder="Aula" required="required"  maxlength="15" data-toggle="tooltip" data-placement="top" title="Aula">
-                    <input type="text" class="material-control tooltips-general" placeholder="Asignatura" required="required"  maxlength="15" data-toggle="tooltip" data-placement="top" title="Asignatura">
-                    <input type="text" class="material-control tooltips-general" placeholder="Maestro" required="required"  maxlength="15" data-toggle="tooltip" data-placement="top" title="Maestro">
+					<input type="text" class="material-control tooltips-general"  id="seccion" placeholder="ID de sección" required="required" maxlength="10" data-toggle="tooltip" data-placement="top" title="codigo de sección">
+          <input type="text" class="material-control tooltips-general"  id="HoraInicio"  placeholder="Hora inicio" required="required" minlength="4" maxlength="4" data-toggle="tooltip" data-placement="top" title="Hora inicio">
+          <input type="text" class="material-control tooltips-general"  id="HoraFinal" placeholder="Hora final" required="required" minlength="4" maxlength="4" data-toggle="tooltip" data-placement="top" title="Hora final">
+          <input type="text" class="material-control tooltips-general"  id="Dias" placeholder="Días" required="required" maxlength="50" data-toggle="tooltip" data-placement="top" title="Días">
+          <input type="text" class="material-control tooltips-general"  id="Cupos" placeholder="Cantidad de cupos" required="required" minlength="1" maxlength="4" data-toggle="tooltip" data-placement="top" title="Cantidad cupos">
+          <input type="text" class="material-control tooltips-general"  id="Aula" placeholder="Aula" required="required"  maxlength="15" data-toggle="tooltip" data-placement="top" title="Aula">
+          <input type="text" class="material-control tooltips-general"  id="Asignatura" placeholder="Asignatura" required="required"  maxlength="15" data-toggle="tooltip" data-placement="top" title="Asignatura">
+          <input type="text" class="material-control tooltips-general"  id="Maestro" placeholder="Maestro" required="required"  maxlength="15" data-toggle="tooltip" data-placement="top" title="Maestro">
 			  <div id="resultadoClases"></div>
 			</div>
 			<div class="modal-footer">
 			  <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-			  <button type="button" class="btn btn-default" id="btn-registrar" data-loading-text="Guardando..." >Registrarme</button>
+			  <button type="button" class="btn btn-default" id="btn-registrarAsignatura" data-loading-text="Guardando..." >Registrarme</button>
 			</div>
 		  </div>
 		</div>

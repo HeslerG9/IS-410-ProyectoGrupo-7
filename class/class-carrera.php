@@ -99,21 +99,21 @@ class Carrera{
 	}
 	
 	
-	    public function registrarCarrera(){
-		$archivo = fopen("../bd-json/carrera.json","a+");  
+	public function registrarCarrera(){
+		$archivo = fopen("../../bd-json/carrera.json","a+");  
 		$arreglo = array();
 		$arreglo["codigoCarrera"]=$this->codigoCarrera;
-        $arreglo["codigoCE"]=$this->codigoCE; 
-        $arreglo["nombreCarrera"]=$this->nombreCarrera; 
-        $arreglo["codigoFacultad"]=$this->codigoFacultad; 
-        $arreglo["codigoDepartamento"]=$this->codigoDepartamento; 
-        $arreglo["cantidadAsignaturas"]=$this->cantidadAsignaturas; 
-        $arreglo["cantidadUv"]=$this->cantidadUv; 
-        $arreglo["grado"]=$this->grado;     
-			  
+		$arreglo["codigoCE"]=$this->codigoCE; 
+		$arreglo["nombreCarrera"]=$this->nombreCarrera; 
+		$arreglo["codigoFacultad"]=$this->codigoFacultad; 
+		$arreglo["codigoDepartamento"]=$this->codigoDepartamento; 
+		$arreglo["cantidadAsignaturas"]=$this->cantidadAsignaturas; 
+		$arreglo["cantidadUv"]=$this->cantidadUv; 
+		$arreglo["grado"]=$this->grado;     
+				
 		fwrite($archivo, json_encode($arreglo) . "\n");
-        fclose($archivo);
-        return json_encode($arreglo);
+		fclose($archivo);
+		return json_encode($arreglo);
     }
 
 }

@@ -1,5 +1,5 @@
 <?php
-include_once("../class/class-carrera.php");
+include_once("../../class/class-carrera.php");
 	//sleep(5);
 	//<div class="bg-danger">
 	switch ($_GET["accion"]) {
