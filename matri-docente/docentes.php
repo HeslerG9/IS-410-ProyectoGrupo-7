@@ -158,7 +158,7 @@
         
       <div>
           <br>
-        <img src="./img/maestro.jpg" class= "col-md-4 col-lg-4 col-xl-4 hidden-xs
+        <img src="../matri-landingpage/img/avatar.png" class= "col-md-4 col-lg-4 col-xl-4 hidden-xs
         hidden-sm"  style="width:25%;border-radius:10%;border-color:blue" alt="...">
     </div>
     </div>
