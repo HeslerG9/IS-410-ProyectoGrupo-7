@@ -73,16 +73,16 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="#modal-registro-admin" data-toggle="modal" data-target="#modal-registro-admin"><i class="zmdi zmdi-account zmdi-hc-fw"></i>Adminstrador</a>
+							<a href="#modal-registro-admin" data-toggle="modal" data-target="#modal-registro-admin"><i class="zmdi zmdi-account zmdi-hc-fw"></i>Administrador</a>
 						</li>
 						<li>
-							<a href="#modal-registro-estudiante" data-toggle="modal" data-target="#modal-registro-"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Docente</a>
+							<a href="#modal-registro-docente" data-toggle="modal" data-target="#modal-registro-docente"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Docente</a>
 						</li>
 						<li>
 							<a href="#modal-registro-estudiante" data-toggle="modal" data-target="#modal-registro-estudiante"><i class="zmdi zmdi-face zmdi-hc-fw"></i>Estudiante</a>
 						</li>
 						<li>
-							<a href="modal-registro-admin"><i class="zmdi zmdi-male-female zmdi-hc-fw"></i> Admin</a>
+							<a href="modal-registro-admin"><i class="zmdi zmdi-male-female zmdi-hc-fw"></i>Empleado</a>
 						</li>
 					</ul>
 				</li>
@@ -266,3 +266,44 @@
 	</div>
 </div>
 <!-- Modal Estudiante-->
+
+<!-- Modal Docente -->
+<div class="modal fade" id="modal-registro-docente" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Registro de Docente</h4>
+			</div>
+			<div class="modal-body">
+				<input type="text" class="material-control" placeholder="Nombre del Docente" id="NombreDoc" required="required" maxlength="30" data-toggle="tooltip" data-placement="top" title="Id carrera">
+				<input type="text" class="material-control" placeholder="Apellido del Docente" id="ApellidoDoc" required="required" maxlength="30" data-toggle="tooltip" data-placement="top" title="Id carrera">
+				<input type="email" class="material-control" placeholder="Correo" id="CorreoDoc" required="required" maxlength="30" data-toggle="tooltip" data-placement="top" title="Id carrera">
+				<input type="tel" class="material-control" placeholder="Telefono" id="TelDoc" required="required" maxlength="30" data-toggle="tooltip" data-placement="top" title="Id carrera">
+				<input type="text" class="material-control" placeholder="Numero de Empleado" id="NumDoc" required="required" maxlength="30" data-toggle="tooltip" data-placement="top" title="Id carrera">
+				<input type="date" class="material-control" placeholder="Fecha de Nacimiento" id="FechaNaDoc" required="required" maxlength="30" data-toggle="tooltip" data-placement="top" title="Fecha Nacimiento">
+				<select class="material-control" id="CarreraDoc">
+						<option>Selecciona la carrera</option>
+						<option>Ingenieria En Sistemas</option>
+						<option>Ingenieria Electrica</option>
+						<option>Matematicas</option>
+					</select>
+					<input type="password" class="material-control" placeholder="Contraseña" id="ContraDoc" required="required" maxlength="30" data-toggle="tooltip" data-placement="top" title="Id carrera">
+				<select class="material-control" id="CentroDoc">
+					<option>Selecciona el centro de Estudio</option>
+					<option>Ciudad Universitaria</option>
+					<option>Valle de Sula</option>
+					<option>Curla</option>
+					<option>Curp</option>
+
+				</select>
+				<div id="resultado"></div>
+			</div>
+			<div class="modal-footer">
+				<button type="reset" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+				<button type="button" class="btn btn-default" id="btn-registrarDocente" data-loading-text="Guardando..." >Registrarme</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal Docente-->

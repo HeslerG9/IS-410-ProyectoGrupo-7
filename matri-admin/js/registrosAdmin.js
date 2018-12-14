@@ -134,3 +134,31 @@ var parametros=
 	}
 });
 });
+
+$("#btn-registrarDocente").click(function(){
+	$("#btn-registrarDocente").trigger("reset");
+		
+	var parametros=
+					"NombreDoc="+$("#NombreDoc").val()+"&"+
+					"ApellidoDoc="+$("#ApellidoDoc").val()+"&"+
+					"CorreoDoc="+$("#CorreoDoc").val()+"&"+
+					"TelDoc="+$("#TelDoc").val()+"&"+
+					"NumDoc="+$("#NumDoc").val()+"&"+
+					"FechaNaDoc="+$("#FechaNaDoc").val()+"&"+
+					"CarreraDoc="+$("#CarreraDoc").val()+"&"+
+					"ContraDoc="+$("#ContraDoc").val()+"&"+
+					"CentroDoc="+$("#CentroDoc").val();
+		alert("parametros a enviar " + parametros);
+		alert("Se ha guardado con exito un nuevo estudiante");
+	   console.log(parametros)
+	   $.ajax({
+		url:"ajax/procesar-registroDocente.php?accion=1",
+		data:parametros,
+		method:"POST",
+		dataType:"json",
+		success:function(respuesta){
+			console.log(respuesta);
+		
+		}
+	});
+	});
