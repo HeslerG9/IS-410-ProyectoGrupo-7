@@ -29,6 +29,10 @@
 	
 }
 /* --- Buttons --- */
+.div-table #try{
+	color: #002c9e
+}
+
 .main-button {
 	position:relative;
 	display:inline-block;

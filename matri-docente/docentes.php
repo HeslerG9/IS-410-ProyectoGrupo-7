@@ -5,8 +5,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	
-	<link rel="stylesheet" href="../matri-landingpage/css/main.css">
-	<link href="../matri-landingpage/img/unah10.png" rel="icon">
+    <link rel="stylesheet" href="../matri-landingpage/css/main.css">
+    <link rel="stylesheet" href="../matri-landingpage/css/style-matri.css">
+    <link href="../matri-landingpage/img/unah10.png" rel="icon">
+		<link href="/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        
 </head>
 <body>
 	<!-- SideBar -->
@@ -159,18 +164,18 @@
       <div>
           <br>
         <img src="../matri-landingpage/img/avatar.png" class= "col-md-4 col-lg-4 col-xl-4 hidden-xs
-        hidden-sm"  style="width:15%;border-radius:10%;border-color:blue" alt="...">
+        hidden-sm"  style="width:18%;border-radius:10%;border-color:blue" alt="...">
     </div>
     </div>
-
-        <div class="list-group">
+<br>
+        <div class="list-group" >
             <button type="button" class="list-group-item list-group-item-action active">
               Asignaturas Asignadas
             </button>
-            <button type="button" id = "boton" class="list-group-item list-group-item-action">Programación Orientada a Objetos</button>
-            <button type="button" id = "boton" class="list-group-item list-group-item-action">Programación 2</button>
-            <button type="button" id = "boton" class="list-group-item list-group-item-action">Sistemas Expertos</button>
-            <button type="button" id = "boton" class="list-group-item list-group-item-action">Bases de Datos 1 </button>
+            <button type="button" class="list-group-item list-group-item-action">Programación Orientada a Objetos</button>
+            <button type="button" class="list-group-item list-group-item-action">Programación 2</button>
+            <button type="button" class="list-group-item list-group-item-action">Sistemas Expertos</button>
+            <button type="button" class="list-group-item list-group-item-action">Bases de Datos 1 </button>
           </div>
 
         </div>
