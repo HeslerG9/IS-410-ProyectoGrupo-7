@@ -159,7 +159,7 @@
       <div>
           <br>
         <img src="../matri-landingpage/img/avatar.png" class= "col-md-4 col-lg-4 col-xl-4 hidden-xs
-        hidden-sm"  style="width:25%;border-radius:10%;border-color:blue" alt="...">
+        hidden-sm"  style="width:15%;border-radius:10%;border-color:blue" alt="...">
     </div>
     </div>
 
@@ -167,10 +167,10 @@
             <button type="button" class="list-group-item list-group-item-action active">
               Asignaturas Asignadas
             </button>
-            <button type="button" class="list-group-item list-group-item-action">Programación Orientada a Objetos</button>
-            <button type="button" class="list-group-item list-group-item-action">Programación 2</button>
-            <button type="button" class="list-group-item list-group-item-action">Sistemas Expertos</button>
-            <button type="button" class="list-group-item list-group-item-action">Bases de Datos 1 </button>
+            <button type="button" id = "boton" class="list-group-item list-group-item-action">Programación Orientada a Objetos</button>
+            <button type="button" id = "boton" class="list-group-item list-group-item-action">Programación 2</button>
+            <button type="button" id = "boton" class="list-group-item list-group-item-action">Sistemas Expertos</button>
+            <button type="button" id = "boton" class="list-group-item list-group-item-action">Bases de Datos 1 </button>
           </div>
 
         </div>
