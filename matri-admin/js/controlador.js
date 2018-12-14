@@ -1,26 +1,23 @@
 $.ajax({
-    url:"ajax/estudiantes.php?opcion=1",
+    url:"ajax/tweets.php?opcion=1",
     method:"GET",
     dataType:"json",
     success:function(respuesta){
         console.log(respuesta);
         for (var i=0;i<respuesta.length;i++){
-            $("#div-table-student").append(
-                ` <div class="div-table-row div-table-row-list">
-                <div class="div-table-cell" style="width: 5%;">${respuesta[i].NumCta}</div>
-                <div class="div-table-cell" style="width: 12%;">${respuesta[i].Carrera}</div>
-                <div class="div-table-cell" style="width: 10%;">${respuesta[i].NombreAlumno}</div>
-                <div class="div-table-cell" style="width: 10%;">${respuesta[i].ApellidoAlumno}</div>
-                <div class="div-table-cell" style="width: 11%;">${respuesta[i].CorreoAlumno}</div>
-                <div class="div-table-cell" style="width: 9%;">${respuesta[i].TelAlumno}</div>
-                <div class="div-table-cell" style="width: 11%;">${respuesta[i].FechaNac}</div>
-                <div class="div-table-cell" style="width: 9%;">${respuesta[i].CentroEstudio}</div>
-                <div class="div-table-cell" style="width: 6%;">
-                    <button class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></button>
-                </div>
-                <div class="div-table-cell" style="width: 6%;">
-                    <button class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></button>
+            $("#tweets").append(
+                `<div class="row component text-left">
+                    <div class="col-lg-2">  
+                        <img src = "${respuesta[i].usuario.urlImagen}" class="img-fluid rounded-circle img-thumbnail">
                     </div>
+                    <div class="col-lg-10">
+                        <b>${respuesta[i].usuario.nombre}</b> ${respuesta[i].usuario.usuario}
+                        <div class="tweet-content">
+                            ${respuesta[i].tweet}
+                            <div>
+                                <small class="blue-text">${respuesta[i].hashtags}</small>
+                            </div>
+                        </div>
                     </div>
                 </div>`
             );
