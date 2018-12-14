@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="../matri-landingpage/css/main.css">
 	<link href="../matri-landingpage/img/unah10.png" rel="icon">
+    <script src="../matri-landingpage/js/jquery.min.js"></script>
 </head>
 <body>
 	<?php
@@ -98,7 +99,6 @@
                             <div class="div-table-cell" style="width: 9%;">Telefono</div>
                             <div class="div-table-cell" style="width: 11%;">Fecha nacimiento</div>
                             <div class="div-table-cell" style="width: 9%;">campus</div>
-                            <div class="div-table-cell" style="width: 9%;">Sección</div>
                             <div class="div-table-cell" style="width: 6%;">Actualizar</div>
                             <div class="div-table-cell" style="width: 6%;">Eliminar</div>
                         </div>
@@ -106,21 +106,8 @@
                 </div>
                 <div class="table-responsive" id="div-students">
                     <div class="div-table" id="div-table-student" style="margin:0 !important;">
-                        <div class="div-table-row div-table-row-list">
-                            <div class="div-table-cell" style="width: 6%;">#Cuenta</div>
-                            <div class="div-table-cell" style="width: 10%;">Carrera</div>
-                            <div class="div-table-cell" style="width: 12%;">Nombres</div>
-                            <div class="div-table-cell" style="width: 12%;">Apellidos</div>
-                            <div class="div-table-cell" style="width: 9%;">Email</div>
-                            <div class="div-table-cell" style="width: 9%;">Telefono</div>
-                            <div class="div-table-cell" style="width: 11%;">Fecha nacimiento</div>
-                            <div class="div-table-cell" style="width: 9%;">campus</div>
-                            <div class="div-table-cell" style="width: 9%;">Sección</div>
-                            <div class="div-table-cell" style="width: 6%;">
-                                <button class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></button>
-                            </div>
-                            <div class="div-table-cell" style="width: 6%;">
-                                <button class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></button>
+                       
+                            
                             </div>
                         </div>
                     </div>
@@ -149,6 +136,7 @@
 
 	
     <!--====== Scripts -->
+    <script src="js/controlador.js"></script>
     <script src="js/registrosAdmin.js"></script>
 	<script src="../matri-landingpage/js/jquery-3.1.1.min.js"></script>
 	<script src="../matri-landingpage/js/sweetalert2.min.js"></script>
