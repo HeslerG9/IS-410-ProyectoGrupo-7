@@ -21,6 +21,118 @@
     font-weight: normal;
     font-style: normal;
 }
+/* Probando inicio */
+.h2,h3,h4,h5,h6 {
+	margin-top: 12px;
+	margin-bottom: 15px;
+	font-weight: 600;
+	
+}
+/* --- Buttons --- */
+.div-table #try{
+	color: #002c9e
+}
+
+.main-button {
+	position:relative;
+	display:inline-block;
+	padding:10px 30px;
+	background-color: #002c9e;
+	border: 2px solid transparent;
+	border-radius: 40px;
+	color: #FFF;
+	-webkit-transition:0.2s all;
+	transition:0.2s all;
+}
+
+.main-button2 {
+	position: absolute;
+	right: 20%;
+	left: 20%;
+	top: 120px;
+	
+	display: inline-block;
+	padding:10px 20px;
+	background-color: #251a83;
+	border: 2px solid transparent;
+	border-radius: 40px;
+	color: #FFF;
+	
+	align-self:center;
+	
+}
+
+.main-button:hover , .main-button:focus {
+	background-color:#FFF ;
+	border: 2px solid #003399;
+	color:#003399;
+}
+
+.main-button2:hover , .main-button2:focus{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    background: yellow;
+	background-color: yellow;
+	border: 2px solid black;
+	color:blue;
+}
+
+
+
+.main-button.icon-button:hover , .main-button.icon-button:focus {
+	padding-right: 45px;
+}
+
+
+.main-button2.icon-button:hover , .main-button2.icon-button:focus {
+	padding-right: 90px;
+}
+
+.main-button.icon-button:after {
+	content:"\f178";
+	font-family:FontAwesome;
+	position:absolute;
+	width: 30px;
+	right: 15px;
+	text-align:center;
+	opacity:0;
+	-webkit-transition:0.2s all;
+	transition:0.2s all;
+}
+
+.main-button2.icon-button:after {
+	content:"\f178";
+	font-family:FontAwesome;
+	position:absolute;
+	width: 30px;
+	right: 15px;
+	text-align:center;
+	opacity:0;
+	-webkit-transition:0.2s all;
+	transition:0.2s all;
+}
+
+.main-button.icon-button:hover:after , .main-button.icon-button:focus:after {
+	opacity:1;
+}
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.img-evalu {
+	width: 200%;
+margin-top: 10px;
+margin-right: auto;
+position: absolute ;
+left: 50px;
+right:60px;
+top: 30px;
+display: inline-block;
+}
+/* Probando Fin */
 @font-face {
     font-family: 'RobotoCondensed';
     src: url('../fonts/robotocondensed-regular.eot');
@@ -578,6 +690,7 @@ input.material-control:focus ~ .bar:before, input.material-control:focus ~ .bar:
 .tile-number > small{
 	font-size: 17px;
 }
+
 
 
 

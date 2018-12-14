@@ -5,8 +5,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	
-	<link rel="stylesheet" href="../matri-landingpage/css/main.css">
-	<link href="../matri-landingpage/img/unah10.png" rel="icon">
+    <link rel="stylesheet" href="../matri-landingpage/css/main.css">
+    <link rel="stylesheet" href="../matri-landingpage/css/style-matri.css">
+    <link href="../matri-landingpage/img/unah10.png" rel="icon">
+		<link href="/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        
 </head>
 <body>
 	<!-- SideBar -->
@@ -41,7 +46,7 @@
 			<!-- SideBar Menu -->
 			<ul class="list-unstyled full-box dashboard-sideBar-Menu">
 				<li>
-					<a href="home.html">
+					<a href="homeTeacher.html">
 						<i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Inicio
 					</a>
 				</li>
@@ -53,7 +58,21 @@
 						<li>
 							<a href="../matri-landingpage/teacher/caliTeacher.html"><i class="zmdi zmdi-badge-check zmdi-hc-fw"></i>Agregar notas</a>
 						</li>
+						<!--
+						<li>
+							<a href="academicHis.html"><i class="zmdi zmdi-assignment-check zmdi-hc-fw"></i> Historial Académico </a>
+						</li>
+						<li>
+							<a href="evaTeacher.html"><i class="zmdi zmdi-thumb-down zmdi-hc-fw"></i>Evaluación docente</a>
+						</li>
 						
+						<li>
+							<a href=""><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Sección</a>
+						</li>
+						<li>
+							<a href=""><i class="zmdi zmdi-font zmdi-hc-fw"></i> Aula</a>
+						</li>
+						-->
 					</ul>
 				</li>
 				<li>
@@ -120,7 +139,49 @@
 				</div>
 			</div>
 
-			
+            <!-- inicio prueba -->
+            <div id="courses" class="section" style="padding-top:50px">
+
+    <!-- container -->
+    <div class="container" style="padding-bottom:300 px !important">
+
+        <!-- row -->
+        <div class="row">
+            <div  class="section-header text-center col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+               <!--  <h1 class="primera">Servicios Al Docente</h1> -->
+                <h2><strong> Bienvenido:</strong> Erick Vladimir Perez Lopez</h2>
+                <h2><strong> Docente de la Carrera:</strong> Ingenieria en Sistemas</h2>
+                <h3> Tu cuenta de correo electrónico institucional es: <strong>vladimir.erick@unah.hn</strong> <br>
+                </h3>
+                <h4> Su número de identidad es <strong> 0801-1999-17771</strong> </h4> 
+                
+                <p class="lead"></p> 
+
+
+                
+            </div>
+        
+      <div>
+          <br>
+        <img src="../matri-landingpage/img/avatar.png" class= "col-md-4 col-lg-4 col-xl-4 hidden-xs
+        hidden-sm"  style="width:18%;border-radius:10%;border-color:blue" alt="...">
+    </div>
+    </div>
+<br>
+        <div class="list-group" >
+            <button type="button" class="list-group-item list-group-item-action active">
+              Asignaturas Asignadas
+            </button>
+            <button type="button" class="list-group-item list-group-item-action">Programación Orientada a Objetos</button>
+            <button type="button" class="list-group-item list-group-item-action">Programación 2</button>
+            <button type="button" class="list-group-item list-group-item-action">Sistemas Expertos</button>
+            <button type="button" class="list-group-item list-group-item-action">Bases de Datos 1 </button>
+          </div>
+
+        </div>
+    </div>
+
+            <!-- fin prueba -->
 
 		  <!--  <div class="full-box text-center" style="padding: 30px 10px;">
 			<article class="full-box tile">
