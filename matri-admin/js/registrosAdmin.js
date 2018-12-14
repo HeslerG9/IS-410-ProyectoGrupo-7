@@ -33,7 +33,6 @@ $("#btn-registrarCarrera").click(function(){
 
 $("#btn-registrarAsignatura").click(function(){
 	$("#btn-registrarAsignatura").trigger("reset");
-	$("#modalClases")[0].reset();
 	var parametros=
 				"seccion="+$("#seccion").val()+"&"+
 				"HoraInicio="+$("#HoraInicio").val()+"&"+
@@ -44,10 +43,88 @@ $("#btn-registrarAsignatura").click(function(){
 				"Asignatura="+$("#Asignatura").val()+"&"+
 				"Maestro="+$("#Maestro").val();
 	alert("parametros a enviar " + parametros);
-
+	alert("Se ha guardado con Exito la nueva Asignatura");
    console.log(parametros)
    $.ajax({
 	url:"ajax/procesar-registroAsignatura.php?accion=1",
+	data:parametros,
+	method:"POST",
+	dataType:"json",
+	success:function(respuesta){
+		console.log(respuesta);
+	
+	}
+});
+});
+
+
+$("#btn-registrarAula").click(function(){
+	$("#btn-registrarAula").trigger("reset");
+	var parametros=
+				"edificio="+$("#edificio").val()+"&"+
+				"NumeroAula="+$("#NumeroAula").val();
+	alert("parametros a enviar " + parametros);
+	alert("Se ha guardado con Exito la nueva Aula");
+   console.log(parametros)
+   $.ajax({
+	url:"ajax/procesar-registroAula.php?accion=1",
+	data:parametros,
+	method:"POST",
+	dataType:"json",
+	success:function(respuesta){
+		console.log(respuesta);
+	
+	}
+});
+});
+
+
+ $("#btn-registrarAdmin").click(function(){
+$("#btn-registrarAdmin").trigger("reset");
+	
+	var parametros=
+				"NumeroEmpleado="+$("#NumeroEmpleado").val()+"&"+
+				"Nombres="+$("#Nombres").val()+"&"+
+				"Apellidos="+$("#Apellidos").val()+"&"+
+				"NumeroID="+$("#NumeroID").val()+"&"+
+
+				"correo="+$("#correo").val()+"&"+
+				"FechaNacimiento="+$("#FechaNacimiento").val()+"&"+
+				"Contrasena="+$("#Contrasena").val()+"&"+
+				"TipoUsuario="+$("#TipoUsuario").val();
+	alert("parametros a enviar " + parametros);
+	alert("Se ha guardado con exito un nuevo admin");
+   console.log(parametros)
+   $.ajax({
+	url:"ajax/procesar-registroAdmin.php?accion=1",
+	data:parametros,
+	method:"POST",
+	dataType:"json",
+	success:function(respuesta){
+		console.log(respuesta);
+	
+	}
+});
+}); 
+$("#btn-registrarEstudiante").click(function(){
+$("#btn-registrarEstudiante").trigger("reset");
+	
+var parametros=
+				"NombreAlumno="+$("#NombreAlumno").val()+"&"+
+				"ApellidoAlumno="+$("#ApellidoAlumno").val()+"&"+
+				"CorreoAlumno="+$("#CorreoAlumno").val()+"&"+
+				"TelAlumno="+$("#TelAlumno").val()+"&"+
+				"ContraAlumno="+$("#ContraAlumno").val()+"&"+
+				"NumCta="+$("#NumCta").val()+"&"+
+				"FechaIngreso="+$("#FechaIngreso").val()+"&"+
+				"FechaNac="+$("#FechaNac").val()+"&"+
+				"CentroEstudio="+$("#CentroEstudio").val()+"&"+
+				"Carrera="+$("#Carrera").val();
+	alert("parametros a enviar " + parametros);
+	alert("Se ha guardado con exito un nuevo estudiante");
+   console.log(parametros)
+   $.ajax({
+	url:"ajax/procesar-registroEstudiante.php?accion=1",
 	data:parametros,
 	method:"POST",
 	dataType:"json",

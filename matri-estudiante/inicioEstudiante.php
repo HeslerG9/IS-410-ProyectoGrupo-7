@@ -30,19 +30,10 @@
 
 
     <body>
-        
-         <!-- Header -->
-		<header id="header" class="transparent-nav">
-			<?php
-			include("navbar.html")
-			?>
-		</header>
-		<!-- /Header -->
-<br>
-<br>
-<br>
-<br>
-<br>
+           
+    <nav class="navbar navbar-dark bg-primary">
+  <!-- Navbar content -->
+</nav>
     <!-- container -->
     <div class="container">
 

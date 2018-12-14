@@ -91,7 +91,7 @@
                     <div class="div-table" style="margin:0 !important;">
                         <div class="div-table-row div-table-row-list" style="background-color:#DFF0D8; font-weight:bold;">
                             <div class="div-table-cell" style="width: 6%;">#Cuenta</div>
-                            <div class="div-table-cell" style="width: 9%;">#Identidad</div>
+                            <div class="div-table-cell" style="width: 10%;">Carrera</div>
                             <div class="div-table-cell" style="width: 12%;">Nombres</div>
                             <div class="div-table-cell" style="width: 12%;">Apellidos</div>
                             <div class="div-table-cell" style="width: 9%;">Email</div>
@@ -108,7 +108,7 @@
                     <div class="div-table" id="div-table-student" style="margin:0 !important;">
                         <div class="div-table-row div-table-row-list">
                             <div class="div-table-cell" style="width: 6%;">#Cuenta</div>
-                            <div class="div-table-cell" style="width: 9%;">#Identidad</div>
+                            <div class="div-table-cell" style="width: 10%;">Carrera</div>
                             <div class="div-table-cell" style="width: 12%;">Nombres</div>
                             <div class="div-table-cell" style="width: 12%;">Apellidos</div>
                             <div class="div-table-cell" style="width: 9%;">Email</div>
@@ -148,7 +148,8 @@
 	</section>
 
 	
-	<!--====== Scripts -->
+    <!--====== Scripts -->
+    <script src="js/registrosAdmin.js"></script>
 	<script src="../matri-landingpage/js/jquery-3.1.1.min.js"></script>
 	<script src="../matri-landingpage/js/sweetalert2.min.js"></script>
 	<script src="../matri-landingpage/js/bootstrap.min.js"></script>
