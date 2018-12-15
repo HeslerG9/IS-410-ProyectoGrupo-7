@@ -82,7 +82,7 @@
 							<a href="#modal-registro-estudiante" data-toggle="modal" data-target="#modal-registro-estudiante"><i class="zmdi zmdi-face zmdi-hc-fw"></i>Estudiante</a>
 						</li>
 						<li>
-							<a href="modal-registro-admin"><i class="zmdi zmdi-male-female zmdi-hc-fw"></i>Empleado</a>
+							<a href="#modal-registro-empleado" data-toggle="modal" data-target="#modal-registro-empleado"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Empleado</a>
 						</li>
 					</ul>
 				</li>
@@ -307,3 +307,33 @@
 	</div>
 </div>
 <!-- Modal Docente-->
+
+<!-- Modal Empleado -->
+<div class="modal fade" id="modal-registro-empleado" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Registro de Empleado</h4>
+			</div>
+			<div class="modal-body">
+				<input type="text" class="material-control" placeholder="Nombre del Empleado" id="NombreEmp" required="required" maxlength="30" data-toggle="tooltip" data-placement="top" title="Id carrera">
+				<input type="text" class="material-control" placeholder="Apellido del Empleado" id="ApellidoEmp" required="required" maxlength="30" data-toggle="tooltip" data-placement="top" title="Id carrera">
+			  <input type="password" class="material-control" placeholder="Contraseña" id="ContraEmp" required="required" maxlength="30" data-toggle="tooltip" data-placement="top" title="Id carrera">
+				<input type="text" class="material-control" placeholder="Numero de Empleado" id="NumEmp" required="required" maxlength="30" data-toggle="tooltip" data-placement="top" title="Id carrera">
+				<input type="email" class="material-control" placeholder="Correo" id="CorreoEmp" required="required" maxlength="30" data-toggle="tooltip" data-placement="top" title="Id carrera">
+				<input type="date" class="material-control" placeholder="Fecha de Nacimiento" id="FechaNaEmp" required="required" maxlength="30" data-toggle="tooltip" data-placement="top" title="Fecha Nacimiento">
+				<input type="text" class="material-control" placeholder="Cargo" id="PuestoEmp" required="required" maxlength="30" data-toggle="tooltip" data-placement="top" title="Id carrera">
+
+
+				</select>
+				<div id="resultado"></div>
+			</div>
+			<div class="modal-footer">
+				<button type="reset" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+				<button type="button" class="btn btn-default" id="btn-registrarEmpleado" data-loading-text="Guardando..." >Registrarme</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal Empleado-->

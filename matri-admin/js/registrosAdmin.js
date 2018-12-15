@@ -149,7 +149,7 @@ $("#btn-registrarDocente").click(function(){
 					"ContraDoc="+$("#ContraDoc").val()+"&"+
 					"CentroDoc="+$("#CentroDoc").val();
 		alert("parametros a enviar " + parametros);
-		alert("Se ha guardado con exito un nuevo estudiante");
+		alert("Se ha guardado con exito un nuevo docente");
 	   console.log(parametros)
 	   $.ajax({
 		url:"ajax/procesar-registroDocente.php?accion=1",
@@ -162,3 +162,31 @@ $("#btn-registrarDocente").click(function(){
 		}
 	});
 	});
+
+	$("#btn-registrarEmpleado").click(function(){
+		$("#btn-registrarEmpleado").trigger("reset");
+			
+		var parametros=
+						"NombreEmp="+$("#NombreEmp").val()+"&"+
+						"ApellidoEmp="+$("#ApellidoEmp").val()+"&"+
+						"ContraEmp="+$("#ContraEmp").val()+"&"+
+						"NumEmp="+$("#NumEmp").val()+"&"+
+						"CorreoEmp="+$("#CorreoEmp").val()+"&"+
+						"FechaNaEmp="+$("#FechaNaEmp").val()+"&"+
+						"PuestoEmp="+$("#PuestoEmp").val();
+			alert("parametros a enviar " + parametros);
+			alert("Se ha guardado con exito un nuevo empleado");
+		   console.log(parametros)
+		   $.ajax({
+			url:"ajax/procesar-registroEmpleado.php?accion=1",
+			data:parametros,
+			method:"POST",
+			dataType:"json",
+			success:function(respuesta){
+				console.log(respuesta);
+			
+			}
+		});
+		});
+
+
