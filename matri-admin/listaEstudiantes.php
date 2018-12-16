@@ -55,7 +55,7 @@
                     <img src="../matri-landingpage/assets/img/user.png" alt="user" class="img-responsive center-box" style="max-width: 110px;">
                 </div>
                 <div class="col-xs-12 col-sm-8 col-md-8 text-justify lead">
-                    En esta sección se podrá registrar a los usuarios con atributos de estudiantes
+                   Si desea registrar un nuevo Estudiante ve a la seccion de "Registrar Usuarios"
                 </div>
             </div>
 		</div>
@@ -63,7 +63,6 @@
             <div class="row">
                 <div class="col-xs-12 lead">
                     <ol class="breadcrumb">
-                      <li><a href="student.html">Nuevo estudiante</a></li>
                       <li class="active">Listado de estudiantes</li>
                     </ol>
                 </div>
@@ -72,19 +71,13 @@
 		<div class="container-fluid" style="margin: 0 0 50px 0;">
                 <form class="pull-right" style="width: 30% !important;" autocomplete="off">
                     <div class="group-material">
-                        <input type="search" style="display: inline-block !important; width: 70%;" class="material-control tooltips-general" placeholder="Buscar estudiante" required="" pattern="[a-zA-ZáéíóúÁÉÍÓÚ ]{1,50}" maxlength="50" data-toggle="tooltip" data-placement="top" title="Escribe los nombres, sin los apellidos">
-                        <button class="btn" style="margin: 0; height: 43px; background-color: transparent !important;">
+                    <input type='search' id='search' class="material-control tooltips-general" style="display: inline-block !important; width: 70%;" placeholder="Buscar estudiante" required="" data-toggle="tooltip" data-placement="top" title="Escribe los nombres, sin los apellidos">
+                        <button class="btn" onclick="busqueda()" style="margin: 0; height: 43px; background-color: transparent !important;">
                             <i class="zmdi zmdi-search" style="font-size: 25px;"></i>
                         </button>
                     </div>
                 </form>
-                <h2 class="text-center all-tittles" style="margin: 25px 0; clear: both;">Facultades</h2>
-                <ul class="list-unstyled text-center list-catalog-container">
-                    <li class="list-catalog">Ingeniería</li>
-                    <li class="list-catalog">Ciencias</li>
-                    <li class="list-catalog">Ciencias Económicas</li>
-                    <!--<li class="list-catalog"></li>-->
-                </ul>
+          
             </div>
             <div class="container-fluid">
                 <h2 class="text-center all-tittles">Listado de estudiantes</h2>
@@ -111,7 +104,15 @@
                             </div>
                         </div>
                     </div>
+                    <tr class='notfound'>
+                    <td colspan='4'>Estudiante no encontrado</td>
+                    </tr>
                 </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
                 <ul class="pagination pagination-sm">
                     <li class="disabled"><a href="#!">«</a></li>
                     <li class="active"><a href="#!">1</a></li>

@@ -14,7 +14,7 @@ $.ajax({
                 <div class="div-table-cell" style="width: 11%;">${respuesta[i].CorreoAlumno}</div>
                 <div class="div-table-cell" style="width: 9%;">${respuesta[i].TelAlumno}</div>
                 <div class="div-table-cell" style="width: 11%;">${respuesta[i].FechaNac}</div>
-                <div class="div-table-cell" style="width: 9%;">${respuesta[i].CentroEstudio}</div>
+                <div class="div-table-cell" style="width: 10%;">${respuesta[i].CentroEstudio}</div>
                 <div class="div-table-cell" style="width: 6%;">
                     <button class="btn btn-success btn-raised btn-xs"><i class="zmdi zmdi-refresh"></i></button>
                 </div>
@@ -33,3 +33,24 @@ $.ajax({
     }
 });
 
+
+
+$("#search").on("keyup", function() {
+    var value = $(this).val();
+
+    $("div-table-row").each(function(index) {
+        if (index != 0) {
+
+            $row = $(this);
+
+            var id = $row.find("div-table-cell:first").text();
+
+            if (id.indexOf(value) != 0) {
+                $(this).hide();
+            }
+            else {
+                $(this).show();
+            }
+        }
+    });
+});
