@@ -5,7 +5,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="../matri-landingpage/css/main.css">
-	<link href="../matri-landingpage/img/unah10.png" rel="icon">
+    <link href="../matri-landingpage/img/unah10.png" rel="icon">
+    <script src="../matri-landingpage/js/jquery.min.js"></script>
 </head>
 <body>
 	<?php
@@ -37,30 +38,21 @@
 		<!-- Content page -->
 		<div class="container">
             <div class="page-header">
-              <h1 class="all-tittles">Sistema de matrícula <small>   Administración de Secciones</small></h1>
+              <h1 class="all-tittles">Sistema de matrícula <small>   Lista de Asignaturas</small></h1>
             </div>
         </div>
         
 		<div class="container-fluid"  style="margin: 50px 0;">
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-3">
-                    <img src="../matri-landingpage/assets/img/section.png" alt="user" class="img-responsive center-box" style="max-width: 110px;">
+                    
                 </div>
                 <div class="col-xs-12 col-sm-8 col-md-8 text-justify lead">
-                    En este apartado se podrá ver el listado de secciones por facultad 
+                Si desea registrar una nueva Asignatura ve a la seccion de "Registrar Educacion"
                 </div>
             </div>
 		</div>
-		<div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12 lead">
-                    <ol class="breadcrumb">
-                      <li><a  href="section.html" >Nueva sección</a></li>
-                      <li class="active">Listado de Secciones</li>
-                    </ol>
-                </div>
-            </div>
-        </div>
+	
 		<div class="container-fluid" style="margin: 0 0 50px 0;">
                 <form class="pull-right" style="width: 30% !important;" autocomplete="off">
                     <div class="group-material">
@@ -70,20 +62,14 @@
                         </button>
                     </div>
                 </form>
-                <h2 class="text-center all-tittles" style="margin: 25px 0; clear: both;">Facultades</h2>
-                <ul class="list-unstyled text-center list-catalog-container">
-                    <li class="list-catalog">Ingeniería</li>
-                    <li class="list-catalog">Ciencias</li>
-                    <li class="list-catalog">Ciencias Económicas</li>
-                    <!--<li class="list-catalog"></li>-->
-                </ul>
+                
             </div>
             <div class="container-fluid">
-                <h2 class="text-center all-tittles">Listado de Secciones</h2>
+                <h2 class="text-center all-tittles">Listado de Asignaturas</h2>
                 <div class="table-responsive">
                     <div class="div-table" style="margin:0 !important;">
-                        <div class="div-table-row div-table-row-list" style="background-color:#DFF0D8; font-weight:bold;">
-                                <div class="div-table-cell" style="width: 9%;">Código</div>
+                        <div class="div-table-row div-table-row-list" style="background-color:#f4ef55; font-weight:bold;">
+                                <div class="div-table-cell" style="width: 9%;">Sección</div>
                                 <div class="div-table-cell" style="width: 10%;">Hora inicio</div>
                                 <div class="div-table-cell" style="width: 10%;">Hora final</div>
                                 <div class="div-table-cell" style="width: 13%;">Días</div>
@@ -97,19 +83,8 @@
                     </div>
                 </div>
                 <div class="table-responsive">
-                    <div class="div-table" style="margin:0 !important;">
-                        <div class="div-table-row div-table-row-list">
-                            <div class="div-table-cell" style="width: 9%;">Código</div>
-                            <div class="div-table-cell" style="width: 10%;">Hora inicio</div>
-                            <div class="div-table-cell" style="width: 10%;">Hora final</div>
-                            <div class="div-table-cell" style="width: 13%;">Días</div>
-                            <div class="div-table-cell" style="width: 9%;">Cupos</div>
-                            <div class="div-table-cell" style="width: 9%;">Aula</div>
-                            <div class="div-table-cell" style="width: 15%;">Asignatura</div>
-                            <div class="div-table-cell" style="width: 15%;">Maestro</div>
-                            <div class="div-table-cell" style="width: 8%;">
-                                <button class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></button>
-                            </div>
+                    <div id="div-table-asignaturas" class="div-table" style="margin:0 !important;">
+                        
                         </div>
                     </div>
                 </div>
@@ -136,7 +111,9 @@
 	</section>
 
 	
-	<!--====== Scripts -->
+    <!--====== Scripts -->
+    <script src="js/controlador.js"></script>
+    <script src="js/registrosAdmin.js"></script>
 	<script src="../matri-landingpage/js/jquery-3.1.1.min.js"></script>
 	<script src="../matri-landingpage/js/sweetalert2.min.js"></script>
 	<script src="../matri-landingpage/js/bootstrap.min.js"></script>

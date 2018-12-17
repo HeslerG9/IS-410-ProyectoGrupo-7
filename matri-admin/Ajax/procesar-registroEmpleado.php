@@ -17,6 +17,7 @@ switch ($_GET["accion"]){
 
 
 echo $empleado->registrarEmpleado();
+echo $empleado->registrarCredencialEmpleado();
 break;
 }
 

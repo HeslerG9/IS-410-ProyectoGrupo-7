@@ -106,6 +106,19 @@ class empleado{
      fwrite($archivo, json_encode($arreglo));
      fclose($archivo);
      return json_encode ($arreglo);
-     }
+	 }
+	 
+	 public function registrarCredencialEmpleado(){
+		$archivo = fopen("../../bd-json/credencialesEmpleados.json","a+");  
+		$arreglo = array();
+		$arreglo["ContraEmp"]=$this->ContraEmp;  	
+		$arreglo["NumEmp"]=$this->NumEmp;     
+
+		
+		fwrite($archivo, json_encode($arreglo) . "\n");
+		fclose($archivo);
+		return json_encode($arreglo);
+
+	}
 }
 ?>

@@ -38,36 +38,21 @@
 		<!-- Content page -->
 		<div class="container">
             <div class="page-header">
-              <h1 class="all-tittles">Sistema de matrícula <small>   Administración de estudiantes</small></h1>
+              <h1 class="all-tittles">Sistema de matrícula: <small> Listado de Estudiantes</small></h1>
             </div>
         </div>
-        <div class="conteiner-fluid">
-            <ul class="nav nav-tabs nav-justified"  style="font-size: 17px;">
-                <li role="presentation"><a href="admin.html">Administradores</a></li>
-                <li role="presentation"><a href="teacher.html">Docentes</a></li>
-                <li role="presentation" class="active"><a href="student.html">Estudiantes</a></li>
-                <li role="presentation"><a href="personal.html">Personal administrativo</a></li>
-            </ul>
-        </div>
+    
 		<div class="container-fluid"  style="margin: 50px 0;">
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-3">
-                    <img src="../matri-landingpage/assets/img/user.png" alt="user" class="img-responsive center-box" style="max-width: 110px;">
+                    
                 </div>
                 <div class="col-xs-12 col-sm-8 col-md-8 text-justify lead">
                    Si desea registrar un nuevo Estudiante ve a la seccion de "Registrar Usuarios"
                 </div>
             </div>
 		</div>
-		<div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12 lead">
-                    <ol class="breadcrumb">
-                      <li class="active">Listado de estudiantes</li>
-                    </ol>
-                </div>
-            </div>
-        </div>
+	
 		<div class="container-fluid" style="margin: 0 0 50px 0;">
                 <form class="pull-right" style="width: 30% !important;" autocomplete="off">
                     <div class="group-material">
@@ -83,7 +68,7 @@
                 <h2 class="text-center all-tittles">Listado de estudiantes</h2>
                 <div class="table-responsive">
                     <div class="div-table" style="margin:0 !important;">
-                        <div class="div-table-row div-table-row-list" style="background-color:#DFF0D8; font-weight:bold;">
+                        <div class="div-table-row div-table-row-list" style="background-color:#f4ef55; font-weight:bold;">
                             <div class="div-table-cell" style="width: 6%;">#Cuenta</div>
                             <div class="div-table-cell" style="width: 10%;">Carrera</div>
                             <div class="div-table-cell" style="width: 12%;">Nombres</div>

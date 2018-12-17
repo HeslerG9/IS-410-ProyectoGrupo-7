@@ -5,7 +5,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="../matri-landingpage/css/main.css">
-	<link href="../matri-landingpage/img/unah10.png" rel="icon">
+    <link href="../matri-landingpage/img/unah10.png" rel="icon">
+    <script src="../matri-landingpage/js/jquery.min.js"></script>
 </head>
 <body>
 	<?php
@@ -37,37 +38,20 @@
 		<!-- Content page -->
 		<div class="container">
             <div class="page-header">
-              <h1 class="all-tittles">Sistema de matrícula <small>   Administración</small></h1>
+              <h1 class="all-tittles">Sistema de matrícula <small>   Lista de Administradores</small></h1>
             </div>
         </div>
-        <div class="conteiner-fluid">
-            <ul class="nav nav-tabs nav-justified"  style="font-size: 17px;">
-                <li role="presentation" class="active"><a href="admin.html">Administradores</a></li>
-                <li role="presentation"><a href="teacher.html">Docentes</a></li>
-                <li role="presentation" ><a href="student.html">Estudiantes</a></li>
-                <li role="presentation"><a href="personal.html">Personal administrativo</a></li>
-            </ul>
-        </div>
+       
 		<div class="container-fluid"  style="margin: 50px 0;">
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-3">
-                    <img src="../matri-landingpage/assets/img/user.png" alt="user" class="img-responsive center-box" style="max-width: 110px;">
                 </div>
                 <div class="col-xs-12 col-sm-8 col-md-8 text-justify lead">
-                    En esta sección se podrá ver el listado de administradores
+                Si desea registrar un nuevo Admin ve a la seccion de "Registrar Usuarios"
                 </div>
             </div>
 		</div>
-		<div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12 lead">
-                    <ol class="breadcrumb">
-                      <li><a href="student.html">Nuevo administrador</a></li>
-                      <li class="active">Listado de administradores</li>
-                    </ol>
-                </div>
-            </div>
-        </div>
+		
 		<div class="container-fluid" style="margin: 0 0 50px 0;">
                 <form class="pull-right" style="width: 30% !important;" autocomplete="off">
                     <div class="group-material">
@@ -82,33 +66,20 @@
                 <h2 class="text-center all-tittles">Listado de administradores</h2>
                 <div class="table-responsive">
                     <div class="div-table" style="margin:0 !important;">
-                        <div class="div-table-row div-table-row-list" style="background-color:#DFF0D8; font-weight:bold;">
-                            <div class="div-table-cell" style="width: 6%;">Usuario</div>
+                        <div class="div-table-row div-table-row-list" style="background-color:#f4ef55; font-weight:bold;">
+                            <div class="div-table-cell" style="width: 6%;">#Empleado</div>
                             <div class="div-table-cell" style="width: 12%;">#Identidad</div>
                             <div class="div-table-cell" style="width: 15%;">Nombres</div>
                             <div class="div-table-cell" style="width: 15%;">Apellidos</div>
                             <div class="div-table-cell" style="width: 12%;">Email</div>
-                            <div class="div-table-cell" style="width: 9%;">Telefono</div>
                             <div class="div-table-cell" style="width: 11%;">Fecha nacimiento</div>
-                            <div class="div-table-cell" style="width: 11%;">campus</div>
                             <div class="div-table-cell" style="width: 7%;">Eliminar</div>
                         </div>
                     </div>
                 </div>
                 <div class="table-responsive">
-                    <div class="div-table" style="margin:0 !important;">
-                        <div class="div-table-row div-table-row-list">
-								<div class="div-table-cell" style="width: 6%;">Usuario</div>
-								<div class="div-table-cell" style="width: 12%;">#Identidad</div>
-								<div class="div-table-cell" style="width: 15%;">Nombres</div>
-								<div class="div-table-cell" style="width: 15%;">Apellidos</div>
-								<div class="div-table-cell" style="width: 12%;">Email</div>
-								<div class="div-table-cell" style="width: 9%;">Telefono</div>
-								<div class="div-table-cell" style="width: 11%;">Fecha nacimiento</div>
-								<div class="div-table-cell" style="width: 11%;">campus</div>
-                            <div class="div-table-cell" style="width: 7%;">
-                                <button class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></button>
-                            </div>
+                    <div id="div-table-admins" class="div-table" style="margin:0 !important;">
+                       
                         </div>
                     </div>
                 </div>
@@ -135,7 +106,9 @@
 	</section>
 
 	
-	<!--====== Scripts -->
+    <!--====== Scripts -->
+    <script src="js/controlador.js"></script>
+    <script src="js/registrosAdmin.js"></script>
 	<script src="../matri-landingpage/js/jquery-3.1.1.min.js"></script>
 	<script src="../matri-landingpage/js/sweetalert2.min.js"></script>
 	<script src="../matri-landingpage/js/bootstrap.min.js"></script>

@@ -129,6 +129,19 @@ class docente{
         fclose ($archivo);
         return json_encode($arreglo);
 
-    }
+	}
+	
+	public function registrarCredencialDocente(){
+		$archivo = fopen("../../bd-json/credencialesDocentes.json","a+");  
+		$arreglo = array();
+		$arreglo["ContraDoc"]=$this->ContraDoc;  	
+		$arreglo["NumDoc"]=$this->NumDoc;     
+
+		
+		fwrite($archivo, json_encode($arreglo) . "\n");
+		fclose($archivo);
+		return json_encode($arreglo);
+
+	}
 }
 ?>

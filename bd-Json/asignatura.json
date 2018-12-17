@@ -2,8 +2,4 @@
 {"seccion":"0900","HoraInicio":"09","HoraFinal":"10","Dias":"LuMaMiJuVi","Cupos":"50","Aula":"301-F1","Asignatura":"Calculo-2","Maestro":"Carlos Cruz"}
 {"seccion":"1400","HoraInicio":"1400","HoraFinal":"1500","Dias":"LuMaMiJuVi","Cupos":"50","Aula":"105","Asignatura":"Ecuaciones ","Maestro":"David Zuniga"}
 {"seccion":"1500","HoraInicio":"1500","HoraFinal":"1600","Dias":"LuMaMiJuVi","Cupos":"60","Aula":"201-D1","Asignatura":"FS-200","Maestro":"BarraDios"}
-{"seccion":"1","HoraInicio":"1","HoraFinal":"1","Dias":"1","Cupos":"1","Aula":"1","Asignatura":"1","Maestro":"1"}
-{"seccion":"1","HoraInicio":"1","HoraFinal":"1","Dias":"1","Cupos":"1","Aula":"1","Asignatura":"1","Maestro":"1"}
-{"seccion":"","HoraInicio":"1","HoraFinal":"1","Dias":"1","Cupos":"1","Aula":"1","Asignatura":"1","Maestro":"1"}
-{"seccion":"9","HoraInicio":"9","HoraFinal":"9","Dias":"9","Cupos":"9","Aula":"9","Asignatura":"9","Maestro":"9"}
-{"seccion":"9","HoraInicio":"9","HoraFinal":"9","Dias":"9","Cupos":"9","Aula":"9","Asignatura":"9","Maestro":"9"}
+
