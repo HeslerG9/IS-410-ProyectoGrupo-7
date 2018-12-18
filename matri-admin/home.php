@@ -46,11 +46,17 @@
 				<h1 >Información </h1>
 				</div>
 			</div>
-			<h2 class="text-titles" > Bienvenido Administrador</h2>
+			<center><h2 class="text-titles" > Bienvenido Administrador</h2></center>
 			<br>
-			  <p>¡Califica, registra, decide! En esta página planifíca las asignaturas del correspondiente periodo, asi como las aulas en las que seran impatidas y la creación de nuevas carreras en el Alma Mater</p>
-			  <p>Ademas de registrar la cantidad de docentes laborando y la de alumnos en curso.</p>
-			  <img src="./img/todos-somos-puma.png" alt="">
+			 <center><p>¡Califica, registra, decide! En esta página planifíca las asignaturas del correspondiente periodo, <br> asi como las aulas en las que seran impatidas y la creación de nuevas carreras en el Alma Mater</p></center> 
+			  <center><p>Ademas de registrar la cantidad de docentes laborando y la de alumnos en curso.</p></center>
+
+
+			  <div >
+			  <center><img src="../matri-landingpage/img/pumaflag.jpg" id="foto" alt=""></center>
+
+			  </div>
+			  
 			<!--<article class="full-box tile">
 				<div class="full-box tile-title text-center text-titles text-uppercase">
 					Representative
