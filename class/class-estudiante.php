@@ -126,7 +126,7 @@ class estudiante{
 		$arreglo = array();
 		$arreglo["NombreAlumno"]=$this->NombreAlumno;
 		$arreglo["ApellidoAlumno"]=$this->ApellidoAlumno;
-	
+		$arreglo["ContraAlumno"]=$this->ContraAlumno;
 		$arreglo["CorreoAlumno"]=$this->CorreoAlumno;
 		$arreglo["TelAlumno"]=$this->TelAlumno;
 		$arreglo["FechaNac"]=$this->FechaNac; 

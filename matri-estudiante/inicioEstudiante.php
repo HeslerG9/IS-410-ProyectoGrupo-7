@@ -46,10 +46,10 @@
         <div class="row">
             <div  class="section-header text-center col-xs-12 col-sm-12 col-md-8 col-lg-12 col-xl-12">
                 <h1 class="primera">Servicios Al Estudiante</h1>
-                <h2><strong> Bienvenido:</strong> Hesler Fernando Gamez Perez</h2>
-                <h3> Tu cuenta de correo electrónico institucional es: <strong>hesler.gamez@unah.hn</strong> <br>
+                <h2><strong> Bienvenido:</strong> <?php echo $_SESSION["NombreAlumno"];?>&nbsp<?php echo $_SESSION["ApellidoAlumno"];?></h2>
+                <h3> Tu cuenta de correo electrónico institucional es: <strong><?php echo $_SESSION["CorreoAlumno"];?></strong> <br>
                 </h3>
-                <h4> Su número de identidad es <strong> 0801-1999-17771</strong> </h4> 
+                <h4> Su número de cuenta universitaria es <strong> <?php echo $_SESSION["NumCta"];?></strong> </h4> 
                 
                 <p class="lead"></p>
                 <hr>
@@ -103,80 +103,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- /single course -->
 
-    
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2">
-                    <div class="course">
-                        <a href="#" class="course-img">
-                            <img src="../matri-landingpage/img/solicitudes.jpg" alt="">
-                            <i class="course-link-icon fa fa-link"></i>
-                        </a>
-                        <a class="course-title" href="">Solicitudes </a>
-                        <div class="course-details">
-                            <span class="course-category">Solicitudes de cambio de centro, carrera, activación de pago para examen de reposición, historiales y certificaciones.</span>
-                            
-                        </div>
-                    </div>
-                </div>
-                <!-- /single course -->
-
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2">
-                    <div class="course">
-                        <a href="#" class="course-img">
-                            <img style="width:104%" src="../matri-landingpage/img/lab.jpg" alt="">
-                            <i class="course-link-icon fa fa-link"></i>
-                        </a>
-                        <a class="course-title" href="#">Matricula de Laboratorios</a>
-                        <div class="course-details">
-                            <span class="course-category">Realiza tu Matrícula de Laboratorio</span>
-                            
-                        </div>
-                    </div>
-                </div>
-                <!-- /single course -->
-
-            </div>
-            <!-- /row -->
-
-            <!-- row -->
-            <div class="row">
-
-                <!-- single course -->
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2">
-                    <div class="course">
-                        <a href="#" class="course-img">
-                            <img style="width:110%" src="../matri-landingpage/img/censo.jpg" alt="">
-                            <i class="course-link-icon fa fa-link"></i>
-                        </a>
-                        <a class="course-title" href="#">Censo de Matricula</a>
-                        <div class="course-details">
-                            <span class="course-category">Realiza tu censo de periodo académico</span>
-                           
-                        </div>
-                    </div>
-                </div>
-                <!-- /single course -->
-
-                <!-- single course -->
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2">
-                    <div class="course">
-                        <a href="#" class="course-img">
-                            <img style="width:118%" src="../matri-landingpage/img/clavejpg.jpg" alt="">
-                            <i class="course-link-icon fa fa-link"></i>
-                        </a>
-                        <a class="course-title" href="#">Cambio de Clave</a>
-                        <div class="course-details">
-                            <span class="course-category">Realiza tu cambio de clave de acesso al sistema</span>
-                            
-                        </div>
-                    </div>
-                </div>
-                <!-- /single course -->
-
-                <!-- single course -->
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2">
+                     <!-- single course -->
+                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2">
                     <div class="course">
                         <a href="#" class="course-img">
                             <img style="width:112%" src="../matri-landingpage/img/notas.jpg" alt="">
@@ -191,33 +120,31 @@
                 </div>
                 <!-- /single course -->
 
+                <!-- /single course -->
 
-                <!-- single course -->
+    
+                
+                <!-- /single course -->
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2">
                     <div class="course">
                         <a href="#" class="course-img">
                             <img src="../matri-landingpage/img/course01.jpg" alt="">
                             <i class="course-link-icon fa fa-link"></i>
                         </a>
-                        <a class="course-title" href="#">Programación académica</a>
+                        <a class="course-title" href="#">Forma03</a>
                         <div class="course-details">
-                            <span class="course-category">Podras ver la programación académica del siguiente periodo</span>
+                            <span class="course-category">Podras ver tus clases matriculadas</span>
                             
                         </div>
                     </div>
                 </div>
+
+
+                
                 <!-- /single course -->
 
             </div>
-            <!-- /row 
-            <div  class=" col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                <a href="#" class="img-evalu">
-                   <img style="width:20%" src="../matri-landingpage/img/evaluacionDocente.png" alt="">
-                   <h3 class="txt-evalu"><strong>Evaluación Docente</strong> <br>
-                   </h3>
-                   
-               </a>
-            -->
+            <!-- /row -->
                        
             <div class="col-6 col-xs-4 col-sm-6 col-md-4 col-lg-2 col-xl-2">
                 <div class="course">
@@ -262,6 +189,7 @@
 </footer>
 <!-- Footer -->
         
+<script src="../matri-landingpage/js/main.js"></script>
         <script type="text/javascript" src="../matri-landingpage/js/jquery.min.js"></script>
 		<script type="text/javascript" src="../matri-landingpage/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="../matri-landingpage/js/main.js"></script>

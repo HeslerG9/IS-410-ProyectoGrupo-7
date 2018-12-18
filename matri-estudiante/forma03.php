@@ -53,7 +53,9 @@
                     <img src="../matri-landingpage/assets/img/user01.png" alt="user" class="img-responsive center-box" style="max-width: 110px;">
                 </div>
                 <div id="forma03" class="col-xs-6 col-sm-2 col-md-4 text-justify lead">
-                       
+                <div><span>Nombre:</span> <small> <?php echo $_SESSION["NombreAlumno"];?>&nbsp<?php echo $_SESSION["ApellidoAlumno"];  ?></small></div>
+            <div><span>Cuenta:</span> <small><?php echo $_SESSION["NumCta"];  ?></small></div>   
+            <div><span>Carrera:</span> <small><?php echo $_SESSION["Carrera"];  ?></small></div>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-3 text-justify lead">
                     <div><span>Campus:</span> <small>Ciudad Universitaria</small></div>
