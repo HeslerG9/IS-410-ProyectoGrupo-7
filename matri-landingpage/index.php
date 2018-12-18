@@ -51,14 +51,8 @@
           <li class="menu-has-children"><a href="#">Iniciar Sesión</a>
             <ul>
               <li><a href="loginestudiantes.html">Estudiante</a></li>
-              <li class="menu-has-children"><a href="#">Empleado</a>
-                <ul>
-                  <li><a href="logindocentes.html">Docente</a></li>
-                  <li><a href="loginempleados.html">Jefe de departamento</a></li>
-                  <li><a href="loginempleados.html">Coordinador de carrera</a></li>
-                  <li><a href="loginempleados.html">Personal Administrativo</a></li>
-                </ul>
-              </li>
+              <li><a href="logindocentes.html">Docente</a></li>
+              <li><a href="#">Empleado</a></li>
               <li><a href="loginadmin.html">Administrador</a></li>
             </ul>
           </li>
@@ -175,11 +169,11 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                   </ol>
                   <div class="carousel-inner">
-                      <div class="carousel-item active" style="background-image: url(img/unah-1.jpg);background-repeat: no-repeat;background-size: cover;  background-position: center center; height: 80vh;">
+                      <div class="carousel-item active" style="background-image: url(img/is.jpg);background-repeat: no-repeat;background-size: cover;  background-position: center center; height: 80vh;">
                       </div>
-                      <div class="carousel-item"  style="background-image: url(img/registro-fondo.jpg);background-repeat: no-repeat;background-size: cover;  background-position: center center; height: 80vh;">
+                      <div class="carousel-item"  style="background-image: url(img/poo.jpg);background-repeat: no-repeat;background-size: cover;  background-position: center center; height: 80vh;">
                       </div>
-                      <div class="carousel-item"  style="background-image: url(img/unah-3.jpg);background-repeat: no-repeat;background-size: cover;  background-position: center center; height: 80vh;">
+                      <div class="carousel-item"  style="background-image: url(img/alumnos.jpg);background-repeat: no-repeat;background-size: cover;  background-position: center center; height: 80vh;">
                       </div>
                   </div>
                   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -537,39 +531,7 @@
     <!--==========================
       Facts Section
     ============================-->
-    <section id="facts">
-      <div class="container wow fadeIn">
-        <div class="section-header">
-          <h3 class="section-title">Datos</h3>
-          <p class="section-description">Algunos datos interesantes acerca de la UNAH</p>
-        </div>
-        <div class="row counters">
-
-  				<div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">90,000</span>
-            <p>Estudiantes</p>
-  				</div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">89</span>
-            <p>Carreras</p>
-  				</div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">08</span>
-            <p>Facultades</p>
-  				</div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">08</span>
-            <p>Centros regionales</p>
-  				</div>
-
-  			</div>
-
-      </div>
-    </section><!-- #facts -->
-
+   
     
 
     <!--==========================
@@ -601,7 +563,7 @@
                     <img class="d-block w-100" src="img/calendario-carreras-semestrales.PNG" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="img/calendario-matricula2018.jpg" alt="Third slide">
+                    <img class="d-block w-100" src="img/documentos.png" alt="Third slide">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
