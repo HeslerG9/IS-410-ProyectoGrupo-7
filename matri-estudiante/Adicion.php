@@ -47,7 +47,9 @@
               <h1 class="all-tittles">Adición de asignaturas <small>  </small></h1>
             </div>
         </div>
-       
+	   
+		
+		
 		
               
                     <!--<li class="list-catalog"></li>-->
@@ -125,7 +127,8 @@
                         
                     </div>
                 </div>
-            </div>
+			</div>
+
             <div class="table-responsive">
                 <div id="tabla-asignaturas" class="div-table" style="margin:0 !important;">
                    

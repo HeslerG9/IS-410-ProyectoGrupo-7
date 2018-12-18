@@ -50,7 +50,7 @@
 		<div class="container-fluid"  style="margin: 50px 0;">
             <div class="row">
                 <div class="col-xs-6 col-sm-2 col-md-3">
-                    <img src="../matri-landingpage/assets/img/user01.png" alt="user" class="img-responsive center-box" style="max-width: 110px;">
+                    <img src="../matri-landingpage/img/usuario8.jpg" alt="user" class="img-responsive center-box " style="max-width: 120px;border-radius">
                 </div>
                 <div id="forma03" class="col-xs-6 col-sm-2 col-md-4 text-justify lead">
                 <div><span>Nombre:</span> <small> <?php echo $_SESSION["NombreAlumno"];?>&nbsp<?php echo $_SESSION["ApellidoAlumno"];  ?></small></div>
@@ -83,20 +83,8 @@
                 </div>
             </div>
             <div class="table-responsive">
-                <div class="div-table" style="margin:0 !important;">
-                    <div class="div-table-row div-table-row-list">
-                        <div class="div-table-cell" style="width: 6%;">IS115</div>
-                        <div class="div-table-cell" style="width: 14%;">Seminario de Investigacion</div>
-                        <div class="div-table-cell" style="width: 6%;">1801</div>
-                        <div class="div-table-cell" style="width: 10%;">1800</div>
-                        <div class="div-table-cell" style="width: 10%;">1900</div>
-                        <div class="div-table-cell" style="width: 10%;">LuMaMiJu</div>
-                        <div class="div-table-cell" style="width: 5%;">B2</div>
-                        <div class="div-table-cell" style="width: 10%;">306</div>
-                        <div class="div-table-cell" style="width: 6%;">4</div>
-                        <div class="div-table-cell" style="width: 4%;">1</div>
-                        
-                    </div>
+                <div id="tabla-forma" class="div-table" style="margin:0 !important;">
+                    
                 </div>
             </div>
         </div>

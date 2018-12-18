@@ -1,3 +1,8 @@
+<?php 
+    session_start();  
+    if (!isset($_SESSION["Carrera"]))
+		header("Location: no-autorizado.html");//Redireccion con PHP
+		?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,6 +11,8 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="../matri-landingpage/css/main.css">
 	<link href="../matri-landingpage/img/unah10.png" rel="icon">
+	<script src="../matri-landingpage/js/jquery.min.js"></script>
+
 </head>
 <body>
 <!-- Dashbar incluido con la funcion de PHP -->
@@ -65,21 +72,9 @@ include("sidebar.html")
                 </div>
             </div>
             <div class="table-responsive">
-                <div class="div-table" style="margin:0 !important;">
-                    <div class="div-table-row div-table-row-list">
-                        <div class="div-table-cell" style="width: 6%;">IS115</div>
-                        <div class="div-table-cell" style="width: 14%;">Seminario de Investigacion</div>
-                        <div class="div-table-cell" style="width: 6%;">1801</div>
-                        <div class="div-table-cell" style="width: 7%;">1800</div>
-                        <div class="div-table-cell" style="width: 7%;">1900</div>
-                        <div class="div-table-cell" style="width: 10%;">LuMaMiJu</div>
-                        <div class="div-table-cell" style="width: 5%;">B2</div>
-                        <div class="div-table-cell" style="width: 10%;">306</div>
-                        <div class="div-table-cell" style="width: 6%;">4</div>
-						<div class="div-table-cell" style="width: 4%;">1</div>
-						<div class="div-table-cell" style="width: 8%;">
-								<button class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></button>
-                        </div>
+                <div id="tabla-cancelar" class="div-table" style="margin:0 !important;">
+              
+                      
                         
                     </div>
                 </div>
@@ -88,6 +83,8 @@ include("sidebar.html")
     </div>
 </div>
 	
+
+ 
 	<section class="full-box Notifications-area">
 		<div class="full-box Notifications-bg btn-Notifications-area"></div>
 		<div class="full-box Notifications-body">
@@ -101,6 +98,7 @@ include("sidebar.html")
 
 	
 	<!--====== Scripts -->
+	<script src="js/controlador.js"></script>
 	<script src="../matri-landingpage/js/jquery-3.1.1.min.js"></script>
 	<script src="../matri-landingpage/js/sweetalert2.min.js"></script>
 	<script src="../matri-landingpage/js/bootstrap.min.js"></script>

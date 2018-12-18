@@ -144,7 +144,7 @@
             <div class="icon-box wow fadeInUp">
               <div class="icon"><i class="fa fa-shopping-bag"></i></div>
               <h4 class="title"><a href="">Pagos</a></h4>
-              <p class="description">30 DE JULIO AL 19 DE SEPTIEMBRE INICIA PAGO EN BANCOS DE MATRICULA II PAC 2018</p>
+              <p class="description">30 DE NOVIEMBRE AL 19 DE FEBRERO PAGO EN BANCOS DE MATRICULA I PAC 2019</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
@@ -169,9 +169,9 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                   </ol>
                   <div class="carousel-inner">
-                      <div class="carousel-item active" style="background-image: url(img/is.jpg);background-repeat: no-repeat;background-size: cover;  background-position: center center; height: 80vh;">
+                      <div class="carousel-item active" style="background-image: url(img/registro-fondo.jpg);background-repeat: no-repeat;background-size: cover;  background-position: center center; height: 80vh;">
                       </div>
-                      <div class="carousel-item"  style="background-image: url(img/registro-fondo.jpg);background-repeat: no-repeat;background-size: cover;  background-position: center center; height: 80vh;">
+                      <div class="carousel-item"  style="background-image: url(img/vladi.png);background-repeat: no-repeat;background-size: cover;  background-position: center center; height: 80vh;">
                       </div>
                       <div class="carousel-item"  style="background-image: url(img/alumnos.jpg);background-repeat: no-repeat;background-size: cover;  background-position: center center; height: 80vh;">
                       </div>
