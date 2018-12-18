@@ -52,7 +52,7 @@
             <ul>
               <li><a href="loginestudiantes.html">Estudiante</a></li>
               <li><a href="logindocentes.html">Docente</a></li>
-              <li><a href="#">Empleado</a></li>
+              <li><a href="loginempleados.html">Empleado</a></li>
               <li><a href="loginadmin.html">Administrador</a></li>
             </ul>
           </li>
@@ -150,13 +150,13 @@
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-photo"></i></div>
               <h4 class="title"><a href="">Censo de matrícula</a></h4>
-              <p class="description">DEL 30 DE AGOSTO AL 5 DE SEPTIEMBRE CENSO DE MATRICULA CORRESPONDIENTE AL II PAC 2018</p>
+              <p class="description">DEL 7 al 10 DE DICIEMBRE CENSO DE MATRICULA CORRESPONDIENTE AL I PAC 2019</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
               <div class="icon"><i class="fa fa-bar-chart"></i></div>
               <h4 class="title"><a href="">Laboratorios</a></h4>
-              <p class="description">PAGO DE LABORATORIO CORRESPONDIENTE AL I PAC 2018 HABILITADO DESDE EL 20 HASTA 26 DE SEPTIEMBRE. Banco LAFISE, DAVIVIENDA, BANPAIS, FICOHSA Y ATLANTIDA a nivel nacional. Las agencias de Banco LAFISE en CIUDAD UNIVERSITARIA y BOULEVARD SUYAPA, NO estan habilitados para realizar pago de laboratorio </p>
+              <p class="description">PAGO DE LABORATORIO CORRESPONDIENTE AL III PAC 2018 HABILITADO DESDE EL 20 HASTA 26 DE SEPTIEMBRE. Banco LAFISE, DAVIVIENDA, BANPAIS, FICOHSA Y ATLANTIDA a nivel nacional. Las agencias de Banco LAFISE en CIUDAD UNIVERSITARIA y BOULEVARD SUYAPA, NO estan habilitados para realizar pago de laboratorio </p>
             </div>
 
           </div>
@@ -171,7 +171,7 @@
                   <div class="carousel-inner">
                       <div class="carousel-item active" style="background-image: url(img/is.jpg);background-repeat: no-repeat;background-size: cover;  background-position: center center; height: 80vh;">
                       </div>
-                      <div class="carousel-item"  style="background-image: url(img/poo.jpg);background-repeat: no-repeat;background-size: cover;  background-position: center center; height: 80vh;">
+                      <div class="carousel-item"  style="background-image: url(img/registro-fondo.jpg);background-repeat: no-repeat;background-size: cover;  background-position: center center; height: 80vh;">
                       </div>
                       <div class="carousel-item"  style="background-image: url(img/alumnos.jpg);background-repeat: no-repeat;background-size: cover;  background-position: center center; height: 80vh;">
                       </div>
