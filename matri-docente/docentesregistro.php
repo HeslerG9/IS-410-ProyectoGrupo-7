@@ -138,55 +138,31 @@
 			</ul>
 		</nav>
 		<!-- Content page -->
-		<div class="container-fluid">
-				<div class="page-header">
-				<h1 class="text-titles">Servicios al Docente<small></small></h1>
-				</div>
-			</div>
+		
+            <!-- Inicio prueba -->
+            <br>
+            <br>
+            <center> <h1><b>Registro de calificaciones </b> </h1></center>
+            <br>
+            
 
-            <!-- inicio prueba -->
-            <div id="courses" class="section" style="padding-top:50px">
-
-    <!-- container -->
-    <div class="container" style="padding-bottom:300 px !important">
-
-        <!-- row -->
-        <div class="row">
-            <div  class="section-header text-center col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-               <!--  <h1 class="primera">Servicios Al Docente</h1> -->
-                <h2><strong> Bienvenido:</strong> Erick Vladimir Perez Lopez</h2>
-                <h2><strong> Docente de la Carrera:</strong> Ingenieria en Sistemas</h2>
-                <h3> Tu cuenta de correo electrónico institucional es: <strong>vladimir.erick@unah.hn</strong> <br>
-                </h3>
-                <h4> Su número de identidad es <strong> 0801-1999-17771</strong> </h4> 
-                
-                <p class="lead"></p> 
-
-
-                
-            </div>
-        
-      <div>
-          <br>
-        <img src="../matri-landingpage/img/avatar.png" class= "col-md-4 col-lg-4 col-xl-4 hidden-xs
-        hidden-sm"  style="width:18%;border-radius:10%;border-color:blue" alt="...">
-    </div>
-    </div>
-<br>
-        <div class="list-group" >
-            <button type="button" class="list-group-item list-group-item-action active">
-              Asignaturas Asignadas
-            </button>
-            <button type="button" class="list-group-item list-group-item-action">Programación Orientada a Objetos</button>
-            <button type="button" class="list-group-item list-group-item-action">Programación 2</button>
-            <button type="button" class="list-group-item list-group-item-action">Sistemas Expertos</button>
-            <button type="button" class="list-group-item list-group-item-action">Bases de Datos 1 </button>
-          </div>
-
-        </div>
-    </div>
-
-            <!-- fin prueba -->
+			<div class="modal-body">
+			<input type="text" class="material-control" placeholder="Alumno" id="nombreAlumno" required="required" maxlength="50" data-toggle="tooltip" data-placement="top" title="Id carrera">
+      <br>
+      <input type="text" class="material-control" placeholder="Numero de Cuenta" id="numeroAlumno" required="required" maxlength="50" data-toggle="tooltip" data-placement="top" title="Id carrera">
+      <br>
+      <input type="text" class="material-control" placeholder="Asignatura" id="asignaturaAlumno" required="required"  maxlength="50" data-toggle="tooltip" data-placement="top" title="Carrera">
+      <br>
+      <input type="number" min="0" max="100" class="material-control" placeholder="Calificacion" id="caliAlumno" required="required" maxlength="3" data-toggle="tooltip" data-placement="top" title="codigo alterno">
+			
+      </div>
+       <br>
+      <div class="modal-footer">
+			  <center><button type="button" class="btn btn-default" id="btn-registrarCalificaciones" >Registrar Calificación</button>
+        </center>		
+	</div>
+            
+            <!-- Fin prueba -->
 
 		  <!--  <div class="full-box text-center" style="padding: 30px 10px;">
 			<article class="full-box tile">
