@@ -770,3 +770,8 @@ input.material-control:focus ~ .bar:before, input.material-control:focus ~ .bar:
 		padding-left: 0;
 	}
 }
+
+.div #foto{
+	margin-left:auto;
+	margin-right: auto; 
+}
