@@ -1,8 +1,3 @@
-<?php 
-    session_start();  
-    if (!isset($_SESSION["Carrera"]))
-        header("Location: no-autorizado.html");//Redireccion con PHP
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -11,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="../matri-landingpage/css/main.css">
 	<link href="../matri-landingpage/img/unah10.png" rel="icon">
-	<script src="../matri-landingpage/js/jquery.min.js"></script>
 </head>
 <body>
 	<!-- Dashbar incluido con la funcion de PHP -->
@@ -52,8 +46,10 @@
                 <div class="col-xs-6 col-sm-2 col-md-3">
                     <img src="../matri-landingpage/assets/img/user01.png" alt="user" class="img-responsive center-box" style="max-width: 110px;">
                 </div>
-                <div id="forma03" class="col-xs-6 col-sm-2 col-md-4 text-justify lead">
-                       
+                <div class="col-xs-6 col-sm-2 col-md-4 text-justify lead">
+                        <div><span>Nombre:</span> <small>Diana Jakeline Banegas Salgado</small></div>
+						<div><span>Cuenta:</span> <small>20161008989</small></div>   
+						<div><span>Carrera:</span> <small>Ingeniería en sistemas</small></div>   
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-3 text-justify lead">
                     <div><span>Campus:</span> <small>Ciudad Universitaria</small></div>
@@ -114,7 +110,6 @@
 
 	
 	<!--====== Scripts -->
-	<script src="js/controlador.js"></script>
 	<script src="../matri-landingpage/js/jquery-3.1.1.min.js"></script>
 	<script src="../matri-landingpage/js/sweetalert2.min.js"></script>
 	<script src="../matri-landingpage/js/bootstrap.min.js"></script>

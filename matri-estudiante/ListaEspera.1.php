@@ -1,8 +1,3 @@
-<?php 
-    session_start();  
-    if (!isset($_SESSION["Carrera"]))
-        header("Location: no-autorizado.html");//Redireccion con PHP
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -11,13 +6,13 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="../matri-landingpage/css/main.css">
 	<link href="../matri-landingpage/img/unah10.png" rel="icon">
-	<script src="../matri-landingpage/js/jquery.min.js"></script>
 </head>
 <body>
 	<!-- Dashbar incluido con la funcion de PHP -->
 	<?php
 	include("sidebar.html")
     ?>
+
 	<!-- Content page-->
 	<section class="full-box dashboard-contentPage">
 		<!-- NavBar -->
@@ -43,39 +38,23 @@
 		<!-- Content page -->
 		<div class="container">
             <div class="page-header">
-              <h1 class="all-tittles">Forma 03 <small>  </small></h1>
+              <h1 class="all-tittles">Asignaturas en lista de espera <small>  </small></h1>
             </div>
         </div>
         
-		<div class="container-fluid"  style="margin: 50px 0;">
-            <div class="row">
-                <div class="col-xs-6 col-sm-2 col-md-3">
-                    <img src="../matri-landingpage/assets/img/user01.png" alt="user" class="img-responsive center-box" style="max-width: 110px;">
-                </div>
-                <div id="forma03" class="col-xs-6 col-sm-2 col-md-4 text-justify lead">
-                       
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3 text-justify lead">
-                    <div><span>Campus:</span> <small>Ciudad Universitaria</small></div>
-                        <div><span>Año:</span> <small>2018</small></div> 
-                </div>
-            </div>
-		</div>
 		<div class="container-fluid">
-            <h2 class="text-center all-tittles">Asignaturas matrículadas</h2>
+            <h2 class="text-center all-tittles">Asignaturas en espera</h2>
             <div class="table-responsive">
                 <div class="div-table" style="margin:0 !important;">
                     <div class="div-table-row div-table-row-list" style="background-color:#DFF0D8; font-weight:bold;">
                         <div class="div-table-cell" style="width: 6%;">Cod.</div>
                         <div class="div-table-cell" style="width: 14%;">Asignatura</div>
-                        <div class="div-table-cell" style="width: 6%;">Sección</div>
+                        <div class="div-table-cell" style="width: 8%;">Sección</div>
                         <div class="div-table-cell" style="width: 10%;">Hora inicial</div>
                         <div class="div-table-cell" style="width: 10%;">Hora final</div>
                         <div class="div-table-cell" style="width: 10%;">Dias</div>
-                        <div class="div-table-cell" style="width: 5%;">Edificio</div>
-                        <div class="div-table-cell" style="width: 10%;">Aula</div>
                         <div class="div-table-cell" style="width: 6%;">UV</div>
-                        <div class="div-table-cell" style="width: 4%;">Periodo</div>
+                        <div class="div-table-cell" style="width: 6%;">Periodo</div>
                         
                     </div>
                 </div>
@@ -85,14 +64,12 @@
                     <div class="div-table-row div-table-row-list">
                         <div class="div-table-cell" style="width: 6%;">IS115</div>
                         <div class="div-table-cell" style="width: 14%;">Seminario de Investigacion</div>
-                        <div class="div-table-cell" style="width: 6%;">1801</div>
+                        <div class="div-table-cell" style="width: 8%;">1801</div>
                         <div class="div-table-cell" style="width: 10%;">1800</div>
                         <div class="div-table-cell" style="width: 10%;">1900</div>
                         <div class="div-table-cell" style="width: 10%;">LuMaMiJu</div>
-                        <div class="div-table-cell" style="width: 5%;">B2</div>
-                        <div class="div-table-cell" style="width: 10%;">306</div>
                         <div class="div-table-cell" style="width: 6%;">4</div>
-                        <div class="div-table-cell" style="width: 4%;">1</div>
+                        <div class="div-table-cell" style="width: 6%;">1</div>
                         
                     </div>
                 </div>
@@ -114,7 +91,6 @@
 
 	
 	<!--====== Scripts -->
-	<script src="js/controlador.js"></script>
 	<script src="../matri-landingpage/js/jquery-3.1.1.min.js"></script>
 	<script src="../matri-landingpage/js/sweetalert2.min.js"></script>
 	<script src="../matri-landingpage/js/bootstrap.min.js"></script>

@@ -1,8 +1,3 @@
-<?php 
-    session_start();  
-    if (!isset($_SESSION["Carrera"]))
-        header("Location: no-autorizado.html");//Redireccion con PHP
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -11,14 +6,13 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="../matri-landingpage/css/main.css">
 	<link href="../matri-landingpage/img/unah10.png" rel="icon">
-	<script src="../matri-landingpage/js/jquery.min.js"></script>
 </head>
 <body>
 	<!-- Dashbar incluido con la funcion de PHP -->
 	<?php
 	include("sidebar.html")
     ?>
-	<!-- Content page-->
+    	<!-- Content page-->
 	<section class="full-box dashboard-contentPage">
 		<!-- NavBar -->
 		<nav class="full-box dashboard-Navbar">
@@ -40,42 +34,66 @@
 				
 			</ul>
 		</nav>
+		
 		<!-- Content page -->
 		<div class="container">
             <div class="page-header">
-              <h1 class="all-tittles">Forma 03 <small>  </small></h1>
+              <h1 class="all-tittles">Historial Académico <small>  </small></h1>
             </div>
         </div>
-        
 		<div class="container-fluid"  style="margin: 50px 0;">
             <div class="row">
                 <div class="col-xs-6 col-sm-2 col-md-3">
                     <img src="../matri-landingpage/assets/img/user01.png" alt="user" class="img-responsive center-box" style="max-width: 110px;">
                 </div>
-                <div id="forma03" class="col-xs-6 col-sm-2 col-md-4 text-justify lead">
-                       
+                <div class="col-xs-6 col-sm-2 col-md-4 text-justify lead">
+                        <div><span>Nombre:</span> <small>Hesler Gamez</small></div>
+						<div><span>Cuenta:</span> <small>20161011599</small></div>  
+						<div><span>Carrera:</span> <small>Ingeniería en sistemas</small></div>    
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-3 text-justify lead">
                     <div><span>Campus:</span> <small>Ciudad Universitaria</small></div>
-                        <div><span>Año:</span> <small>2018</small></div> 
+					<div><span>Indice global:</span> <small>80</small></div>
+					<div><span>Indice de periodo:</span> <small>85</small></div>
                 </div>
             </div>
 		</div>
+		<div class="container-fluid" style="margin: 0 0 50px 0;">
+                <form class="pull-right" style="width: 30% !important;" autocomplete="off">
+                    <div class="group-material">
+                        <input type="search" style="display: inline-block !important; width: 70%;" class="material-control tooltips-general" placeholder="Buscar asignatura" required="" pattern="[a-zA-ZáéíóúÁÉÍÓÚ ]{1,50}" maxlength="50" data-toggle="tooltip" data-placement="top" title="Escribe los nombres, sin los apellidos">
+                        <button class="btn" style="margin: 0; height: 43px; background-color: transparent !important;">
+                            <i class="zmdi zmdi-search" style="font-size: 25px;"></i>
+                        </button>
+                    </div>
+				</form>
+				<!--
+                <h2 class="text-center all-tittles" style="margin: 25px 0; clear: both;">Se</h2>
+                <ul class="list-unstyled text-center list-catalog-container">
+                    <li class="list-catalog">Indice Académico</li>
+                    <li class="list-catalog">Seguimiento calificaciones</li>
+                    <li class="list-catalog">Indice de repitencia</li>
+                    <li class="list-catalog"></li>
+				</ul>
+				-->
+            </div>
 		<div class="container-fluid">
-            <h2 class="text-center all-tittles">Asignaturas matrículadas</h2>
+            <h2 class="text-center all-tittles">Información de Asignaturas</h2>
             <div class="table-responsive">
                 <div class="div-table" style="margin:0 !important;">
                     <div class="div-table-row div-table-row-list" style="background-color:#DFF0D8; font-weight:bold;">
                         <div class="div-table-cell" style="width: 6%;">Cod.</div>
-                        <div class="div-table-cell" style="width: 14%;">Asignatura</div>
-                        <div class="div-table-cell" style="width: 6%;">Sección</div>
-                        <div class="div-table-cell" style="width: 10%;">Hora inicial</div>
-                        <div class="div-table-cell" style="width: 10%;">Hora final</div>
-                        <div class="div-table-cell" style="width: 10%;">Dias</div>
-                        <div class="div-table-cell" style="width: 5%;">Edificio</div>
-                        <div class="div-table-cell" style="width: 10%;">Aula</div>
-                        <div class="div-table-cell" style="width: 6%;">UV</div>
-                        <div class="div-table-cell" style="width: 4%;">Periodo</div>
+						<div class="div-table-cell" style="width: 20%;">Asignatura</div>
+						<div class="div-table-cell" style="width: 6%;">UV</div>
+						<div class="div-table-cell" style="width: 10%;">Sección</div>
+						<div class="div-table-cell" style="width: 8%;">Año</div>
+						<div class="div-table-cell" style="width: 6%;">Periodo</div>
+                        <div class="div-table-cell" style="width: 10%;">Calificación</div>
+                        <div class="div-table-cell" style="width: 15%;">Observación</div>
+                        
+                        
+                        
+                        
                         
                     </div>
                 </div>
@@ -84,21 +102,29 @@
                 <div class="div-table" style="margin:0 !important;">
                     <div class="div-table-row div-table-row-list">
                         <div class="div-table-cell" style="width: 6%;">IS115</div>
-                        <div class="div-table-cell" style="width: 14%;">Seminario de Investigacion</div>
-                        <div class="div-table-cell" style="width: 6%;">1801</div>
-                        <div class="div-table-cell" style="width: 10%;">1800</div>
-                        <div class="div-table-cell" style="width: 10%;">1900</div>
-                        <div class="div-table-cell" style="width: 10%;">LuMaMiJu</div>
-                        <div class="div-table-cell" style="width: 5%;">B2</div>
-                        <div class="div-table-cell" style="width: 10%;">306</div>
+                        <div class="div-table-cell" style="width: 20%;">Seminario de Investigacion</div>
                         <div class="div-table-cell" style="width: 6%;">4</div>
-                        <div class="div-table-cell" style="width: 4%;">1</div>
+                        <div class="div-table-cell" style="width: 10%;">1801</div>
+                        <div class="div-table-cell" style="width: 8%;">2018</div>
+                        <div class="div-table-cell" style="width: 6%;">1</div>
+                        <div class="div-table-cell" style="width: 10%;">80</div>
+                        <div class="div-table-cell" style="width: 15%;">Apr</div>
                         
                     </div>
                 </div>
             </div>
+            
         </div>
-    </div>
+	</div>
+	<ul class="pagination pagination-sm">
+			<li class="disabled"><a href="#!">«</a></li>
+			<li class="active"><a href="#!">1</a></li>
+			<li><a href="#!">2</a></li>
+			<li><a href="#!">3</a></li>
+			<li><a href="#!">4</a></li>
+			<li><a href="#!">5</a></li>
+			<li><a href="#!">»</a></li>
+	  </ul>
             </div>
 	
 	<section class="full-box Notifications-area">
@@ -114,7 +140,6 @@
 
 	
 	<!--====== Scripts -->
-	<script src="js/controlador.js"></script>
 	<script src="../matri-landingpage/js/jquery-3.1.1.min.js"></script>
 	<script src="../matri-landingpage/js/sweetalert2.min.js"></script>
 	<script src="../matri-landingpage/js/bootstrap.min.js"></script>
