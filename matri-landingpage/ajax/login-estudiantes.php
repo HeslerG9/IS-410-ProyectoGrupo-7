@@ -10,7 +10,7 @@
             $registro["estatus"] = "1"; 
             $registro["mensaje"] = "Acceso autorizado";
             $_SESSION["NumCta"] = $_POST["NumCta"];
-            $_SESSION["NumCta"] = $registro["NumCta"];
+            $_SESSION["Carrera"] = $registro["Carrera"];
 
             echo json_encode($registro);
             exit;

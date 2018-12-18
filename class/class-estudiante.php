@@ -144,7 +144,8 @@ class estudiante{
 		$archivo = fopen("../../bd-json/credencialesEstudiantes.json","a+");  
 		$arreglo = array();
 		$arreglo["ContraAlumno"]=$this->ContraAlumno;  	
-		$arreglo["NumCta"]=$this->NumCta;     
+		$arreglo["NumCta"]=$this->NumCta;
+		$arreglo["Carrera"]=$this->Carrera;       
 
 		
 		fwrite($archivo, json_encode($arreglo) . "\n");

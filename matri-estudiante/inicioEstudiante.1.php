@@ -46,7 +46,7 @@
         <div class="row">
             <div  class="section-header text-center col-xs-12 col-sm-12 col-md-8 col-lg-12 col-xl-12">
                 <h1 class="primera">Servicios Al Estudiante</h1>
-                <h2><strong> Bienvenido:</strong> Hesler Fernando Gamez Perez</h2>
+                <h2><strong> Bienvenido:</strong> Estudiantes Ingenieria Electrica</h2>
                 <h3> Tu cuenta de correo electrónico institucional es: <strong>hesler.gamez@unah.hn</strong> <br>
                 </h3>
                 <h4> Su número de identidad es <strong> 0801-1999-17771</strong> </h4> 
@@ -79,7 +79,7 @@
                             <img src="../matri-landingpage/img/estadistica.jpg" alt="" style="width:90%">
                             <i class="course-link-icon fa fa-link"></i>
                         </a>
-                        <a class="course-title" href="historial.php">Historial Academico</a>
+                        <a class="course-title" href="historial.1.php">Historial Academico</a>
                         <div class="course-details">
                             <span class="course-category">Puedes ver tu historial académico y estadisticas de tus asignaturas.</span>
                             
@@ -96,7 +96,7 @@
                             <img src="../matri-landingpage/img/course04.jpg" alt="">
                             <i class="course-link-icon fa fa-link"></i>
                         </a>
-                        <a class="course-title" href="Adicion.php">Matricula</a>
+                        <a class="course-title" href="Adicion.1.php">Matricula</a>
                         <div class="course-details">
                             <span class="course-category">Realiza tu Matrícula del periodo</span>
                             

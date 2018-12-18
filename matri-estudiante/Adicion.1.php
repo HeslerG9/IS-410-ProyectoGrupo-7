@@ -1,8 +1,3 @@
-<?php 
-    session_start();  
-    if (!isset($_SESSION["Carrera"]))
-        header("Location: no-autorizado.html");//Redireccion con PHP
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -61,7 +56,7 @@
                         <div class="div-table-cell" style="width: 30%;">Departamento</div>
                         <div class="div-table-cell" style="width: 30%;">Asignatura</div>
 						<div class="div-table-cell" style="width: 30%;">Secciones</div>
-						<div class="div-table-cell" style="width: 15%;">Agregar</div>
+						<div class="div-table-cell" style="width: 8%;">Agregar</div>
                     </div>
                 </div>
             </div>
@@ -70,7 +65,7 @@
                     <div class="div-table-row div-table-row-list">
                         <div class="div-table-cell" style="width: 30%;">
 								<select id="div-table-carrera" class="material-control tooltips-general" data-toggle="tooltip" required="required" data-placement="top" title="Elige un departamento">
-									<option   disabled="" selected="">Selecciona un departamento</option>
+									<option value="" disabled="" selected="">Selecciona un departamento</option>
 									
 									
 								</select>
@@ -78,54 +73,27 @@
                         
                         <div class="div-table-cell" style="width: 30%;">
 							<select  id="div-table-asignatura" class="material-control tooltips-general" data-toggle="tooltip" required="required" data-placement="top" title="Elige una clase">
-								<option   disabled="" selected="">Selecciona una clase</option>
+								<option value="" disabled="" selected="">Selecciona una clase</option>
 								
 								
 							</select>
 						</div>
 						<div class="div-table-cell" style="width: 15%;">
 							<select  id="div-table-seccion" class="material-control tooltips-general" data-toggle="tooltip" required="required" data-placement="top" title="Elige una clase">
-								<option   disabled="" selected="">Selecciona una seccion</option>
+								<option value="" disabled="" selected="">Selecciona una seccion</option>
 								
 								
 							</select>
 						</div>
-						<div class="div-table-cell" style="width: 6%;">
-						<input type="submit" id="btn-matricularClase" value="Matricular" class="btn float-right login_btn">
-
-<!-- 							<button class="btn "><i class="zmdi zmdi-add"></i>Matricular</button>
- -->						</div>    
+						<div class="div-table-cell" style="width: 8%;">
+							<button class="btn btn-danger"><i class="zmdi zmdi-delete"></i></button>
+						</div>    
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<br>
-<br>
-<br>
-<br>
-
-<div class="container-fluid">
-            <h2 class="text-center all-tittles">Asignaturas matrículadas</h2>
-            <div class="table-responsive">
-                <div class="div-table" style="margin:0 !important;">
-                    <div class="div-table-row div-table-row-list" style="background-color:#f4ef55; font-weight:bold;">
-                        <div class="div-table-cell" style="width: 6%;">Cod.</div>
-                        <div class="div-table-cell" style="width: 14%;">Asignatura</div>
-                        <div class="div-table-cell" style="width: 6%;">Sección</div>
-                        <div class="div-table-cell" style="width: 10%;">Hora inicial</div>
-                        <div class="div-table-cell" style="width: 10%;">Hora final</div>
-                        <div class="div-table-cell" style="width: 10%;">Dias</div>
-                        <div class="div-table-cell" style="width: 5%;">Edificio</div>
-                        <div class="div-table-cell" style="width: 10%;">Aula</div>
-                        <div class="div-table-cell" style="width: 6%;">UV</div>
-                        <div class="div-table-cell" style="width: 4%;">Periodo</div>
-                        
-                    </div>
-                </div>
-            </div>
 	
 	<section class="full-box Notifications-area">
 		<div class="full-box Notifications-bg btn-Notifications-area"></div>
