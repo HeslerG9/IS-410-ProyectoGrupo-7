@@ -88,22 +88,34 @@ $.ajax({
     }
 });
 
-$e(function(){
-	//Esta funcion se ejecuta cada vez que el usuario selecciona o cambia un elemento de la lista.
-	console.log("Usuario seleccionado: " + $("#forma02").val());
-	$.ajax({
-		url:"ajax/EstudianteActual.php?opcion=2&usuario="+$("#forma03").val(),
-		method:"GET",
-		dataType:"json",
-		success:function(respuesta){
-			console.log(respuesta);
-		
-			$("#forma03").html(respuesta);
-	
 
-		},
-		error:function(error){
-			console.log(error);
-		}
-	});
+$.ajax({
+    url:"ajax/adicionAsignaturas.php?opcion=1",
+    method:"GET",
+    dataType:"json",
+    success:function(respuesta){
+        console.log(respuesta);
+        for (var i=0;i<respuesta.length;i++){
+            $("#tabla-asignaturas").append(
+                 `<div class="div-table-row div-table-row-list">
+                 <div class="div-table-cell" style="width: 6%;">${respuesta[i].cod}</div>
+                 <div class="div-table-cell" style="width: 14%;">${respuesta[i].Asignatura}</div>
+                 <div class="div-table-cell" style="width: 8%;">${respuesta[i].seccion1}</div>
+                 <div class="div-table-cell" style="width: 12%;">${respuesta[i].HoraInicial}</div>
+                 <div class="div-table-cell" style="width: 8%;">${respuesta[i].HoraFinal}</div>
+                 <div class="div-table-cell" style="width: 13%;">${respuesta[i].Dias}</div>
+                 <div class="div-table-cell" style="width: 8%;">${respuesta[i].Edificio}</div>
+                 <div class="div-table-cell" style="width: 10%;">${respuesta[i].HoraFinal}</div>
+                 <div class="div-table-cell" style="width: 6%;">${respuesta[i].UV}</div>
+                 <div class="div-table-cell" style="width: 8%;">${respuesta[i].Periodo}</div>
+                 
+             </div>
+                        `
+            );
+        }
+
+    },
+    error:function(error){
+        console.error(error);
+    }
 });

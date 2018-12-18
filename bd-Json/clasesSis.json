@@ -1,2 +1,3 @@
-{"seccion1":"0900","Dias":"LuMaMiJuVi","Cupos":"50","Aula":"301-B2","Asignatura":"POO"}
-{"seccion1":"1000","Dias":"LuMaMiJuVi","Cupos":"50","Aula":"301-B2","Asignatura":"Programacion 2"}
+{"seccion1":"0900","Dias":"LuMaMiJuVi","Cupos":"50","cod":"IS-401","HoraInicial":"10","HoraFinal":"11","Aula":"301","Edificio":"B2","UV":"5","Periodo":"III-2018","Asignatura":"POO"}
+{"seccion1":"0900","Dias":"LuMaMiJuVi","Cupos":"50","cod":"IS-401","HoraInicial":"10","HoraFinal":"11","Aula":"301","Edificio":"B2","UV":"4","Periodo":"III-2018","Asignatura":"Programacion 2"}
+

@@ -5,7 +5,7 @@
         $registro = json_decode($linea,true);
         if (
             $_POST["NumeroEmpleado"]==$registro["NumeroEmpleado"] && 
-            $_POST["Contrasena"]==$registro["Contrasena"]
+            sha1($_POST["Contrasena"])==sha1($registro["Contrasena"])
         ){
             $registro["estatus"] = "1"; 
             $registro["mensaje"] = "Acceso autorizado";

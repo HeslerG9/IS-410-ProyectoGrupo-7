@@ -114,18 +114,26 @@
                     <div class="div-table-row div-table-row-list" style="background-color:#f4ef55; font-weight:bold;">
                         <div class="div-table-cell" style="width: 6%;">Cod.</div>
                         <div class="div-table-cell" style="width: 14%;">Asignatura</div>
-                        <div class="div-table-cell" style="width: 6%;">Sección</div>
-                        <div class="div-table-cell" style="width: 10%;">Hora inicial</div>
-                        <div class="div-table-cell" style="width: 10%;">Hora final</div>
-                        <div class="div-table-cell" style="width: 10%;">Dias</div>
-                        <div class="div-table-cell" style="width: 5%;">Edificio</div>
+                        <div class="div-table-cell" style="width: 8%;">Sección</div>
+                        <div class="div-table-cell" style="width: 12%;">Hora inicial</div>
+                        <div class="div-table-cell" style="width: 8%;">Hora final</div>
+                        <div class="div-table-cell" style="width: 13%;">Dias</div>
+                        <div class="div-table-cell" style="width: 8%;">Edificio</div>
                         <div class="div-table-cell" style="width: 10%;">Aula</div>
                         <div class="div-table-cell" style="width: 6%;">UV</div>
-                        <div class="div-table-cell" style="width: 4%;">Periodo</div>
+                        <div class="div-table-cell" style="width: 8%;">Periodo</div>
                         
                     </div>
                 </div>
             </div>
+            <div class="table-responsive">
+                <div id="tabla-asignaturas" class="div-table" style="margin:0 !important;">
+                   
+                </div>
+            </div>
+
+            </div>
+    			
 	
 	<section class="full-box Notifications-area">
 		<div class="full-box Notifications-bg btn-Notifications-area"></div>
