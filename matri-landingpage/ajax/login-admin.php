@@ -1,6 +1,6 @@
 <?php
     session_start(); 
-    $archivo = fopen("../bd-Json/credencialesAdmin.json","r");
+    $archivo = fopen("../../bd-Json/credencialesAdmin.json","r");
     while(($linea=fgets($archivo))){
         $registro = json_decode($linea,true);
         if (
@@ -10,7 +10,7 @@
             $registro["estatus"] = "1"; 
             $registro["mensaje"] = "Acceso autorizado";
             $_SESSION["NumeroEmpleado"] = $_POST["NumeroEmpleado"];
-            $_SESSION["tipoUsuario"] = $registro["tipoUsuario"];
+            $_SESSION["NumeroEmpleado"] = $registro["NumeroEmpleado"];
 
             echo json_encode($registro);
             exit;
