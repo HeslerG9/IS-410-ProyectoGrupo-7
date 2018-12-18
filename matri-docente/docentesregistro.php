@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Inicio Docentes</title>
+	<title>Registro de Calificaciones</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	
@@ -153,7 +153,7 @@
       <br>
       <input type="text" class="material-control" placeholder="Asignatura" id="asignaturaAlumno" required="required"  maxlength="50" data-toggle="tooltip" data-placement="top" title="Carrera">
       <br>
-      <input type="number" min="0" max="100" class="material-control" placeholder="Calificacion" id="caliAlumno" required="required" maxlength="3" data-toggle="tooltip" data-placement="top" title="codigo alterno">
+      <input type="number" min="0" max="100" class="material-control" placeholder="Calificación" id="caliAlumno" required="required" maxlength="3" data-toggle="tooltip" data-placement="top" title="codigo alterno">
 			
       </div>
        <br>
