@@ -1,6 +1,6 @@
 <?php
     session_start(); 
-    $archivo = fopen("../../bd-Json/credencialesEmpleado.json","r");
+    $archivo = fopen("../../bd-Json/credencialesEmpleados.json","r");
     while(($linea=fgets($archivo))){
         $registro = json_decode($linea,true);
         if (
