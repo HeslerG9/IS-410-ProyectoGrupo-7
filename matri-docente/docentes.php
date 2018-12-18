@@ -19,98 +19,10 @@
         
 </head>
 <body>
-	<!-- SideBar -->
-	<section class="full-box cover dashboard-sideBar">
-		<div class="full-box dashboard-sideBar-bg btn-menu-dashboard"></div>
-		<div class="full-box dashboard-sideBar-ct">
-			<!--SideBar Title -->
-			<div class="full-box text-uppercase text-center text-titles dashboard-sideBar-title">
-				DIPP-unah<i class="zmdi zmdi-close btn-menu-dashboard visible-xs"></i>
-			</div>
-			<!-- SideBar User info -->
-			<div class="full-box dashboard-sideBar-UserInfo">
-				<figure class="full-box">
-					<img src="../matri-landingpage/img/logo-unah-blanco.png" style="width:70%" alt="UserIcon">
-					<figcaption class="text-center text-titles">Sistema de Matrícula</figcaption>
-				</figure>
-				<ul class="full-box list-unstyled text-center">
-					<!--
-					<li>
-						<a href="#!">
-							<i class="zmdi zmdi-settings"></i>
-						</a>
-					</li>
-					-->
-					<li>
-						<a href="#!" class="btn-exit-system">
-							<i class="zmdi zmdi-power"></i> Cerrar sesión
-						</a>
-					</li>
-				</ul>
-			</div>
-			<!-- SideBar Menu -->
-			<ul class="list-unstyled full-box dashboard-sideBar-Menu">
-				<li>
-					<a href="homeTeacher.html">
-						<i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Inicio
-					</a>
-				</li>
-				<li>
-					<a href="#!" class="btn-sideBar-SubMenu">
-						<i class="zmdi zmdi-assignment zmdi-hc-fw"></i> Calificaciones <i class="zmdi zmdi-caret-down pull-right"></i>
-					</a>
-					<ul class="list-unstyled full-box">
-						<li>
-							<a href="../matri-docente/docentesregistro.php"><i class="zmdi zmdi-badge-check zmdi-hc-fw"></i>Agregar notas</a>
-						</li>
-						<!--
-						<li>
-							<a href="academicHis.html"><i class="zmdi zmdi-assignment-check zmdi-hc-fw"></i> Historial Académico </a>
-						</li>
-						<li>
-							<a href="evaTeacher.html"><i class="zmdi zmdi-thumb-down zmdi-hc-fw"></i>Evaluación docente</a>
-						</li>
-						
-						<li>
-							<a href=""><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Sección</a>
-						</li>
-						<li>
-							<a href=""><i class="zmdi zmdi-font zmdi-hc-fw"></i> Aula</a>
-						</li>
-						-->
-					</ul>
-				</li>
-				<li>
-					<a href="#!" class="btn-sideBar-SubMenu">
-						<i class="zmdi zmdi-calendar-note zmdi-hc-fw"></i> Secciones <i class="zmdi zmdi-caret-down pull-right"></i>
-					</a>
-				
-					<ul class="list-unstyled full-box">
-						<li>
-							<a href="#"><i class="zmdi zmdi-collection-plus zmdi-hc-fw"></i> Lista Estudiantes </a>
-						</li>
-						
-					</ul>
-					
-				</li>
-				<li>
-					<a href="#!" class="btn-sideBar-SubMenu">
-						<i class="zmdi zmdi-card zmdi-hc-fw"></i> Cambia tú contraseña<i class="zmdi zmdi-caret-down pull-right"></i>
-					</a>
-					<ul class="list-unstyled full-box">
-						<li>
-							<a href=""><i class="zmdi zmdi-money-box zmdi-hc-fw"></i> Acceso al sistema</a>
-						</li>
-						<li>
-							<a href=""><i class="zmdi zmdi-email zmdi-hc-fw"></i> Correo institucional</a>
-						</li>
-					</ul>
-				</li>
-				
-			</ul>
-		</div>
-	</section>
 
+<?php
+    include("sidebar.html")
+    ?>
 	<!-- Content page-->
 	<section class="full-box dashboard-contentPage">
 		<!-- NavBar -->
@@ -154,11 +66,11 @@
         <div class="row">
             <div  class="section-header text-center col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
                <!--  <h1 class="primera">Servicios Al Docente</h1> -->
-                <h2><strong> Bienvenido:</strong> Erick Vladimir Perez Lopez</h2>
-                <h2><strong> Docente de la Carrera:</strong> Ingenieria en Sistemas</h2>
-                <h3> Tu cuenta de correo electrónico institucional es: <strong>vladimir.erick@unah.hn</strong> <br>
+                <h2><strong> Bienvenido:</strong> <?php echo $_SESSION["NombreDoc"];?>&nbsp<?php echo $_SESSION["ApellidoDoc"];?></h2>
+                <h2><strong> Docente de la Carrera:</strong>  <?php echo $_SESSION["CarreraDoc"];?></h2>
+                <h3> Tu cuenta de correo electrónico institucional es: <strong><?php echo $_SESSION["CorreoDoc"];?></strong> <br>
                 </h3>
-                <h4> Su número de identidad es <strong> 0801-1999-17771</strong> </h4> 
+                <h4> Su número de docente es  <strong><?php echo $_SESSION["NumDoc"];?></strong> </h4> 
                 
                 <p class="lead"></p> 
 

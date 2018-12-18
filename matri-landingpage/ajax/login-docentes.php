@@ -1,6 +1,6 @@
 <?php
     session_start(); 
-    $archivo = fopen("../../bd-Json/credencialesDocentes.json","r");
+    $archivo = fopen("../../bd-Json/Docentes.json","r");
     while(($linea=fgets($archivo))){
         $registro = json_decode($linea,true);
         if (
@@ -10,7 +10,10 @@
             $registro["estatus"] = "1"; 
             $registro["mensaje"] = "Acceso autorizado";
             $_SESSION["NumDoc"] = $_POST["NumDoc"];
-            $_SESSION["NumDoc"] = $registro["NumDoc"];
+            $_SESSION["NombreDoc"] = $registro["NombreDoc"];
+            $_SESSION["ApellidoDoc"] = $registro["ApellidoDoc"];
+            $_SESSION["CorreoDoc"] = $registro["CorreoDoc"];
+            $_SESSION["CarreraDoc"] = $registro["CarreraDoc"];
 
             echo json_encode($registro);
             exit;
