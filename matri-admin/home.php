@@ -43,47 +43,14 @@
 		<!-- Content page -->
 		<div class="container-fluid">
 				<div class="page-header">
-				<h1 class="text-titles">Información <small></small></h1>
+				<h1 >Información </h1>
 				</div>
 			</div>
-
-		<div class="full-box text-center" style="padding: 30px 10px;">
-			<article class="full-box tile">
-				<div class="full-box tile-title text-center text-titles text-uppercase">
-					Empleados
-				</div>
-				<div class="full-box tile-icon text-center">
-					<i class="zmdi zmdi-account"></i>
-				</div>
-				<div class="full-box tile-number text-titles">
-					<p class="full-box">100</p>
-					<small>Registrados</small>
-				</div>
-			</article>
-			<article class="full-box tile">
-				<div class="full-box tile-title text-center text-titles text-uppercase">
-					Docentes
-				</div>
-				<div class="full-box tile-icon text-center">
-					<i class="zmdi zmdi-male-alt"></i>
-				</div>
-				<div class="full-box tile-number text-titles">
-					<p class="full-box">200</p>
-					<small>Registrados</small>
-				</div>
-			</article>
-			<article class="full-box tile">
-				<div class="full-box tile-title text-center text-titles text-uppercase">
-					Estudiantes
-				</div>
-				<div class="full-box tile-icon text-center">
-					<i class="zmdi zmdi-face"></i>
-				</div>
-				<div class="full-box tile-number text-titles">
-					<p class="full-box">7000</p>
-					<small>Registrados</small>
-				</div>
-			</article>
+			<h2 class="text-titles" > Bienvenido Administrador</h2>
+			<br>
+			  <p>¡Califica, registra, decide! En esta página planifíca las asignaturas del correspondiente periodo, asi como las aulas en las que seran impatidas y la creación de nuevas carreras en el Alma Mater</p>
+			  <p>Ademas de registrar la cantidad de docentes laborando y la de alumnos en curso.</p>
+			  <img src="./img/todos-somos-puma.png" alt="">
 			<!--<article class="full-box tile">
 				<div class="full-box tile-title text-center text-titles text-uppercase">
 					Representative
