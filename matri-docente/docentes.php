@@ -1,3 +1,8 @@
+<?php 
+    session_start();  
+    if (!isset($_SESSION["NumDoc"]))
+        header("Location: no-autorizado.html");//Redireccion con PHP
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>

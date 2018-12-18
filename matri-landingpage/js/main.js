@@ -156,15 +156,14 @@ $(document).ready(function(){
 	$('.btn-exit-system').on('click', function(){
 		swal({
 		  	title: '¿Realmente desea salir?',
-		  	text: "Quiere salir del sistema y cerrar la sesión actual",
 		  	type: 'warning',
 		  	showCancelButton: true,
-		  	confirmButtonColor: '#18D6E6',
-		  	cancelButtonColor: '#15CBBA',
+		  	confirmButtonColor: '#1B2B82',
+		  	cancelButtonColor: '#1B2B82',
 		  	confirmButtonText: 'Si, Salir',
-		  	cancelButtonText: 'Cacelar'
+		  	cancelButtonText: 'Cancelar'
 		}).then(function () {
-			window.location.href="../public/index.html";
+			window.location.href="../matri-landingpage/index.php";
 		});
 	});
 	$('.btn-menu-dashboard').on('click', function(){

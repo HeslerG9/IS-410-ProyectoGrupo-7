@@ -18,6 +18,7 @@
   
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" href="css/estilos.css">
+<script type="text/javascript" src="js/jquery.min.js"></script> 
 
 
 
@@ -49,25 +50,49 @@
                                <div class="input-group-prepend">
                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
                                </div>
-                               <input type="text" id="codigo" name="form-numeroempleado" placeholder="Número de empleado" pattern="^[1]\d{2,2}$" required="required" maxlength="3" class="form-control" id="form-numeroempleado">
+                               <input type="text" id="NumDoc" placeholder="Número de empleado" required="required" maxlength="3" class="form-control" >
                                
                            </div>
                            <div class="input-group form-group">
                                <div class="input-group-prepend">
                                    <span class="input-group-text"><i class="fas fa-key"></i></span>
                                </div>
-                               <input type="password" id="password" name="form-password" placeholder="Contraseña" class="form-control" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ0-9 ]+"  required="required" minlength="5" maxlength="20" id="form-password">
+                               <input type="password" id="ContraDoc" placeholder="Contraseña" class="form-control"   required="required" minlength="5" maxlength="20" >
                            </div>
                            <div class="row align-items-center remember">
                                <input type="checkbox">Recuerdeme
                            </div>
                            <div class="form-group">
                             
-                               <button type="button" id="acceder_docente" class="btn mybtn float-right login_btn">Ingresar</button>
+                                <input type="submit" id="btn-login-docente" value="Iniciar Sesión" class="btn float-right login_btn">
                        
                            </div>
                        </form>
                    </div>
+
+
+                   <script>
+                        $("#btn-login-docente").click(function(){
+                             $.ajax({
+                                url:"ajax/login-docentes.php",
+                                data:"NumDoc="+$("#NumDoc").val() + "&ContraDoc="+$("#ContraDoc").val(),
+                                dataType:"json",
+                                method:"POST",
+                                success:function(respuesta){
+                                    console.log(respuesta);
+                                    if (respuesta.estatus == 1)
+                                    
+                                    window.location.href = "../matri-docente/docentes.php";//redireccionar */
+                                        
+                                    else 
+                                        alert("Credenciales invalidas");
+                                },
+                                error:function(error){
+                                    console.error(error);
+                                }
+                            }); 
+                        });
+                    </script>
                    <div class="card-footer">
                        <div class="d-flex justify-content-center links">
                            No tiene cuenta?<a href="#">Registrese</a>
@@ -82,7 +107,7 @@
    
 
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/controlador.js"></script>
+ 
     
     </body>
 
