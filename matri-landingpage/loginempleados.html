@@ -6,49 +6,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Formulario Login</title>
-
+<!-- 
     <link rel="stylesheet" href="css/bootstrap.min.css">    
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"> <!--Iconos--> 
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"> 
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500" rel="stylesheet">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="img/unah10.png" rel="icon">
-    <script type="text/javascript" src="js/jquery.min.js"></script> 
+-->
+  
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="css/estilos.css">
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+
+
+
+
+
   </head>
 
+  
   <body>
-    <!--<form action="../empleado/homeEmpleadp.html" method="" autocomplete="off" class="full-box logInForm">-->
-    <div class="my-content" >
-        <div class="container" > 
 
-            <div class="row">
-              <div class="col-sm-12" >
-                  <h1><strong></strong>Login Empleados</h1>
-              </div>
-            </div>
-            <div class="row">
-                  <div class="col-sm-6 col-sm-offset-3 myform-cont" >
-                      <div class="myform-top">
-                          <div class="col-sm-6 myform-top-left">
-                              <p>Ingresa tu número de empleado y contraseña:</p>
-                          </div>
-                          <div class="myform-top-right">
-                           <i class="fas fa-users"></i>
-                          </div>
-                      </div>
-                      <div class="myform-bottom">
-                        <form role="form" action="../public-empleados/home.html" method="POST" class="full-box logInForm">
-                          <div class="form-group">
-                              <input type="text" id="NumEmp" placeholder="Número de empleado"  required="required" maxlength="3" class="form-control" >
-                          </div>
-                          <div class="form-group">
-                              <input type="password" id="ContraEmp"  placeholder="Contraseña"   required="required" minlength="5" maxlength="15" class="form-control"  >
-                          </div>
-                          <input type="submit" id="btn-login-empleado" value="Iniciar Sesión" class="btn float-right login_btn">
-                        </form>
-                      </div>
-                  </div>
-                  <script>
+        <header><img src="img/logo-unah-blanco.png" id="imagen-logo">
+        
+
+            <div class="d-flex justify-content-center " id="alv">
+               <div class="card">
+                   
+                   <br>
+                   
+                   <div class="card-header">
+                       <h3>Login Empleados</h3>
+                       <div class="d-flex justify-content-end social_icon">
+                         
+                           
+                       </div>
+                   </div>
+                   <div class="card-body">
+                       <form>
+                           <div class="input-group form-group">
+                               <div class="input-group-prepend">
+                                   <span class="input-group-text"><i class="fas fa-user"></i></span>
+                               </div>
+                               <input type="text"  id="NumEmp" placeholder="Número de empleado" required="required" maxlength="3" class="form-control" >
+                               
+                           </div>
+                           <div class="input-group form-group">
+                               <div class="input-group-prepend">
+                                   <span class="input-group-text"><i class="fas fa-key"></i></span>
+                               </div>
+                               <input type="password" id="ContraEmp"  placeholder="Contraseña" class="form-control"   required="required" minlength="5" maxlength="20" >
+                           </div>
+                           <div class="row align-items-center remember">
+                               <input type="checkbox">Recuerdeme
+                           </div>
+                           <div class="form-group">
+                            
+                                <input type="submit" id="btn-login-empleado" value="Iniciar Sesión" class="btn float-right login_btn">
+                       
+                           </div>
+                       </form>
+                   </div>
+                   
+                   <script>
                         $("#btn-login-empleado").click(function(){
                              $.ajax({
                                 url:"ajax/login-empleados.php",
@@ -59,7 +81,7 @@
                                     console.log(respuesta);
                                     if (respuesta.estatus == 1)
                                     
-                                            alert("Se ha logueado empleado");
+                                             window.location.href = "../matri-admin/home.php";//redireccionar */
                                         
                                     else 
                                         alert("Credenciales invalidas");
@@ -70,11 +92,28 @@
                             }); 
                         });
                     </script>
-            </div>
-        </div>
-    </div>
-<!--</form>-->
+
+                   
+                   <div class="card-footer">
+                       <div class="d-flex justify-content-center links">
+                           No tiene cuenta?<a href="#">Registrese</a>
+                       </div>
+                       <div class="d-flex justify-content-center">
+                           <a href="#">Olvido su contraseña?</a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   
+
     <script src="js/bootstrap.min.js"></script>
-  </body>
+    <script src="js/controlador.js"></script>
+    
+ 
+    
+    </body>
 
 </html>
+
+
