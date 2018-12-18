@@ -2,7 +2,6 @@
 {"seccion1":"0900","Dias":"LuMaMiJuVi","Cupos":"50","cod":"IS-401","HoraInicial":"10","HoraFinal":"11","Aula":"301","Edificio":"B2","UV":"4","Periodo":"III-2018","Asignatura":"Programacion 2"}
 {"seccion1":"1700","Dias":"LuMaMiJuVi","Cupos":"50","cod":"IS-512","HoraInicial":"17","HoraFinal":"18","Aula":"302","Edificio":"B1","UV":"5","Periodo":"III-2018","Asignatura":"Sistemas Operativos"}
 {"seccion1":"1900","Dias":"LuMaMiJu","Cupos":"50","cod":"IS-401","HoraInicial":"19","HoraFinal":"20","Aula":"301","Edificio":"B1","UV":"4","Periodo":"III-2018","Asignatura":"Finanza Administrativa"}
-{"seccion1":"1300","Dias":"LuMaMiJuVi","Cupos":"50","cod":"IS-401","HoraInicial":"13","HoraFinal":"14","Aula":"105","Edificio":"F1","UV":"5","Periodo":"III-2018","Asignatura":"Calculo II"}
-{"seccion1":"1400","Dias":"LuMaMiJu","Cupos":"50","cod":"IS-401","HoraInicial":"14","HoraFinal":"15","Aula":"405","Edificio":"D1","UV":"4","Periodo":"III-2018","Asignatura":"Ingles III"}
+{"seccion1":"0700","Dias":"LuMaMiJu","Cupos":"50","cod":"IS-401","HoraInicial":"07","HoraFinal":"08","Aula":"202","Edificio":"B2","UV":"4","Periodo":"III-2018","Asignatura":"Algoritmo y Estructura de Datos"}
 
 
