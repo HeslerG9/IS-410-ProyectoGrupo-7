@@ -80,9 +80,7 @@ $.ajax({
         $("#slc-usuario").append(`<option value=""></option>`);
         for(var i=0; i<respuesta.length;i++)
             $("#forma03").append(`
-            <div><span>Nombre:</span> <small>${respuesta[i].NombreAlumno} ${respuesta[i].ApellidoAlumno}</small></div>
-            <div><span>Cuenta:</span> <small>${respuesta[i].NumCta}</small></div>   
-            <div><span>Carrera:</span> <small>${respuesta[i].Carrera}</small></div>   
+              
     `);
     },
     error:function(error){
@@ -90,7 +88,7 @@ $.ajax({
     }
 });
 
-$("#forma03").change(function(){
+$e(function(){
 	//Esta funcion se ejecuta cada vez que el usuario selecciona o cambia un elemento de la lista.
 	console.log("Usuario seleccionado: " + $("#forma02").val());
 	$.ajax({
