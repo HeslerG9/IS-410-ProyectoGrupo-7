@@ -94,9 +94,6 @@
                             </div>
                         </div>
                     </div>
-                    <tr class='notfound'>
-                    <td colspan='4'>Estudiante no encontrado</td>
-                    </tr>
                 </div>
                 <br>
                 <br>

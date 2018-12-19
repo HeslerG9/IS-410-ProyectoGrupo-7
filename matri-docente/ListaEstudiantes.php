@@ -59,30 +59,31 @@
             
 
 			<div class="container-fluid">
-                <h2 class="text-center all-tittles">Listado de estudiantes matriculados en <strong>POO</strong></h2>
+                <h2 class="text-center all-tittles">Listado de estudiantes matriculadose en <strong>POO</strong></h2>
                 <div class="table-responsive">
                     <div class="div-table" style="margin:0 !important;">
                         <div class="div-table-row div-table-row-list" style="background-color:#f4ef55; font-weight:bold;">
-                            <div class="div-table-cell" style="width: 6%;">#Cuenta</div>
-                            <div class="div-table-cell" style="width: 15%;">Carrera</div>
-                            <div class="div-table-cell" style="width: 15%;">Nombres</div>
-                            <div class="div-table-cell" style="width: 15%;">Apellidos</div>
+						<div class="div-table-cell" style="width: 6%;">#Cuenta</div>
+                            <div class="div-table-cell" style="width: 10%;">Carrera</div>
+                            <div class="div-table-cell" style="width: 12%;">Nombres</div>
+                            <div class="div-table-cell" style="width: 12%;">Apellidos</div>
+                            <div class="div-table-cell" style="width: 9%;">Email</div>
+                            <div class="div-table-cell" style="width: 9%;">Telefono</div>
+                            <div class="div-table-cell" style="width: 11%;">Fecha nacimiento</div>
                             <div class="div-table-cell" style="width: 9%;">campus</div>
-                            <div class="div-table-cell" style="width: 20%;">NOTA</div>
-                    
                         </div>
                     </div>
                 </div>
                 <div class="table-responsive" id="div-students">
-                    <div class="div-table" id="div-table-student" style="margin:0 !important;">
+                    <div class="div-table" id="div-table-lista-estudiante" style="margin:0 !important;">
                        
                             
                             </div>
                         </div>
                     </div>
                 </div>
-				<button id="boton-notas"  style="width: 40%;" type="submit" class="btn btn-primary">Confirme Nota</button>
 
+           
 	<! Notifications area -->
 	<section class="full-box Notifications-area">
 		<div class="full-box Notifications-bg btn-Notifications-area"></div>

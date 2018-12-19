@@ -107,11 +107,11 @@
                      <!-- single course -->
                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2">
                     <div class="course">
-                        <a href="#" class="course-img">
+                        <a href="NotasPeriodo.php" class="course-img">
                             <img style="width:112%" src="../matri-landingpage/img/notas.jpg" alt="">
                             <i class="course-link-icon fa fa-link"></i>
                         </a>
-                        <a class="course-title" href="#">Calificaciones del período</a>
+                        <a class="course-title" href="NotasPeriodo.php">Calificaciones del período</a>
                         <div class="course-details">
                             <span class="course-category">Podras ver las calificaciones del período actual</span>
                             
@@ -127,11 +127,11 @@
                 <!-- /single course -->
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2">
                     <div class="course">
-                        <a href="#" class="course-img">
+                        <a href="forma03.php" class="course-img">
                             <img src="../matri-landingpage/img/course01.jpg" alt="">
                             <i class="course-link-icon fa fa-link"></i>
                         </a>
-                        <a class="course-title" href="#">Forma03</a>
+                        <a class="course-title" href="forma03.php">Forma03</a>
                         <div class="course-details">
                             <span class="course-category">Podras ver tus clases matriculadas</span>
                             

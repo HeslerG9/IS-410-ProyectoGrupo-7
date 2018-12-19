@@ -63,25 +63,7 @@
                 </div>
             </div>
 		</div>
-		<div class="container-fluid" style="margin: 0 0 50px 0;">
-                <form class="pull-right" style="width: 30% !important;" autocomplete="off">
-                    <div class="group-material">
-                        <input type="search" style="display: inline-block !important; width: 70%;" class="material-control tooltips-general" placeholder="Buscar asignatura" required="" pattern="[a-zA-ZáéíóúÁÉÍÓÚ ]{1,50}" maxlength="50" data-toggle="tooltip" data-placement="top" title="Escribe los nombres, sin los apellidos">
-                        <button class="btn" style="margin: 0; height: 43px; background-color: transparent !important;">
-                            <i class="zmdi zmdi-search" style="font-size: 25px;"></i>
-                        </button>
-                    </div>
-				</form>
-				<!--
-                <h2 class="text-center all-tittles" style="margin: 25px 0; clear: both;">Se</h2>
-                <ul class="list-unstyled text-center list-catalog-container">
-                    <li class="list-catalog">Indice Académico</li>
-                    <li class="list-catalog">Seguimiento calificaciones</li>
-                    <li class="list-catalog">Indice de repitencia</li>
-                    <li class="list-catalog"></li>
-				</ul>
-				-->
-            </div>
+	
 		<div class="container-fluid">
             <h2 class="text-center all-tittles">Información de Asignaturas</h2>
             <div class="table-responsive">
