@@ -39,6 +39,7 @@ $.ajax({
 });
 
 
+
 $("#boton-notas").click(function(){
 	/* $("#btn-registrarCarrera").trigger("reset");
 	var parametros=
@@ -71,3 +72,5 @@ $("#boton-notas").click(function(){
 	}
 });
 });
+
+

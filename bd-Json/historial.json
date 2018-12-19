@@ -1,14 +1,14 @@
-{"cod":"IN101","asignatura":"Ingles I","uv":"4","seccion":"1201","anio":"2016","periodo":"1", "cali":"94","obs":"APR"}
-{"cod":"HH101","asignatura":"Historia de Honduras","uv":"4","seccion":"1404","anio":"2016","periodo":"1", "cali":"72","obs":"APR"}
-{"cod":"FF101","asignatura":"Filosofia I","uv":"4","seccion":"1300","anio":"2016","periodo":"1", "cali":"85","obs":"APR"}
-{"cod":"SC101","asignatura":"Sociologia","uv":"4","seccion":"1603","anio":"2016","periodo":"1", "cali":"87","obs":"APR"}
-{"cod":"EG011","asignatura":"Español General","uv":"4","seccion":"1100","anio":"2016","periodo":"2", "cali":"93","obs":"APR"}
-{"cod":"IS110","asignatura":"Introd. a la ing. en sistemas","uv":"3","seccion":"1000","anio":"2016","periodo":"2", "cali":"63","obs":"RPB"}
-{"cod":"IN 102","asignatura":"Ingles II","uv":"4","seccion":"800","anio":"2016","periodo":"2", "cali":"91","obs":"APR"}
-{"cod":"MM11","asignatura":"Geometria y Trigonometria","uv":"5","seccion":"900","anio":"2016","periodo":"2", "cali":"68","obs":"APR"}
-{"cod":"IS110","asignatura":"Introd. a la ing. en sistemas","uv":"3","seccion":"1300","anio":"2017","periodo":"1", "cali":"95","obs":"APR"}
-{"cod":"MM314","asignatura":"Programacion","uv":"3","seccion":"1400","anio":"2017","periodo":"1", "cali":"73","obs":"APR"}
-{"cod":"BI130","asignatura":"Educacion Ambiental Optativa","uv":"3","seccion":"1400","anio":"2017","periodo":"2", "cali":"83","obs":"APR"}
-{"cod":"MM202","asignatura":"Calculo II","uv":"5","seccion":"1600","anio":"2018","periodo":"2", "cali":"56","obs":"RPB"}
-{"cod":"IS721","asignatura":"Contabilidad","uv":"4","seccion":"1800","anio":"2018","periodo":"2", "cali":"78","obs":"APR"}
-{"cod":"MM202","asignatura":"Calculo II","uv":"5","seccion":"1300","anio":"2018","periodo":"3", "cali":"65","obs":"APR"}
+{"codigo":"IN101","asignatura":"Ingles I","uv":"4","seccion":"1201","anio":"2016","periodo":"1", "cali":"94","obs":"APR"}
+{"codigo":"HH101","asignatura":"Historia de Honduras","uv":"4","seccion":"1404","anio":"2016","periodo":"1", "cali":"72","obs":"APR"}
+{"codigo":"FF101","asignatura":"Filosofia I","uv":"4","seccion":"1300","anio":"2016","periodo":"1", "cali":"85","obs":"APR"}
+{"codigo":"SC101","asignatura":"Sociologia","uv":"4","seccion":"1603","anio":"2016","periodo":"1", "cali":"87","obs":"APR"}
+{"codigo":"EG011","asignatura":"Español General","uv":"4","seccion":"1100","anio":"2016","periodo":"2", "cali":"93","obs":"APR"}
+{"codigo":"IS110","asignatura":"Introd. a la ing. en sistemas","uv":"3","seccion":"1000","anio":"2016","periodo":"2", "cali":"63","obs":"RPB"}
+{"codigo":"IN 102","asignatura":"Ingles II","uv":"4","seccion":"800","anio":"2016","periodo":"2", "cali":"91","obs":"APR"}
+{"codigo":"MM11","asignatura":"Geometria y Trigonometria","uv":"5","seccion":"900","anio":"2016","periodo":"2", "cali":"68","obs":"APR"}
+{"codigo":"IS110","asignatura":"Introd. a la ing. en sistemas","uv":"3","seccion":"1300","anio":"2017","periodo":"1", "cali":"95","obs":"APR"}
+{"codigo":"MM314","asignatura":"Programacion","uv":"3","seccion":"1400","anio":"2017","periodo":"1", "cali":"73","obs":"APR"}
+{"codigo":"BI130","asignatura":"Educacion Ambiental Optativa","uv":"3","seccion":"1400","anio":"2017","periodo":"2", "cali":"83","obs":"APR"}
+{"codigo":"MM202","asignatura":"Calculo II","uv":"5","seccion":"1600","anio":"2018","periodo":"2", "cali":"56","obs":"RPB"}
+{"codigo":"IS721","asignatura":"Contabilidad","uv":"4","seccion":"1800","anio":"2018","periodo":"2", "cali":"78","obs":"APR"}
+{"codigo":"MM202","asignatura":"Calculo II","uv":"5","seccion":"1300","anio":"2018","periodo":"3", "cali":"65","obs":"APR"}

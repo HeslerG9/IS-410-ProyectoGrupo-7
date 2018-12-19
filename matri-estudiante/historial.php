@@ -11,6 +11,8 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="../matri-landingpage/css/main.css">
 	<link href="../matri-landingpage/img/unah10.png" rel="icon">
+	<script src="../matri-landingpage/js/jquery.min.js"></script>
+
 </head>
 <body>
 	<!-- Dashbar incluido con la funcion de PHP -->
@@ -86,13 +88,40 @@
                 </div>
             </div>
             <div class="table-responsive">
-                <div id="div-table-clases" class="div-table" style="margin:0 !important;">
+                <div id="div-table-historial" class="div-table"  style="background-color:#f4ef55; font-weight:bold;margin:0 !important;">
                    
                 </div>
             </div>
             
         </div>
 	</div>
+	<script>
+	$.ajax({
+    url:"ajax/listaHistorial.php?opcion=1",
+    method:"GET",
+    dataType:"json",
+    success:function(respuesta){
+        console.log(respuesta);
+        for (var i=0;i<respuesta.length;i++){
+            $("#div-table-historial").append(
+                 `  <div class="div-table-row div-table-row-list">
+                 <div class="div-table-cell" style="width: 6%;">${respuesta[i].codigo}</div>
+                 <div class="div-table-cell" style="width: 20%;">${respuesta[i].asignatura}</div>
+                 <div class="div-table-cell" style="width: 6%;">${respuesta[i].uv}</div>
+                 <div class="div-table-cell" style="width: 10%;">${respuesta[i].seccion}</div>
+                 <div class="div-table-cell" style="width: 8%;">${respuesta[i].anio}</div>
+                 <div class="div-table-cell" style="width: 6%;">${respuesta[i].periodo}</div>
+                 <div class="div-table-cell" style="width: 10%;">${respuesta[i].cali}</div>
+                 <div class="div-table-cell" style="width: 15%;">${respuesta[i].obs}</div>`
+            );
+        }
+
+    },
+    error:function(error){
+        console.error(error);
+
+    }
+});</script>
 	<ul class="pagination pagination-sm">
 			<li class="disabled"><a href="#!">«</a></li>
 			<li class="active"><a href="#!">1</a></li>
@@ -117,6 +146,7 @@
 
 	
 	<!--====== Scripts -->
+	<script src="js/controlador.js"></script>
 	<script src="../matri-landingpage/js/jquery-3.1.1.min.js"></script>
 	<script src="../matri-landingpage/js/sweetalert2.min.js"></script>
 	<script src="../matri-landingpage/js/bootstrap.min.js"></script>

@@ -20,7 +20,7 @@
 
 		<!-- Bootstrap -->
         <link type="text/css" rel="stylesheet" href="../matri-landingpage/css/bootstrap.min.css"/>
-        <link rel="shortcut icon" type="image/x-icon" href="../matri-landingpage/img/logo-unah.png">
+        <link rel="shortcut icon" type="image/x-icon" href="../matri-landingpage/img/unah10.png">
 		<link type="text/css" rel="stylesheet" href="../matri-landingpage/css/style-matri.css"/>
        
         

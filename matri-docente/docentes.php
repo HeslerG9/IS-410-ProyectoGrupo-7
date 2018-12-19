@@ -12,7 +12,7 @@
 	
     <link rel="stylesheet" href="../matri-landingpage/css/main.css">
     <link rel="stylesheet" href="../matri-landingpage/css/style-matri.css">
-    <link href="../matri-landingpage/img/unah10.png" rel="icon">
+    <link href="../../matri-landingpage/img/unah10.png" rel="icon">
 		<link href="/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -98,74 +98,6 @@
         </div>
     </div>
 
-            <!-- fin prueba -->
-
-		  <!--  <div class="full-box text-center" style="padding: 30px 10px;">
-			<article class="full-box tile">
-				<div class="full-box tile-title text-center text-titles text-uppercase">
-					Cantidad de secciones
-				</div>
-				<div class="full-box tile-icon text-center">
-					<i class="zmdi zmdi-assignment"></i>
-				</div>
-				<div class="full-box tile-number text-titles">
-					<p class="full-box">3</p>
-					<small>Secciones</small>
-				</div>
-			</article>
-
-
-			
-			
-			<article class="full-box tile">
-				<div class="full-box tile-title text-center text-titles text-uppercase">
-					Docentes
-				</div>
-				<div class="full-box tile-icon text-center">
-					<i class="zmdi zmdi-male-alt"></i>
-				</div>
-				<div class="full-box tile-number text-titles">
-					<p class="full-box">200</p>
-					<small>Registrados</small>
-				</div>
-			</article>
-		-->
-			<!--  <article class="full-box tile">
-				<div class="full-box tile-title text-center text-titles text-uppercase">
-					Estudiantes
-				</div>
-				<div class="full-box tile-icon text-center">
-					<i class="zmdi zmdi-accounts"></i>
-				</div>
-				<div class="full-box tile-number text-titles">
-					<p class="full-box">90</p>
-					<small>Registrados</small>
-				</div>
-			</article>
-			<article class="full-box tile">
-				<div class="full-box tile-title text-center text-titles text-uppercase">
-					Representative
-				</div>
-				<div class="full-box tile-icon text-center">
-					<i class="zmdi zmdi-male-female"></i>
-				</div>
-				<div class="full-box tile-number text-titles">
-					<p class="full-box">70</p>
-					<small>Register</small>
-				</div>
-			</article>-->
-		<!-- </div> -->
-		<!--<div class="container-fluid">
-			<div class="page-header">
-			  <h1 class="text-titles">System <small>TimeLine</small></h1>
-			</div>
-			
-
-
-		</div>
-	</section>
-
-	<! Notifications area -->
 	<section class="full-box Notifications-area">
 		<div class="full-box Notifications-bg btn-Notifications-area"></div>
 		<div class="full-box Notifications-body">
