@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html dir="ltr" xml:lang="es" class="yui3-js-enabled" id="yui_3_15_0_2_1553102257868_21" lang="es"><div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div><head>
+    <title>Examen II Parcial</title>
+    <link rel="shortcut icon" href="https://campusvirtual.unah.edu.hn/theme/image.php/bootstrapcampus/theme/1553009417/favicon">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="moodle, Examen II Parcial">
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/campusvirtual.unah.edu.hn","sesskey":"Svq4BnkIQS","loadingicon":"https:\/\/campusvirtual.unah.edu.hn\/theme\/image.php\/bootstrapcampus\/core\/1553009417\/i\/loading_small","themerev":"1553009417","slasharguments":1,"theme":"bootstrapcampus","jsrev":"1553009417","svgicons":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''};if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else me.path=component+'/'+component+'.'+me.type};
+YUI_config = {"debug":false,"base":"https:\/\/campusvirtual.unah.edu.hn\/lib\/yuilib\/3.15.0\/","comboBase":"https:\/\/campusvirtual.unah.edu.hn\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui-patched":{"combine":true,"root":"3.15.0_1\/","patterns":{"dd-drag":{"group":"yui-patched"},"dd-gestures":{"group":"yui-patched"}},"modules":{"dd-drag":[],"dd-gestures":[]}},"yui2":{"base":"https:\/\/campusvirtual.unah.edu.hn\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/campusvirtual.unah.edu.hn\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/campusvirtual.unah.edu.hn\/theme\/yui_combo.php?m\/1553009417\/","combine":true,"comboBase":"https:\/\/campusvirtual.unah.edu.hn\/theme\/yui_combo.php?","ext":false,"root":"m\/1553009417\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-formchangechecker":{"requires":["base","event-focus"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-core_availability-form":{"requires":["base","node","event","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-calendar-eventmanager":{"requires":["base","node","event-mouseenter","overlay","moodle-calendar-eventmanager-skin"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-toolboxes":{"requires":["node","base","event-key","node","io","moodle-course-coursebase","moodle-course-util"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-form-passwordunmask":{"requires":["node","base"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_stack-input":{"requires":["node","event-valuechange","moodle-core-event","io","json-parse"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_oublog-savecheck":{"requires":["base","node","io","panel","moodle-core-notification-alert"]},"moodle-mod_oublog-tagselector":{"requires":["base","node","autocomplete","autocomplete-filters","autocomplete-highlighters"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_navigation-navigation":{"requires":["base","io-base","node","event-synthetic","event-delegate","json-parse"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","io","overlay","escape","event","event-simulate","event-custom","yui-throttle","moodle-core-notification-dialogue","moodle-editor_atto-rangy","handlebars","timers"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-format_grid-gridkeys":{"requires":["event-nav-keys"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-report_overviewstats-charts":{"requires":["base","node","charts","charts-legend"]},"moodle-gradereport_grader-scrollview":{"requires":["base","node"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-theme_bootstrap-zoom":{"requires":["node"]},"moodle-theme_bootstrap-bootstrap":{"requires":["node","selector-css3"]},"moodle-theme_bootstrapbase-bootstrap":{"requires":["node","selector-css3"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_wiris-button":{"requires":["moodle-editor_atto-plugin","get"]}}},"gallery":{"name":"gallery","base":"https:\/\/campusvirtual.unah.edu.hn\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/campusvirtual.unah.edu.hn\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1553009417\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/campusvirtual.unah.edu.hn\/lib\/javascript.php\/1553009417\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]},"core_question_flags":{"name":"core_question_flags","fullpath":"https:\/\/campusvirtual.unah.edu.hn\/lib\/javascript.php\/1553009417\/question\/flags.js","requires":["base","dom","event-delegate","io-base"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.4\/MathJax.js?delayStartupUntil=configured"},"core_question_engine":{"name":"core_question_engine","fullpath":"https:\/\/campusvirtual.unah.edu.hn\/lib\/javascript.php\/1553009417\/question\/qengine.js","requires":["node","event"]},"mod_quiz":{"name":"mod_quiz","fullpath":"https:\/\/campusvirtual.unah.edu.hn\/lib\/javascript.php\/1553009417\/mod\/quiz\/module.js","requires":["base","dom","event-delegate","event-key","core_question_engine","moodle-core-formchangechecker"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+<link rel="stylesheet" type="text/css" href="Examen%20II%20Parcial_files/yui_combo_002.css"><script type="text/javascript" src="Examen%20II%20Parcial_files/yui_combo_002.php"></script><script type="text/javascript" src="Examen%20II%20Parcial_files/jquery-1.js"></script>
+<script charset="utf-8" id="yui_3_15_0_2_1553102257868_2" src="Examen%20II%20Parcial_files/yui_combo_003.php" async=""></script><script charset="utf-8" id="yui_3_15_0_3_1553102257868_8" src="Examen%20II%20Parcial_files/flags.js" async=""></script><script charset="utf-8" id="yui_3_15_0_2_1553102257868_4" src="Examen%20II%20Parcial_files/yui_combo_006.php" async=""></script><script charset="utf-8" id="yui_3_15_0_3_1553102257868_131" src="Examen%20II%20Parcial_files/yui_combo.php" async=""></script><script charset="utf-8" id="yui_3_15_0_3_1553102257868_134" src="Examen%20II%20Parcial_files/yui_combo_005.php" async=""></script><script charset="utf-8" id="yui_3_15_0_3_1553102257868_138" src="Examen%20II%20Parcial_files/qengine.js" async=""></script><script charset="utf-8" id="yui_3_15_0_3_1553102257868_139" src="Examen%20II%20Parcial_files/module.js" async=""></script><script charset="utf-8" id="yui_3_15_0_3_1553102257868_140" src="Examen%20II%20Parcial_files/yui_combo_007.php" async=""></script><link charset="utf-8" rel="stylesheet" id="yui_3_15_0_3_1553102257868_141" href="Examen%20II%20Parcial_files/yui_combo.css"><script charset="utf-8" id="yui_3_15_0_3_1553102257868_142" src="Examen%20II%20Parcial_files/yui_combo_004.php" async=""></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="Examen%20II%20Parcial_files/all.css">
+<script type="text/javascript" src="Examen%20II%20Parcial_files/javascript-static.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    config: ["Accessible.js", "Safe.js"],
+    errorSettings: { message: ["!"] },
+    skipStartupTypeset: true,
+    messageStyle: "none"
+});
+</script></head>
+
+<body style="overflow-x: hidden!important;" id="page-mod-quiz-review" class="format-weeks  path-mod path-mod-quiz gecko dir-ltr lang-es yui-skin-sam yui3-skin-sam campusvirtual-unah-edu-hn pagelayout-incourse course-21776 context-990826 cmid-592028 category-179 has-region-side-post used-region-side-post jsenabled">
+<div class="skiplinks"><a class="skip" href="#maincontent">Saltar a contenido principal</a></div>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<!--//  Side Bar Off Canvas-->
+
+<nav data-layout-element="navigation" class="side-navigation">
+    <ul id="main-pages" style="min-height: 480px; height: 98%; position: relative;">
+        <li id="home" class="main-page ">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Inicio">
+                <img src="Examen%20II%20Parcial_files/sidemenu-home.png" alt="" width="70"> <!--<span>Campus Virtual</span>-->
+            </a>
+        </li>
+        <li id="tracks" class="main-page ">
+            <a href="https://campusvirtual.unah.edu.hn/my" data-toggle="tooltip" data-placement="right" title="Área personal">
+                <img src="Examen%20II%20Parcial_files/sidemenu-my.png" alt=""> <span>Área personal</span>
+            </a>
+        </li>
+      <!--   <li id="tracks" class="main-page">
+            <a href="" data-toggle="modal" data-target="#myModall">
+                <img src="https://campusvirtual.unah.edu.hn/theme/image.php/bootstrapcampus/theme/1553009417/sidemenu-search" alt="Buscar"> <span>Buscar</span>
+            </a>
+        </li> -->
+        <li id="library" class="main-page">
+            <a href="https://campusvirtual.unah.edu.hn/course/index.php">
+                <img src="Examen%20II%20Parcial_files/sidemenu-courses.png" alt=""> <span>Todos los Cursos</span>
+            </a>
+        </li>
+
+        
+        
+
+
+        <li id="library" class="main-page">
+            <a href="https://campusvirtual.unah.edu.hn/calendar/view.php?view=month">
+                <img src="Examen%20II%20Parcial_files/sidemenu-calendar.png" alt=""> <span> Calendario</span>
+            </a>
+        </li>
+    
+        <li class="main-page">
+            <a href="https://campusvirtual.unah.edu.hn/message/index.php">
+                <img src="Examen%20II%20Parcial_files/sidemenu-chat.png" alt=""> <span>Mensajes</span>
+            </a>
+        </li>
+        <li class="main-page">
+            <a href="https://campusvirtual.unah.edu.hn/user/profile.php">
+                <img src="Examen%20II%20Parcial_files/sidemenu-profile.png" alt=""> <span>Perfil</span>
+            </a>
+        </li>
+
+        <li id="support" class="secondary-page" style="bottom: 70px; display: none;">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Ayuda">
+                <img src="Examen%20II%20Parcial_files/sidemenu-help.png" alt=""> <span>Ayuda</span>
+            </a>
+        </li>
+        <li id="sign-out" class="secondary-page" style="bottom: 20px;">
+            <a href="https://campusvirtual.unah.edu.hn/login/logout.php" data-toggle="tooltip" data-placement="right" title="Salir">
+                <img src="Examen%20II%20Parcial_files/sidemenu-logout.png" alt=""> <span>Salir</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<div class="bottombar" style="overflow:hidden !important; padding-top:8px; background: #004793; position: fixed; width: 100vw; height: 70px; bottom: -1px; z-index: 1000; ">
+    <span class="clearfix"></span>
+    <div class="text-center">
+        <nav data-layout-element="navigation" class="navbar-inverse">
+            <ul id="main-pages" class="center-block" style="display: inline-flex;">
+          
+                <li id="tracks" class="main-page">
+                    <a href="https://campusvirtual.unah.edu.hn/my" data-toggle="tooltip" data-placement="right" title="Área personal">
+                        <img src="Examen%20II%20Parcial_files/sidemenu-my.png" alt="Área personal" style=" margin-left: auto; margin-right: 15px" height="50" align="middle">
+                    </a>
+                
+                </li>
+              
+                <li id="library" class="main-page">
+                    <a href="https://campusvirtual.unah.edu.hn/course/index.php">
+                        <img src="Examen%20II%20Parcial_files/sidemenu-courses.png" alt="Todos los cursos" style="margin-right: 15px" height="50" align="middle">
+                    </a>
+                    
+                </li>
+
+                
+                <li class="main-page">
+                    <a href="https://campusvirtual.unah.edu.hn/calendar/view.php?view=month">
+                        <img src="Examen%20II%20Parcial_files/sidemenu-calendar.png" alt="Calendario" style="margin-right: 15px" height="50" align="middle">
+                    </a>
+                </li>
+            
+                <li class="main-page">
+                    <a href="https://campusvirtual.unah.edu.hn/message/index.php">
+                        <img src="Examen%20II%20Parcial_files/sidemenu-chat.png" alt="Mensajes" height="50">
+                    </a>
+                </li>
+            </ul>
+        </nav>        
+    </div>
+    
+</div>
+
+<!--// Top title bar, navigation-->
+
+<nav role="navigation" class="navbar navbar-heading">
+    <div class="container-fluid content-push">
+        <div class="row">
+
+            <div class="col-md-9">
+                    <a class="logo-campus" href="https://campusvirtual.unah.edu.hn/" title="Inicio">
+                    <img style="width: 65px; margin-top: 5px;" src="Examen%20II%20Parcial_files/logo-campus-v1.png" alt="Campus Virtual UNAH">
+                    </a>
+                <div class="navbar-header pull-left">
+
+                    <div class="main-heading">
+                        <nav class="breadcrumb-nav" style="font-sizemargin-top: 25px;" role="navigation" aria-label="breadcrumb"><ol class="breadcrumb"><li><a href="https://campusvirtual.unah.edu.hn/my/">Área personal</a></li><li><a href="https://campusvirtual.unah.edu.hn/my/">Mis cursos</a></li><li><a href="https://campusvirtual.unah.edu.hn/course/index.php?categoryid=179">EJECUCIÓN</a></li><li><a title="0900-LENGUAJES DE PROGRAMACIÓN" href="https://campusvirtual.unah.edu.hn/course/view.php?id=21776">IS513-0900-1-2019-228049</a></li><li><span tabindex="0">17 de febrero - 23 de febrero</span></li><li><a title="Cuestionario" href="https://campusvirtual.unah.edu.hn/mod/quiz/view.php?id=592028">Examen II Parcial</a></li></ol></nav>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <div class="dropdown" style="padding: 25px 0px 15px 15px; text-align: right">
+                    <a style=" position: fixed; top:20px; right: 60px; font-size:16px; font-weight: bold;" id="dLabel" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        MARIA FERNANDA RAMIREZ MALDONADO                        <i style="font-size: 13px" class="glyphicon glyphicon-chevron-down"></i>
+                    </a>
+
+                    <ul style="right: 0; left: auto" class="dropdown-menu" aria-labelledby="dLabel">
+                        <li><a href="https://campusvirtual.unah.edu.hn/my"> <i class="glyphicon glyphicon-book"></i> Mis Cursos</a></li>
+                        <!--<li><a href=""> <i class="glyphicon glyphicon-list-alt"></i> Notas</a></li>
+                        <li><a href=""> <i class="glyphicon glyphicon-calendar"></i> Calendario</a></li>
+                        -->
+                        <li><a href="https://campusvirtual.unah.edu.hn/message/index.php"> <i class="glyphicon glyphicon-inbox"></i> Mensajes</a></li>
+                        <li><a href="https://campusvirtual.unah.edu.hn/user/profile.php"> <i class="glyphicon glyphicon-cog"></i> Preferencias</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="https://campusvirtual.unah.edu.hn/login/logout.php"> <i class="glyphicon glyphicon-log-out"></i> Salir</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</nav>
+
+
+
+<!--// Main Content-->
+
+<div id="page" class="container-fluid content-push">
+    <header id="page-header" class="clearfix">
+
+
+        <div id="course-header">
+                    </div>
+    </header>
+
+    <div id="page-content" class="">
+        <div class="card-list row" id="yui_3_15_0_2_1553102257868_20">
+            <div class="card col-md-12" id="yui_3_15_0_2_1553102257868_19">
+                <div class="card-title card-link" id="yui_3_15_0_2_1553102257868_18">
+                    <div class="main-card-heading">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <h2>
+                                0900-LENGUAJES DE PROGRAMACIÓN <small>(IS513-0900-1-2019-228049)</small>                                </h2>
+                            </div>
+
+                            <div class="col-md-3 visible-md visible-lg" style="font-size: 25px; text-align: right">
+                                                                <button id="hidesidebar" onclick="showhideblocks();" style="background: #f1f1f1; color: #073a77; border: 1px solid #ccc;" class="btn btn-default btn-sm">Esconder barra lateral <i class="glyphicon glyphicon-chevron-right"></i></button>
+                                <button id="showsidebar" onclick="showhideblocks();" style="background: #f1f1f1; color: #073a77; border: 1px solid #ccc;" class="btn btn-default btn-sm">Mostrar barra lateral <i class="glyphicon glyphicon-chevron-left"></i></button>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="row" id="yui_3_15_0_2_1553102257868_17">
+                        <div id="region-main" class="col-md-9">
+                            <div role="main" id="yui_3_15_0_2_1553102257868_16"><span id="maincontent"></span><div class="table-responsive" id="yui_3_15_0_2_1553102257868_15"><table class="generaltable generalbox quizreviewsummary table" id="yui_3_15_0_2_1553102257868_14"><tbody id="yui_3_15_0_2_1553102257868_13"><tr><th class="cell" scope="row">Comenzado el</th><td class="cell">miércoles, 20 de marzo de 2019, 09:04</td></tr><tr id="yui_3_15_0_2_1553102257868_12"><th class="cell" scope="row">Estado</th><td class="cell" id="yui_3_15_0_2_1553102257868_11">Finalizado</td></tr><tr><th class="cell" scope="row">Finalizado en</th><td class="cell">miércoles, 20 de marzo de 2019, 11:17</td></tr><tr><th class="cell" scope="row">Tiempo empleado</th><td class="cell">2 horas 12 minutos</td></tr><tr><th class="cell" scope="row">Puntos</th><td class="cell">17,17/21,00</td></tr><tr><th class="cell" scope="row">Calificación</th><td class="cell"><b>16,35</b> de 20,00 (<b>82</b>%)</td></tr><tr><th class="cell" scope="row">Comentario -</th><td class="cell"><p>Sobresaliente</p></td></tr></tbody></table></div><form action="https://campusvirtual.unah.edu.hn/mod/quiz/review.php?attempt=1080237&amp;showall=1" method="post" class="questionflagsaveform" autocomplete="off" id="yui_3_15_0_3_1553102257868_373"><div><div id="q12" class="que truefalse deferredfeedback correct"><div class="info"><h3 class="no">Pregunta <span class="qno">1</span></h3><div class="state">Correcta</div><div class="grade">Puntúa 1,00 sobre 1,00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_15_0_3_1553102257868_14"><input type="hidden" name="q1157237:12_:flagged" value="0"><input type="hidden" value="qaid=11204637&amp;qubaid=1157237&amp;qid=1723043&amp;slot=12&amp;checksum=3d496e8cd96c351e58fce4374656b175&amp;sesskey=Svq4BnkIQS&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q1157237:12_:flaggedcheckbox" name="q1157237:12_:flagged" value="0"><input type="image" class="questionflagimage" src="Examen%20II%20Parcial_files/unflagged.png" title="Marcar esta pregunta para su referencia futura" alt="No marcadas"><span class="questionflagtext" title="Marcar esta pregunta para su referencia futura">Marcar pregunta</span></div></div><div class="content"><div class="formulation"><h4 class="accesshide">Enunciado de la pregunta</h4><input type="hidden" name="q1157237:12_:sequencecheck" value="3"><div class="qtext"><p>La
+ evaluación de expresiones consiste en la forma en que las variables y 
+los operadores se unen mediante ciertas sintaxis y con la ayuda de otros
+ operadores como paréntesis, comas o puntos y comas de forma que marca 
+en orden de ejecución de programas.</p></div><div class="ablock"><div class="prompt">Seleccione una:</div><div class="answer"><div class="r0 correct"><input type="radio" name="q1157237:12_answer" value="1" id="q1157237:12_answertrue" disabled="disabled" checked="checked"><label for="q1157237:12_answertrue">Verdadero</label> <img src="Examen%20II%20Parcial_files/grade_correct.svg" alt="Correcta" class="questioncorrectnessicon"></div><div class="r1"><input type="radio" name="q1157237:12_answer" value="0" id="q1157237:12_answerfalse" disabled="disabled"><label for="q1157237:12_answerfalse">Falso</label> </div></div></div></div><div class="outcome"><h4 class="accesshide">Retroalimentación</h4><div class="feedback"><div class="rightanswer">La respuesta correcta es 'Verdadero'</div></div></div></div></div><div id="q1" class="que match deferredfeedback correct"><div class="info"><h3 class="no">Pregunta <span class="qno">2</span></h3><div class="state">Correcta</div><div class="grade">Puntúa 3,00 sobre 3,00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_15_0_3_1553102257868_23"><input type="hidden" name="q1157237:1_:flagged" value="0"><input type="hidden" value="qaid=11204626&amp;qubaid=1157237&amp;qid=1723007&amp;slot=1&amp;checksum=9b434c22c0eeb9e2b8b1f5cc04feb317&amp;sesskey=Svq4BnkIQS&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q1157237:1_:flaggedcheckbox" name="q1157237:1_:flagged" value="0"><input type="image" class="questionflagimage" src="Examen%20II%20Parcial_files/unflagged.png" title="Marcar esta pregunta para su referencia futura" alt="No marcadas"><span class="questionflagtext" title="Marcar esta pregunta para su referencia futura">Marcar pregunta</span></div></div><div class="content"><div class="formulation"><h4 class="accesshide">Enunciado de la pregunta</h4><input type="hidden" name="q1157237:1_:sequencecheck" value="3"><div class="qtext"><p>Seleccione el termino que corresponde a cada concepto.</p></div><div class="ablock"><div class="table-responsive"><table class="answer table"><tbody><tr class="r0"><td class="text"><p>Se
+ refiere a la capacidad de los lenguajes de ser estricto en las reglas 
+de comprobación de tipos y se puede realizar la validación ante o en 
+tiempos de compilación.</p></td><td class="control correct"><label class="accesshide" for="menuq1157237:1_sub0">Respuesta 1</label><select disabled="disabled" id="menuq1157237:1_sub0" class="select menuq1157237:1_sub0" name="q1157237:1_sub0"><option value="0">Elegir...</option><option selected="selected" value="1">Estáticamente tipiado.</option><option value="2">Fuertemente tipiado.</option><option value="3">Comprobación de tipos.</option></select> <img src="Examen%20II%20Parcial_files/grade_correct.svg" alt="Correcta" class="questioncorrectnessicon"></td></tr><tr class="r1"><td class="text"><p>Es el proceso donde se asegura que un programa obedece las reglas de comparación de los lenguajes.</p></td><td class="control correct"><label class="accesshide" for="menuq1157237:1_sub1">Respuesta 2</label><select disabled="disabled" id="menuq1157237:1_sub1" class="select menuq1157237:1_sub1" name="q1157237:1_sub1"><option value="0">Elegir...</option><option value="1">Estáticamente tipiado.</option><option value="2">Fuertemente tipiado.</option><option selected="selected" value="3">Comprobación de tipos.</option></select> <img src="Examen%20II%20Parcial_files/grade_correct.svg" alt="Correcta" class="questioncorrectnessicon"></td></tr><tr class="r0"><td class="text"><p>Se refiere a la capacidad de los lenguajes de ser estricto en las reglas de comprobación de tipos.</p></td><td class="control correct"><label class="accesshide" for="menuq1157237:1_sub2">Respuesta 3</label><select disabled="disabled" id="menuq1157237:1_sub2" class="select menuq1157237:1_sub2" name="q1157237:1_sub2"><option value="0">Elegir...</option><option value="1">Estáticamente tipiado.</option><option selected="selected" value="2">Fuertemente tipiado.</option><option value="3">Comprobación de tipos.</option></select> <img src="Examen%20II%20Parcial_files/grade_correct.svg" alt="Correcta" class="questioncorrectnessicon"></td></tr></tbody></table></div></div></div><div class="outcome"><h4 class="accesshide">Retroalimentación</h4><div class="feedback"><div class="specificfeedback"><p>Respuesta correcta</p></div><div class="rightanswer">La
+ respuesta correcta es: Se refiere a la capacidad de los lenguajes de 
+ser estricto en las reglas de comprobación de tipos y se puede realizar 
+la validación ante o en tiempos de compilación. – Estáticamente 
+tipiado., Es el proceso donde se asegura que un programa obedece las 
+reglas de comparación de los lenguajes. – Comprobación de tipos., Se 
+refiere a la capacidad de los lenguajes de ser estricto en las reglas de
+ comprobación de tipos. – Fuertemente tipiado.</div></div></div></div></div><div id="q5" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Pregunta <span class="qno">3</span></h3><div class="state">Correcta</div><div class="grade">Puntúa 1,00 sobre 1,00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_15_0_3_1553102257868_32"><input type="hidden" name="q1157237:5_:flagged" value="0"><input type="hidden" value="qaid=11204630&amp;qubaid=1157237&amp;qid=1745220&amp;slot=5&amp;checksum=9a4468a37c3c1e67a18f75b50b78ab76&amp;sesskey=Svq4BnkIQS&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q1157237:5_:flaggedcheckbox" name="q1157237:5_:flagged" value="0"><input type="image" class="questionflagimage" src="Examen%20II%20Parcial_files/unflagged.png" title="Marcar esta pregunta para su referencia futura" alt="No marcadas"><span class="questionflagtext" title="Marcar esta pregunta para su referencia futura">Marcar pregunta</span></div></div><div class="content"><div class="formulation"><h4 class="accesshide">Enunciado de la pregunta</h4><input type="hidden" name="q1157237:5_:sequencecheck" value="3"><div class="qtext"><p>Son datos del tipo texto:</p></div><div class="ablock"><div class="prompt">Seleccione una o más de una:</div><div class="answer"><div class="r0 correct"><input type="checkbox" name="q1157237:5_choice0" disabled="disabled" value="1" id="q1157237:5_choice0" checked="checked"><label for="q1157237:5_choice0">a. string.</label> <img src="Examen%20II%20Parcial_files/grade_correct.svg" alt="Correcta" class="questioncorrectnessicon"></div>
+<div class="r1"><input type="checkbox" name="q1157237:5_choice1" disabled="disabled" value="1" id="q1157237:5_choice1"><label for="q1157237:5_choice1">b. int.</label> </div>
+<div class="r0"><input type="checkbox" name="q1157237:5_choice2" disabled="disabled" value="1" id="q1157237:5_choice2"><label for="q1157237:5_choice2">c. float.</label> </div>
+<div class="r1 correct"><input type="checkbox" name="q1157237:5_choice3" disabled="disabled" value="1" id="q1157237:5_choice3" checked="checked"><label for="q1157237:5_choice3">d. char.</label> <img src="Examen%20II%20Parcial_files/grade_correct.svg" alt="Correcta" class="questioncorrectnessicon"></div>
+</div></div></div><div class="outcome"><h4 class="accesshide">Retroalimentación</h4><div class="feedback"><div class="specificfeedback"><p>Respuesta correcta</p></div><div class="rightanswer">La respuesta correcta es: char., string.</div></div></div></div></div><div id="q9" class="que match deferredfeedback incorrect"><div class="info"><h3 class="no">Pregunta <span class="qno">4</span></h3><div class="state">Incorrecta</div><div class="grade">Puntúa 0,00 sobre 3,00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_15_0_3_1553102257868_41"><input type="hidden" name="q1157237:9_:flagged" value="0"><input type="hidden" value="qaid=11204634&amp;qubaid=1157237&amp;qid=1745241&amp;slot=9&amp;checksum=ede01ce7d09b0b0da28a5dfdf8fb1537&amp;sesskey=Svq4BnkIQS&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q1157237:9_:flaggedcheckbox" name="q1157237:9_:flagged" value="0"><input type="image" class="questionflagimage" src="Examen%20II%20Parcial_files/unflagged.png" title="Marcar esta pregunta para su referencia futura" alt="No marcadas"><span class="questionflagtext" title="Marcar esta pregunta para su referencia futura">Marcar pregunta</span></div></div><div class="content"><div class="formulation"><h4 class="accesshide">Enunciado de la pregunta</h4><input type="hidden" name="q1157237:9_:sequencecheck" value="4"><div class="qtext"><p>Seleccione el termino que hace correcto al enunciado:</p></div><div class="ablock"><div class="table-responsive"><table class="answer table"><tbody><tr class="r0"><td class="text"><p>En la mayoría de los lenguajes se requiere que el tipo de valor debe ser compatible en el contexto que aparece.</p></td><td class="control incorrect"><label class="accesshide" for="menuq1157237:9_sub0">Respuesta 1</label><select disabled="disabled" id="menuq1157237:9_sub0" class="select menuq1157237:9_sub0" name="q1157237:9_sub0"><option value="0">Elegir...</option><option value="1">Tipo compatible</option><option selected="selected" value="2">Tipo equivalentes</option><option value="3">Tipo de conversión</option></select> <img src="Examen%20II%20Parcial_files/grade_incorrect.svg" alt="Incorrecta" class="questioncorrectnessicon"></td></tr><tr class="r1"><td class="text"><p>En un lenguaje con escritura estática, hay muchos contextos en los que se esperan valores de un tipo específico.</p></td><td class="control incorrect"><label class="accesshide" for="menuq1157237:9_sub1">Respuesta 2</label><select disabled="disabled" id="menuq1157237:9_sub1" class="select menuq1157237:9_sub1" name="q1157237:9_sub1"><option value="0">Elegir...</option><option selected="selected" value="1">Tipo compatible</option><option value="2">Tipo equivalentes</option><option value="3">Tipo de conversión</option></select> <img src="Examen%20II%20Parcial_files/grade_incorrect.svg" alt="Incorrecta" class="questioncorrectnessicon"></td></tr><tr class="r0"><td class="text"><p>En un lenguaje en el que el usuario puede definir nuevos tipos.</p></td><td class="control incorrect"><label class="accesshide" for="menuq1157237:9_sub2">Respuesta 3</label><select disabled="disabled" id="menuq1157237:9_sub2" class="select menuq1157237:9_sub2" name="q1157237:9_sub2"><option value="0">Elegir...</option><option value="1">Tipo compatible</option><option value="2">Tipo equivalentes</option><option selected="selected" value="3">Tipo de conversión</option></select> <img src="Examen%20II%20Parcial_files/grade_incorrect.svg" alt="Incorrecta" class="questioncorrectnessicon"></td></tr></tbody></table></div></div></div><div class="outcome"><h4 class="accesshide">Retroalimentación</h4><div class="feedback"><div class="specificfeedback"><p>Respuesta incorrecta.</p></div><div class="rightanswer">La
+ respuesta correcta es: En la mayoría de los lenguajes se requiere que 
+el tipo de valor debe ser compatible en el contexto que aparece. – Tipo 
+compatible, En un lenguaje con escritura estática, hay muchos contextos 
+en los que se esperan valores de un tipo específico. – Tipo de 
+conversión, En un lenguaje en el que el usuario puede definir nuevos 
+tipos. – Tipo equivalentes</div></div></div></div></div><div id="q13" class="que match deferredfeedback correct"><div class="info"><h3 class="no">Pregunta <span class="qno">5</span></h3><div class="state">Correcta</div><div class="grade">Puntúa 3,00 sobre 3,00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_15_0_3_1553102257868_50"><input type="hidden" name="q1157237:13_:flagged" value="0"><input type="hidden" value="qaid=11204638&amp;qubaid=1157237&amp;qid=1745266&amp;slot=13&amp;checksum=da9006fac3f64575492f2402a62108d2&amp;sesskey=Svq4BnkIQS&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q1157237:13_:flaggedcheckbox" name="q1157237:13_:flagged" value="0"><input type="image" class="questionflagimage" src="Examen%20II%20Parcial_files/unflagged.png" title="Marcar esta pregunta para su referencia futura" alt="No marcadas"><span class="questionflagtext" title="Marcar esta pregunta para su referencia futura">Marcar pregunta</span></div></div><div class="content"><div class="formulation"><h4 class="accesshide">Enunciado de la pregunta</h4><input type="hidden" name="q1157237:13_:sequencecheck" value="4"><div class="qtext"><p>Seleccione el termino que hace correcto cada enunciado:</p></div><div class="ablock"><div class="table-responsive"><table class="answer table"><tbody><tr class="r0"><td class="text"><p>Se
+ refiere a expresiones definidas en términos de si misma directa o 
+indirectamente, normalmente estos modelos computacionales requieren de 
+un stack para guardar la información recursiva.</p></td><td class="control correct"><label class="accesshide" for="menuq1157237:13_sub0">Respuesta 1</label><select disabled="disabled" id="menuq1157237:13_sub0" class="select menuq1157237:13_sub0" name="q1157237:13_sub0"><option value="0">Elegir...</option><option value="1">Manejo de excepciones</option><option value="2">Selección</option><option selected="selected" value="3">Recursión</option></select> <img src="Examen%20II%20Parcial_files/grade_correct.svg" alt="Correcta" class="questioncorrectnessicon"></td></tr><tr class="r1"><td class="text"><p>&nbsp;Dependiendo de las condiciones de ejecución se elige una alternativa de entre dos o más expresiones.</p></td><td class="control correct"><label class="accesshide" for="menuq1157237:13_sub1">Respuesta 2</label><select disabled="disabled" id="menuq1157237:13_sub1" class="select menuq1157237:13_sub1" name="q1157237:13_sub1"><option value="0">Elegir...</option><option value="1">Manejo de excepciones</option><option selected="selected" value="2">Selección</option><option value="3">Recursión</option></select> <img src="Examen%20II%20Parcial_files/grade_correct.svg" alt="Correcta" class="questioncorrectnessicon"></td></tr><tr class="r0"><td class="text"><p>&nbsp;Programa o fragmento de programa optimizado asumiendo el manejo de las ejecuciones.</p></td><td class="control correct"><label class="accesshide" for="menuq1157237:13_sub2">Respuesta 3</label><select disabled="disabled" id="menuq1157237:13_sub2" class="select menuq1157237:13_sub2" name="q1157237:13_sub2"><option value="0">Elegir...</option><option selected="selected" value="1">Manejo de excepciones</option><option value="2">Selección</option><option value="3">Recursión</option></select> <img src="Examen%20II%20Parcial_files/grade_correct.svg" alt="Correcta" class="questioncorrectnessicon"></td></tr></tbody></table></div></div></div><div class="outcome"><h4 class="accesshide">Retroalimentación</h4><div class="feedback"><div class="specificfeedback"><p>Respuesta correcta</p></div><div class="rightanswer">La
+ respuesta correcta es: Se refiere a expresiones definidas en términos 
+de si misma directa o indirectamente, normalmente estos modelos 
+computacionales requieren de un stack para guardar la información 
+recursiva. – Recursión, Dependiendo de las condiciones de ejecución se 
+elige una alternativa de entre dos o más expresiones. – Selección, 
+Programa o fragmento de programa optimizado asumiendo el manejo de las 
+ejecuciones. – Manejo de excepciones</div></div></div></div></div><div id="q4" class="que multichoice deferredfeedback partiallycorrect"><div class="info"><h3 class="no">Pregunta <span class="qno">6</span></h3><div class="state">Parcialmente correcta</div><div class="grade">Puntúa 0,50 sobre 1,00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_15_0_3_1553102257868_59"><input type="hidden" name="q1157237:4_:flagged" value="0"><input type="hidden" value="qaid=11204629&amp;qubaid=1157237&amp;qid=1745219&amp;slot=4&amp;checksum=b5bc0f6a4ef1a7aa4b416582773d2373&amp;sesskey=Svq4BnkIQS&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q1157237:4_:flaggedcheckbox" name="q1157237:4_:flagged" value="0"><input type="image" class="questionflagimage" src="Examen%20II%20Parcial_files/unflagged.png" title="Marcar esta pregunta para su referencia futura" alt="No marcadas"><span class="questionflagtext" title="Marcar esta pregunta para su referencia futura">Marcar pregunta</span></div></div><div class="content"><div class="formulation"><h4 class="accesshide">Enunciado de la pregunta</h4><input type="hidden" name="q1157237:4_:sequencecheck" value="3"><div class="qtext"><p>Son datos del tipo numérico:</p></div><div class="ablock"><div class="prompt">Seleccione una o más de una:</div><div class="answer"><div class="r0 correct"><input type="checkbox" name="q1157237:4_choice0" disabled="disabled" value="1" id="q1157237:4_choice0" checked="checked"><label for="q1157237:4_choice0">a. int.</label> <img src="Examen%20II%20Parcial_files/grade_correct.svg" alt="Correcta" class="questioncorrectnessicon"></div>
+<div class="r1"><input type="checkbox" name="q1157237:4_choice1" disabled="disabled" value="1" id="q1157237:4_choice1"><label for="q1157237:4_choice1">b. boolean.</label> </div>
+<div class="r0"><input type="checkbox" name="q1157237:4_choice2" disabled="disabled" value="1" id="q1157237:4_choice2"><label for="q1157237:4_choice2">c. string.</label> </div>
+<div class="r1"><input type="checkbox" name="q1157237:4_choice3" disabled="disabled" value="1" id="q1157237:4_choice3"><label for="q1157237:4_choice3">d. byte.</label> </div>
+</div></div></div><div class="outcome"><h4 class="accesshide">Retroalimentación</h4><div class="feedback"><div class="specificfeedback"><p>Respuesta parcialmente correcta.</p></div><div class="numpartscorrect">Ha seleccionado correctamente 1.</div><div class="rightanswer">La respuesta correcta es: byte., int.</div></div></div></div></div><div id="q11" class="que multichoice deferredfeedback correct"><div class="info"><h3 class="no">Pregunta <span class="qno">7</span></h3><div class="state">Correcta</div><div class="grade">Puntúa 1,00 sobre 1,00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_15_0_3_1553102257868_68"><input type="hidden" name="q1157237:11_:flagged" value="0"><input type="hidden" value="qaid=11204636&amp;qubaid=1157237&amp;qid=1745254&amp;slot=11&amp;checksum=dc6c06b28cc5cbe74f74aedf76ddabd6&amp;sesskey=Svq4BnkIQS&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q1157237:11_:flaggedcheckbox" name="q1157237:11_:flagged" value="0"><input type="image" class="questionflagimage" src="Examen%20II%20Parcial_files/unflagged.png" title="Marcar esta pregunta para su referencia futura" alt="No marcadas"><span class="questionflagtext" title="Marcar esta pregunta para su referencia futura">Marcar pregunta</span></div></div><div class="content"><div class="formulation"><h4 class="accesshide">Enunciado de la pregunta</h4><input type="hidden" name="q1157237:11_:sequencecheck" value="3"><div class="qtext"><p>Son
+ el resultado de operaciones aritméticas o expresiones, así como el 
+resultados de funciones y es que como sabe una expresión que el 
+resultado debe ser un tipo booleano o el tipo del contexto de la 
+operación:</p></div><div class="ablock"><div class="prompt">Seleccione una:</div><div class="answer"><div class="r0"><input type="radio" name="q1157237:11_answer" disabled="disabled" value="0" id="q1157237:11_answer0"><label for="q1157237:11_answer0">a. Tipo equivalentes</label> </div>
+<div class="r1 correct"><input type="radio" name="q1157237:11_answer" disabled="disabled" value="1" id="q1157237:11_answer1" checked="checked"><label for="q1157237:11_answer1">b. Tipo inferidos</label> <img src="Examen%20II%20Parcial_files/grade_correct.svg" alt="Correcta" class="questioncorrectnessicon"></div>
+<div class="r0"><input type="radio" name="q1157237:11_answer" disabled="disabled" value="2" id="q1157237:11_answer2"><label for="q1157237:11_answer2">c. Tipo conversión</label> </div>
+<div class="r1"><input type="radio" name="q1157237:11_answer" disabled="disabled" value="3" id="q1157237:11_answer3"><label for="q1157237:11_answer3">d. Tipo compatibles</label> </div>
+</div></div></div><div class="outcome"><h4 class="accesshide">Retroalimentación</h4><div class="feedback"><div class="specificfeedback"><p>Respuesta correcta</p></div><div class="rightanswer">La respuesta correcta es: Tipo inferidos</div></div></div></div></div><div id="q7" class="que truefalse deferredfeedback correct"><div class="info"><h3 class="no">Pregunta <span class="qno">8</span></h3><div class="state">Correcta</div><div class="grade">Puntúa 1,00 sobre 1,00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_15_0_3_1553102257868_77"><input type="hidden" name="q1157237:7_:flagged" value="0"><input type="hidden" value="qaid=11204632&amp;qubaid=1157237&amp;qid=1745237&amp;slot=7&amp;checksum=c85ac7b31227a4344f2bb58d97bc540b&amp;sesskey=Svq4BnkIQS&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q1157237:7_:flaggedcheckbox" name="q1157237:7_:flagged" value="0"><input type="image" class="questionflagimage" src="Examen%20II%20Parcial_files/unflagged.png" title="Marcar esta pregunta para su referencia futura" alt="No marcadas"><span class="questionflagtext" title="Marcar esta pregunta para su referencia futura">Marcar pregunta</span></div></div><div class="content"><div class="formulation"><h4 class="accesshide">Enunciado de la pregunta</h4><input type="hidden" name="q1157237:7_:sequencecheck" value="3"><div class="qtext"><p>Ortogonalidad es la capacidad que tienen los lenguajes de programación de combinar las expresiones</p></div><div class="ablock"><div class="prompt">Seleccione una:</div><div class="answer"><div class="r0 correct"><input type="radio" name="q1157237:7_answer" value="1" id="q1157237:7_answertrue" disabled="disabled" checked="checked"><label for="q1157237:7_answertrue">Verdadero</label> <img src="Examen%20II%20Parcial_files/grade_correct.svg" alt="Correcta" class="questioncorrectnessicon"></div><div class="r1"><input type="radio" name="q1157237:7_answer" value="0" id="q1157237:7_answerfalse" disabled="disabled"><label for="q1157237:7_answerfalse">Falso</label> </div></div></div></div><div class="outcome"><h4 class="accesshide">Retroalimentación</h4><div class="feedback"><div class="rightanswer">La respuesta correcta es 'Verdadero'</div></div></div></div></div><div id="q3" class="que match deferredfeedback correct"><div class="info"><h3 class="no">Pregunta <span class="qno">9</span></h3><div class="state">Correcta</div><div class="grade">Puntúa 3,00 sobre 3,00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_15_0_3_1553102257868_86"><input type="hidden" name="q1157237:3_:flagged" value="0"><input type="hidden" value="qaid=11204628&amp;qubaid=1157237&amp;qid=1745217&amp;slot=3&amp;checksum=62cf5fb6739c63f10e09a2b48d498adc&amp;sesskey=Svq4BnkIQS&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q1157237:3_:flaggedcheckbox" name="q1157237:3_:flagged" value="0"><input type="image" class="questionflagimage" src="Examen%20II%20Parcial_files/unflagged.png" title="Marcar esta pregunta para su referencia futura" alt="No marcadas"><span class="questionflagtext" title="Marcar esta pregunta para su referencia futura">Marcar pregunta</span></div></div><div class="content"><div class="formulation"><h4 class="accesshide">Enunciado de la pregunta</h4><input type="hidden" name="q1157237:3_:sequencecheck" value="3"><div class="qtext"><p>Seleccione el termino que corresponde a cada concepto.</p></div><div class="ablock"><div class="table-responsive"><table class="answer table"><tbody><tr class="r0"><td class="text"><p>Es uno de una pequeña colección de tipos integrados.</p></td><td class="control correct"><label class="accesshide" for="menuq1157237:3_sub0">Respuesta 1</label><select disabled="disabled" id="menuq1157237:3_sub0" class="select menuq1157237:3_sub0" name="q1157237:3_sub0"><option value="0">Elegir...</option><option value="1">Denotacionales.</option><option selected="selected" value="2">Constructivos.</option><option value="3">Abstracto.</option></select> <img src="Examen%20II%20Parcial_files/grade_correct.svg" alt="Correcta" class="questioncorrectnessicon"></td></tr><tr class="r1"><td class="text"><p>Un tipo es una interfaz que consiste en un conjunto de operaciones con una semántica bien definida y mutuamente consistente.</p></td><td class="control correct"><label class="accesshide" for="menuq1157237:3_sub1">Respuesta 2</label><select disabled="disabled" id="menuq1157237:3_sub1" class="select menuq1157237:3_sub1" name="q1157237:3_sub1"><option value="0">Elegir...</option><option value="1">Denotacionales.</option><option value="2">Constructivos.</option><option selected="selected" value="3">Abstracto.</option></select> <img src="Examen%20II%20Parcial_files/grade_correct.svg" alt="Correcta" class="questioncorrectnessicon"></td></tr><tr class="r0"><td class="text"><p>Es simplemente un conjunto de valores.</p></td><td class="control correct"><label class="accesshide" for="menuq1157237:3_sub2">Respuesta 3</label><select disabled="disabled" id="menuq1157237:3_sub2" class="select menuq1157237:3_sub2" name="q1157237:3_sub2"><option value="0">Elegir...</option><option selected="selected" value="1">Denotacionales.</option><option value="2">Constructivos.</option><option value="3">Abstracto.</option></select> <img src="Examen%20II%20Parcial_files/grade_correct.svg" alt="Correcta" class="questioncorrectnessicon"></td></tr></tbody></table></div></div></div><div class="outcome"><h4 class="accesshide">Retroalimentación</h4><div class="feedback"><div class="specificfeedback"><p>Respuesta correcta</p></div><div class="rightanswer">La
+ respuesta correcta es: Es uno de una pequeña colección de tipos 
+integrados. – Constructivos., Un tipo es una interfaz que consiste en un
+ conjunto de operaciones con una semántica bien definida y mutuamente 
+consistente. – Abstracto., Es simplemente un conjunto de valores. – 
+Denotacionales.</div></div></div></div></div><div id="q8" class="que truefalse deferredfeedback correct"><div class="info"><h3 class="no">Pregunta <span class="qno">10</span></h3><div class="state">Correcta</div><div class="grade">Puntúa 1,00 sobre 1,00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_15_0_3_1553102257868_95"><input type="hidden" name="q1157237:8_:flagged" value="0"><input type="hidden" value="qaid=11204633&amp;qubaid=1157237&amp;qid=1745239&amp;slot=8&amp;checksum=24ef4038e777d965c36257a9c460b194&amp;sesskey=Svq4BnkIQS&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q1157237:8_:flaggedcheckbox" name="q1157237:8_:flagged" value="0"><input type="image" class="questionflagimage" src="Examen%20II%20Parcial_files/unflagged.png" title="Marcar esta pregunta para su referencia futura" alt="No marcadas"><span class="questionflagtext" title="Marcar esta pregunta para su referencia futura">Marcar pregunta</span></div></div><div class="content"><div class="formulation"><h4 class="accesshide">Enunciado de la pregunta</h4><input type="hidden" name="q1157237:8_:sequencecheck" value="3"><div class="qtext"><p>Se
+ dice que un lenguaje fuertemente ortogonal es aquel que posee algunas 
+combinaciones posibles, aunque no posea ningún significado en términos 
+del lenguaje.</p></div><div class="ablock"><div class="prompt">Seleccione una:</div><div class="answer"><div class="r0"><input type="radio" name="q1157237:8_answer" value="1" id="q1157237:8_answertrue" disabled="disabled"><label for="q1157237:8_answertrue">Verdadero</label> </div><div class="r1 correct"><input type="radio" name="q1157237:8_answer" value="0" id="q1157237:8_answerfalse" disabled="disabled" checked="checked"><label for="q1157237:8_answerfalse">Falso</label> <img src="Examen%20II%20Parcial_files/grade_correct.svg" alt="Correcta" class="questioncorrectnessicon"></div></div></div></div><div class="outcome"><h4 class="accesshide">Retroalimentación</h4><div class="feedback"><div class="specificfeedback"><p>Se
+ dice que un lenguaje fuertemente ortogonal es aquel que posee la mayor 
+cantidad de combinaciones posibles y que estas a su vez poseen 
+significado en términos del lenguaje</p></div><div class="rightanswer">La respuesta correcta es 'Falso'</div></div></div></div></div><div id="q10" class="que truefalse deferredfeedback correct"><div class="info"><h3 class="no">Pregunta <span class="qno">11</span></h3><div class="state">Correcta</div><div class="grade">Puntúa 1,00 sobre 1,00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_15_0_3_1553102257868_104"><input type="hidden" name="q1157237:10_:flagged" value="0"><input type="hidden" value="qaid=11204635&amp;qubaid=1157237&amp;qid=1745242&amp;slot=10&amp;checksum=3e3a69df72d7855fd81c5a1a0e6b3bb9&amp;sesskey=Svq4BnkIQS&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q1157237:10_:flaggedcheckbox" name="q1157237:10_:flagged" value="0"><input type="image" class="questionflagimage" src="Examen%20II%20Parcial_files/unflagged.png" title="Marcar esta pregunta para su referencia futura" alt="No marcadas"><span class="questionflagtext" title="Marcar esta pregunta para su referencia futura">Marcar pregunta</span></div></div><div class="content"><div class="formulation"><h4 class="accesshide">Enunciado de la pregunta</h4><input type="hidden" name="q1157237:10_:sequencecheck" value="3"><div class="qtext"><p>La
+ equivalencia estructural se basa en la ocurrencia léxica de las 
+definiciones de tipos: aproximadamente, cada definición introduce un 
+nuevo tipo.</p></div><div class="ablock"><div class="prompt">Seleccione una:</div><div class="answer"><div class="r0"><input type="radio" name="q1157237:10_answer" value="1" id="q1157237:10_answertrue" disabled="disabled"><label for="q1157237:10_answertrue">Verdadero</label> </div><div class="r1 correct"><input type="radio" name="q1157237:10_answer" value="0" id="q1157237:10_answerfalse" disabled="disabled" checked="checked"><label for="q1157237:10_answerfalse">Falso</label> <img src="Examen%20II%20Parcial_files/grade_correct.svg" alt="Correcta" class="questioncorrectnessicon"></div></div></div></div><div class="outcome"><h4 class="accesshide">Retroalimentación</h4><div class="feedback"><div class="specificfeedback"><p>La
+ equivalencia de nombres se basa en la ocurrencia léxica de las 
+definiciones de tipos: aproximadamente, cada definición introduce un 
+nuevo tipo.</p></div><div class="rightanswer">La respuesta correcta es 'Falso'</div></div></div></div></div><div id="q2" class="que truefalse deferredfeedback correct"><div class="info"><h3 class="no">Pregunta <span class="qno">12</span></h3><div class="state">Correcta</div><div class="grade">Puntúa 1,00 sobre 1,00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_15_0_3_1553102257868_113"><input type="hidden" name="q1157237:2_:flagged" value="0"><input type="hidden" value="qaid=11204627&amp;qubaid=1157237&amp;qid=1723053&amp;slot=2&amp;checksum=2aec29fdbd4727b51fd51d7a85d2277d&amp;sesskey=Svq4BnkIQS&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q1157237:2_:flaggedcheckbox" name="q1157237:2_:flagged" value="0"><input type="image" class="questionflagimage" src="Examen%20II%20Parcial_files/unflagged.png" title="Marcar esta pregunta para su referencia futura" alt="No marcadas"><span class="questionflagtext" title="Marcar esta pregunta para su referencia futura">Marcar pregunta</span></div></div><div class="content"><div class="formulation"><h4 class="accesshide">Enunciado de la pregunta</h4><input type="hidden" name="q1157237:2_:sequencecheck" value="3"><div class="qtext"><p>El
+ polimorfismo permite que un simple código funcione como objeto de 
+múltiples tipos, podría o no implicar que necesita un chequeo de tipos 
+en tiempo de ejecución.</p></div><div class="ablock"><div class="prompt">Seleccione una:</div><div class="answer"><div class="r0 correct"><input type="radio" name="q1157237:2_answer" value="1" id="q1157237:2_answertrue" disabled="disabled" checked="checked"><label for="q1157237:2_answertrue">Verdadero</label> <img src="Examen%20II%20Parcial_files/grade_correct.svg" alt="Correcta" class="questioncorrectnessicon"></div><div class="r1"><input type="radio" name="q1157237:2_answer" value="0" id="q1157237:2_answerfalse" disabled="disabled"><label for="q1157237:2_answerfalse">Falso</label> </div></div></div></div><div class="outcome"><h4 class="accesshide">Retroalimentación</h4><div class="feedback"><div class="rightanswer">La respuesta correcta es 'Verdadero'</div></div></div></div></div><div id="q6" class="que multichoice deferredfeedback partiallycorrect"><div class="info"><h3 class="no">Pregunta <span class="qno">13</span></h3><div class="state">Parcialmente correcta</div><div class="grade">Puntúa 0,67 sobre 1,00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive" id="yui_3_15_0_3_1553102257868_122"><input type="hidden" name="q1157237:6_:flagged" value="0"><input type="hidden" value="qaid=11204631&amp;qubaid=1157237&amp;qid=1745235&amp;slot=6&amp;checksum=2c29192ad9d0b8bde864569fd29cb618&amp;sesskey=Svq4BnkIQS&amp;newstate=" class="questionflagpostdata">
+<input type="hidden" class="questionflagvalue" id="q1157237:6_:flaggedcheckbox" name="q1157237:6_:flagged" value="0"><input type="image" class="questionflagimage" src="Examen%20II%20Parcial_files/unflagged.png" title="Marcar esta pregunta para su referencia futura" alt="No marcadas"><span class="questionflagtext" title="Marcar esta pregunta para su referencia futura">Marcar pregunta</span></div></div><div class="content"><div class="formulation"><h4 class="accesshide">Enunciado de la pregunta</h4><input type="hidden" name="q1157237:6_:sequencecheck" value="3"><div class="qtext"><p>Son datos del tipo composición:</p></div><div class="ablock"><div class="prompt">Seleccione una o más de una:</div><div class="answer"><div class="r0"><input type="checkbox" name="q1157237:6_choice0" disabled="disabled" value="1" id="q1157237:6_choice0"><label for="q1157237:6_choice0">a. Flotantes.</label> </div>
+<div class="r1"><input type="checkbox" name="q1157237:6_choice1" disabled="disabled" value="1" id="q1157237:6_choice1"><label for="q1157237:6_choice1">b. Registros.</label> </div>
+<div class="r0 correct"><input type="checkbox" name="q1157237:6_choice2" disabled="disabled" value="1" id="q1157237:6_choice2" checked="checked"><label for="q1157237:6_choice2">c. Listas.</label> <img src="Examen%20II%20Parcial_files/grade_correct.svg" alt="Correcta" class="questioncorrectnessicon"></div>
+<div class="r1"><input type="checkbox" name="q1157237:6_choice3" disabled="disabled" value="1" id="q1157237:6_choice3"><label for="q1157237:6_choice3">d. Enteros.</label> </div>
+<div class="r0 correct"><input type="checkbox" name="q1157237:6_choice4" disabled="disabled" value="1" id="q1157237:6_choice4" checked="checked"><label for="q1157237:6_choice4">e. Arreglos.</label> <img src="Examen%20II%20Parcial_files/grade_correct.svg" alt="Correcta" class="questioncorrectnessicon"></div>
+</div></div></div><div class="outcome"><h4 class="accesshide">Retroalimentación</h4><div class="feedback"><div class="specificfeedback"><p>Respuesta parcialmente correcta.</p></div><div class="numpartscorrect">Ha seleccionado correctamente 2.</div><div class="rightanswer">La respuesta correcta es: Registros., Arreglos., Listas.</div></div></div></div></div><input type="hidden" name="sesskey" value="Svq4BnkIQS"><div class="submitbtns"></div></div></form><div class="submitbtns"><a href="https://campusvirtual.unah.edu.hn/mod/quiz/view.php?id=592028">Finalizar revisión</a></div></div>
+                        </div>
+                        <div class="col-md-3" id="region-post">
+                            <div class="breadcrumb-button"></div>
+                            <div class="clearfix"> </div>
+                            <aside id="block-region-side-post" class="block-region" data-blockregion="side-post" data-droptarget="1"><a href="#sb-1" class="skip-block">Saltar Navegación por el cuestionario</a><div class="block block_fake" id="mod_quiz_navblock" data-block="_fake"><div class="header"><div class="title"><div class="block_action"></div><h2>Navegación por el cuestionario</h2></div></div><div class="content"><div class="qn_buttons allquestionsononepage"><a class="qnbutton correct free thispage" id="quiznavbutton12" title="Correcta" data-quiz-page="0" href="#"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Pregunta </span>1<span class="accesshide"> Esta página <span class="flagstate"></span></span></a><a class="qnbutton correct free thispage" id="quiznavbutton1" title="Correcta" data-quiz-page="0" href="#q1"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Pregunta </span>2<span class="accesshide"> Esta página <span class="flagstate"></span></span></a><a class="qnbutton correct free thispage" id="quiznavbutton5" title="Correcta" data-quiz-page="0" href="#q5"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Pregunta </span>3<span class="accesshide"> Esta página <span class="flagstate"></span></span></a><a class="qnbutton incorrect free thispage" id="quiznavbutton9" title="Incorrecta" data-quiz-page="0" href="#q9"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Pregunta </span>4<span class="accesshide"> Esta página <span class="flagstate"></span></span></a><a class="qnbutton correct free thispage" id="quiznavbutton13" title="Correcta" data-quiz-page="0" href="#q13"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Pregunta </span>5<span class="accesshide"> Esta página <span class="flagstate"></span></span></a><a class="qnbutton partiallycorrect free thispage" id="quiznavbutton4" title="Parcialmente correcta" data-quiz-page="1" href="#q4"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Pregunta </span>6<span class="accesshide"> Esta página <span class="flagstate"></span></span></a><a class="qnbutton correct free thispage" id="quiznavbutton11" title="Correcta" data-quiz-page="1" href="#q11"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Pregunta </span>7<span class="accesshide"> Esta página <span class="flagstate"></span></span></a><a class="qnbutton correct free thispage" id="quiznavbutton7" title="Correcta" data-quiz-page="1" href="#q7"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Pregunta </span>8<span class="accesshide"> Esta página <span class="flagstate"></span></span></a><a class="qnbutton correct free thispage" id="quiznavbutton3" title="Correcta" data-quiz-page="1" href="#q3"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Pregunta </span>9<span class="accesshide"> Esta página <span class="flagstate"></span></span></a><a class="qnbutton correct free thispage" id="quiznavbutton8" title="Correcta" data-quiz-page="1" href="#q8"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Pregunta </span>10<span class="accesshide"> Esta página <span class="flagstate"></span></span></a><a class="qnbutton correct free thispage" id="quiznavbutton10" title="Correcta" data-quiz-page="2" href="#q10"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Pregunta </span>11<span class="accesshide"> Esta página <span class="flagstate"></span></span></a><a class="qnbutton correct free thispage" id="quiznavbutton2" title="Correcta" data-quiz-page="2" href="#q2"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Pregunta </span>12<span class="accesshide"> Esta página <span class="flagstate"></span></span></a><a class="qnbutton partiallycorrect free thispage" id="quiznavbutton6" title="Parcialmente correcta" data-quiz-page="2" href="#q6"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Pregunta </span>13<span class="accesshide"> Esta página <span class="flagstate"></span></span></a></div><div class="othernav"><a href="https://campusvirtual.unah.edu.hn/mod/quiz/review.php?attempt=1080237">Mostrar una página cada vez</a><a href="https://campusvirtual.unah.edu.hn/mod/quiz/view.php?id=592028">Finalizar revisión</a></div></div></div><span id="sb-1" class="skip-block-to"></span></aside>                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+<footer id="page-footer">
+    <div id="course-footer"></div>
+    <p class="helplink">
+        Campus Virtual UNAH © 2018 - <a href="https://degt.unah.edu.hn/" target="_blank">Dirección Ejecutiva de Gestión de Tecnología</a>
+    </p>
+    <div class="logininfo">Usted se ha identificado como <a href="https://campusvirtual.unah.edu.hn/user/profile.php?id=117190" title="Ver perfil">MARIA FERNANDA RAMIREZ MALDONADO</a> (<a href="https://campusvirtual.unah.edu.hn/login/logout.php?sesskey=Svq4BnkIQS">Salir</a>)</div><div class="homelink"><a href="https://campusvirtual.unah.edu.hn/course/view.php?id=21776">IS513-0900-1-2019-228049</a></div></footer>
+
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+M.yui.add_module({"core_question_engine":{"name":"core_question_engine","fullpath":"https:\/\/campusvirtual.unah.edu.hn\/lib\/javascript.php\/1553009417\/question\/qengine.js","requires":["node","event"]},"mod_quiz":{"name":"mod_quiz","fullpath":"https:\/\/campusvirtual.unah.edu.hn\/lib\/javascript.php\/1553009417\/mod\/quiz\/module.js","requires":["base","dom","event-delegate","event-key","core_question_engine","moodle-core-formchangechecker"]}});
+
+//]]>
+</script>
+<script type="text/javascript" src="Examen%20II%20Parcial_files/footer"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u00daltima modificaci\u00f3n","name":"Nombre","error":"Error","info":"Informaci\u00f3n","cancel":"Cancelar","changesmadereallygoaway":"Ha realizado cambios. \u00bfSeguro que quiere salir y perder los cambios?","morehelp":"M\u00e1s ayuda","loadinghelp":"Cargando...","yes":"S\u00ed","confirm":"Confirmar","no":"No","areyousure":"\u00bfEst\u00e0 seguro?","closebuttontitle":"Cerrar","unknownerror":"Error desconocido"},"repository":{"type":"Tipo","size":"Tama\u00f1o","invalidjson":"Cadena JSON no v\u00e1lida","nofilesattached":"No se han adjuntado archivos","filepicker":"Selector de archivos","logout":"Salir","nofilesavailable":"No hay archivos disponibles","norepositoriesavailable":"Lo sentimos, ninguno de sus repositorios actuales puede devolver archivos en el formato solicitado.","fileexistsdialogheader":"El archivo existe","fileexistsdialog_editor":"Un archivo con el mismo nombre ya se ha adjuntado al texto que est\u00e1 editando.","fileexistsdialog_filemanager":"Un archivo con ese nombre ya ha sido adjuntado","renameto":"Cambiar el nombre a \"{$a}\"","referencesexist":"Existen {$a} archivos de alias\/atajos que emplean este archivo como su or\u00edgen","select":"Seleccionar"},"question":{"flagged":"Marcadas"},"quiz":{"functiondisabledbysecuremode":"Esa funcionalidad est\u00e1 actualmente deshabilitada","startattempt":"Comenzar intento","timesup":"\u00a1Se ha pasado el tiempo!"},"admin":{"confirmation":"Confirmaci\u00f3n"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+YUI().use('node', function(Y) {
+M.util.load_flowplayer();
+setTimeout("fix_column_widths()", 20);
+ M.util.js_pending('random5c9275b0c2b841'); Y.use('core_question_flags', function(Y) { M.core_question_flags.init(Y, "https:\/\/campusvirtual.unah.edu.hn\/question\/toggleflag.php", [{"src":"https:\/\/campusvirtual.unah.edu.hn\/theme\/image.php\/bootstrapcampus\/core\/1553009417\/i\/unflagged","title":"Marcar esta pregunta para su referencia futura","alt":"No marcadas"},{"src":"https:\/\/campusvirtual.unah.edu.hn\/theme\/image.php\/bootstrapcampus\/core\/1553009417\/i\/flagged","title":"Desmarcar","alt":"Marcadas"}], ["Marcar pregunta","Desmarcar"]);  M.util.js_complete('random5c9275b0c2b841'); });
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"es"});
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+ M.util.js_pending('random5c9275b0c2b842'); Y.use('mod_quiz', function(Y) { M.mod_quiz.nav.init(Y);  M.util.js_complete('random5c9275b0c2b842'); });
+M.util.help_popups.setup(Y);
+Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+Y.use("moodle-filter_oembed-powerbiloader",function() {M.filter_oembed.init_powerbiloader();
+});
+ M.util.js_pending('random5c9275b0c2b844'); Y.use('mod_quiz', function(Y) { M.mod_quiz.init_review_form(Y);  M.util.js_complete('random5c9275b0c2b844'); });
+ M.util.js_pending('random5c9275b0c2b845'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5c9275b0c2b845'); });
+
+});
+//]]>
+</script>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="myModalLabel">Buscar Cursos</h4>
+            </div>
+            <div class="modal-body">
+                <form id="coursesearch" action="https://www.campusvirtual.unah.edu.hn/course/search.php" method="get" class="form-inline" role="form">
+
+                    <div class="input-group">
+                        <label for="coursesearchbox" class="sr-only">Buscar cursos</label>
+                        <input type="text" id="coursesearchbox" size="30" name="search" class="form-control" placeholder="Buscar cursos"><span class="input-group-btn"><button type="submit" class="btn btn-default">Buscar</button></span></div></form>
+
+                <div class="clearfix"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function(){
+        $("table").addClass('table');
+        $("table").wrap( "<div class='table-responsive'></div>" );
+    })
+</script>
+
+<script>
+    function showhideblocks(){
+        if( $('#region-post').css('display') == 'none'){
+            $('#region-post').css('display','block');
+            $('#region-main').removeClass('col-md-12').addClass('col-md-9');
+            $('#hidesidebar').show()
+            $('#showsidebar').hide()
+            //   $('#showhideblocks i').removeClass('glyphicon-resize-small').addClass('glyphicon-resize-full');
+        } else {
+            $('#region-post').css('display','none');
+            $('#region-main').removeClass('col-md-9').addClass('col-md-12');
+
+            $('#hidesidebar').hide()
+            $('#showsidebar').show()
+            // $('#showhideblocks i').removeClass('glyphicon-resize-full').addClass('glyphicon-resize-small');
+        }
+
+    }
+</script>
+
+
+
+</body></html>
